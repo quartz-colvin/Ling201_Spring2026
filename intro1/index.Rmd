@@ -17,6 +17,94 @@ output:
 
 ---
 
+# Welcome to Linguistics!
+
+- Course goal: learn about basic concepts in Linguistics: the scientific study of language
+
+- Language is something that comes naturally to us as human beings:
+
+  - We acquire our native language(s) as children simply by interacting with peers and caregivers
+  
+  - We use language to socialize, work, communicate, interact – nearly everything we do!
+  
+  - And we often use language without being consciously aware of it
+
+- At the same time, language is extremely complicated:
+
+  - *Cambridge Grammar of the English Language* takes 1,860 pages to describe English sentence structure, never mind its sound system, meaning, vocabulary, conversational structure, social and regional variation, etc. – and it's *still not complete!*
+  
+---
+
+# Course goals
+
+- Linguistics tries to make sense of this complicated system, and findings from linguistics have given us a lot of insight into how language works – but there's still more to learn.
+
+- So in this course, we're going to learn about how to analyze language from a linguistic point of view.
+We'll first learn some basics about **language and linguistics.** Then we'll spend 1-2 weeks on:
+
+  - **Morphology** – the study of word structure
+
+  - **Syntax** – the study of sentence structure
+
+  - **Semantics** – the study of how (literal) meaning is derived from words and phrases
+  
+  - **Pragmatics** – the study of how (implied) meaning is derived from language in context
+  
+  - **Phonetics** – the study of the physical properties of speech sounds (or signs)
+  
+  - **Phonology** – the study of speech sounds (or signs) as a system
+
+---
+
+# Why take this class? 
+
+**Linguistics 201:**
+
+- Is a required course for the Linguistics Major, Linguistics Minor, and Speech and Hearing Sciences in Linguistics. Major
+
+- Is required to take any upper-level Linguistics classes
+
+  - We offer advanced classes in all of the topics mentioned in this class – if you found any of them interesting, consider taking another Linguistics class!
+
+- Is a required course for the Language Track of the Cognitive Science Major.
+
+- Fulfills the following Core Curriculum learning goals:
+
+  - Understand the nature of human languages and their speakers **[AHq]**.
+
+  - Apply effective and efficient mathematical or other formal processes to reason and solve
+problems **[QR]**.
+
+---
+
+# What can you do with Linguistics?
+
+With a Linguistics education, you can work in:
+
+- Academics and education
+
+- Tech industry
+
+- Speech pathology
+
+- Second language education
+
+- Dialect coaching
+
+- Forensics
+
+- Language policy
+
+- *and more!*
+
+
+---
+
+class: center, middle
+
+# introductions!
+
+---
 
 
 # Hi, I'm Quartz!
@@ -37,5 +125,29 @@ output:
 
 - **Fun facts:** 3rd oldest of 7 kids, half raised in Arkansas and half in Wisconsin, I have several small animals (rats, hermit crabs, a gecko, 2 frogs, a hamster, and 2 cats)
 
---
+---
+
+class: center, middle
+
+# Syllabus stuff
+
+---
+
+# Grade components
+
+***fill in grade components***
+
+---
+
+# Academic integrity policy
+
+We encourage you to make friends and study together for this class!
+
+You may not work together on assignments, and you may not get assignment answers from another source, including other students, the internet, or AI.
+
+- This will be considered plagiarism, and suspected violations will be reported to the Office of Student Conduct.
+
+
+---
+
 

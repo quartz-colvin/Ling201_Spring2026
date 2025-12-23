@@ -1,0 +1,967 @@
+---
+title: "**Phonetics**"
+subtitle: "**Friday Materials**"
+author: "Quartz Colvin (they/them)"
+institute: "Rutgers University"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+
+
+
+class: center, middle
+
+# Welcome to Phonetics! 
+
+
+```{r, out.height="60%", out.width="60%", echo=FALSE}
+knitr::include_graphics("./images/drake.jpg")
+```
+
+
+---
+
+# Review from lecture 
+
+Now we're looking at the smallest element of language: **sounds**!
+
+--
+
+- **Phonetics & phonology:** study of the sounds of language
+
+--
+
+**Phonetics:** study of speech sounds as a physical phenomenon
+
+--
+
+**Phonology:** study of how languages organize speech sounds into a system
+
+--
+
+- organization into words, in certain contexts, which sounds are contrastive... etc.
+
+
+
+
+---
+
+class: middle, center
+
+# Sound =/= Spelling 
+
+---
+
+# Sound vs. Spelling 
+
+- no language has a writing system (orthography) that perfectly represents its speech sounds, and there are reasons for this
+
+--
+
+  - pronunciation **changes over time**! writing doesn't always reflect these changes, though (examples: *knight, gnat*)
+
+--
+
+  - pronunciation **varies by place and social group**! writing doesn't usually reflect this variation (examples: *pecan, caramel, cot/caught, Mary/marry/merry, bag*)
+
+--
+
+  - **loanwords** often have spellings that reflect the pronunciation in the source language, not target language (examples: *buffet, zucchini*)
+    
+--
+
+- but it becomes a problem when we want to talk precisely about **phonetics**
+
+**So, how do we accurately represent the pronunciation of a word?**
+
+--
+
+- **A:** Phonetic description of phonemes' features; transcribed with International Phonetic Alphabet
+
+---
+
+class: middle, center
+
+# Vowel articulatory features
+
+---
+
+# Vowel articulatory features (the big 3)
+
+- **Tongue height:** how high is the tongue in the mouth?
+
+--
+
+  - high, mid, low
+  
+  - can be further divided into tense vs. lax vowels (**lax:** re*lax*ed tongue)
+
+--
+
+- **Tongue backness:** is the tongue further forward or back in the mouth?
+
+--
+
+  - front, central, back
+
+--
+
+- **Lip roundedness:** are the lips rounded or unrounded?
+
+--
+
+  - rounded, unrounded
+  
+  
+---
+
+# Vowel articulatory features
+
+**Articulation:** how the vocal tract moves to produce sounds
+
+.pull-left[
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/mouth_vowels.webp")
+```
+]
+
+
+.pull-right[
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/vowel_space.png")
+```
+]
+
+
+---
+
+# Other vowel features!
+
+- **Nasalization:** articulated by lowering the velum/soft palate, so that air flows through both the nose and mouth
+
+--
+
+  - Portuguese *pão* means "bread" but the non-nasal *pao* means "stick" or.....something else inappropriate.
+
+--
+
+  - since adding or removing the nasality feature changes the meaning completely, we can say that nasalization is **contrastive** in Portuguese
+
+--
+
+- **Length:** long vowels contrast with short vowels
+
+--
+
+  - Ojibwe (Algonquian) *nipim* "to live" vs. *niipim* "to be cold"
+
+--
+
+- **Pitch:** tonal languages contrast pitch 
+
+--
+
+  - White Hmong (Hmong-Mien) *kuv* "I" vs. *kuj* "also"
+
+--
+
+  - **Note** in this writing system (RPA), the tone is indicated by the final *written* letter of the word. v = mid-rising tone; j = high falling tone
+
+
+
+
+---
+
+class: middle, center
+
+# International Phonetic Alphabet (IPA)
+
+## Interactive chart [here](https://www.ipachart.com/)! :)
+
+---
+
+# IPA... NOT A BEER!
+
+.pull-left[
+```{r, out.height="120%", out.width="120%", echo=FALSE}
+knitr::include_graphics("./images/phonetics_not_beer.jpeg")
+```
+]
+
+.pull-right[
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/fuck_that_drink.jpg")
+```
+]
+
+---
+
+# International Phonetic Alphabet
+
+To accurately represent speech sounds, we use the **International Phonetic Alphabet (IPA)**
+
+--
+
+- one symbol = one sound
+
+  - these "one sound"s are called **phonemes**
+
+--
+
+- uses the same symbols for all spoken languages 
+
+- all spoken languages use some subset of the symbols on the full IPA chart 
+
+---
+
+# International Phonetic Alphabet
+
+- many IPA symbols represent roughly the same sounds as the corresponding English letter
+
+  - [p, t, k, b, d, g, f, v, s, z, h, m, n, l]
+
+--
+
+- **but,** some IPA symbols do not
+
+  - IPA [ j ] = English *<*y*>* 
+  
+  - *yes* = [jɛs]
+
+  - [c, q, x] and most vowels **don't** correspond to English letters!
+  
+---
+
+# International Phonetic Alphabet
+
+IPA is used for **phonetic transcription:** writing the exact sounds of a speech sample
+
+--
+
+**Some conventions:**
+
+- phonetic transcriptions are written between **[square brackets]**
+
+  - [bə.ˈnæ.nə]
+
+--
+
+- orthpgraphy/spelling is written in ***italics*** or in **< angle brackets >**
+
+  - *banana* or *<* banana *>*
+
+--
+
+- **all sounds and only sounds** are written:
+
+  - *phone* [ˈfown] (don't write silent letters, *ph* = one sound [f])
+  
+--
+  
+- a dot **(.)** indicates **syllable** divisions: *pronunciation* [prə.ˌnʌn.si.ˈej.ʃən]
+
+- primary and secondary **stress** are indicated with **(ˈ)** and **(ˌ) before** the stressed syllable
+
+---
+
+# Steps for transcription (added after class)
+
+1. say the word out loud 
+
+2. which IPA symbols match **what you're saying**? 
+
+  - its all about what you're saying, and NOT about how the word is written
+  
+  - you can either describe it based on where you think your tongue is **OR** find the symbol on the interactive chart that sounds closest to what you're saying
+  
+  - either way, you should get the same result
+
+
+
+---
+
+class: middle, center
+
+# Practice! 
+
+
+
+
+
+
+
+---
+
+# Identifying vowels
+
+**(1) Identify which vowels are in the following words, (2) give the IPA symbol for them, and (3) define them using the big three features.**
+
+1. cat 
+
+2. thrift 
+
+3. red 
+
+4. reed 
+
+5. hard 
+
+6. boot 
+
+7. cut
+
+8. pet 
+
+9. pot 
+
+10. fork 
+
+
+---
+
+# Transcription practice
+
+**Transcribe the same words into IPA.**
+
+1. cat 
+
+2. thrift
+
+3. red
+
+4. reed
+
+5. hard
+
+6. boot
+
+7. cut
+
+8. pet
+
+9. pot 
+
+10. fork
+
+---
+
+# Transcription practice
+
+**What English words do these IPA transcriptions correspond to?**
+
+1. [ˈkæ.lən.dɹ]
+
+2. [ˈbɹɪŋ.ɪŋ] 
+
+3. [ˈtɛl.ə.ˌvɪʒ.n]
+
+4. [ˈðiz] 
+
+5. [ˈθɪŋk] 
+
+6. [ˈʃæk] 
+
+7. [ˈnʌ.θɪŋ] 
+
+8. [ˈplʌk] 
+
+9. [mejk] 
+
+10. [klawdz] 
+
+---
+
+# More complex words
+
+**Transcribe into IPA.**
+
+1. water
+
+2. orange
+
+3. extremely
+
+4. portrays
+
+5. successful
+
+6. noises
+
+7. poor
+
+8. technology
+
+9. philosopher
+
+10. handkerchiefs
+
+---
+
+# More complex words
+
+**What English words do these IPA transcriptions correspond to?**
+
+1. [ˈelbəw]
+
+2. [vajəˈlɪn]
+
+3. [ˈajlənd]
+
+4. [ˈpiːpl]
+
+5. [ˈdʒʌmpər]
+
+6. [ˈdendʒərəs]
+
+7. [ˈiːzi]
+
+8. [jʌŋ]
+
+9. [ɡreps]
+
+10. [rajs]
+
+---
+
+# More complex words
+
+**What English words do these IPA transcriptions correspond to?**
+
+1. [ˈbɑːθruːm]
+
+2. [ˈʌŋkl]
+
+3. [ˈrʌbər]
+
+4. [rajt]
+
+5. [ˈejrpɔrt]
+
+6. [ɔːˈɡʌst]
+
+7. [jɪr]
+
+8. [ɡəˈrɪlə]
+
+9. [ˈbʌtərflaj]
+
+10. [məˈskiːtəw]
+
+---
+
+class: middle, center
+
+# What about signed languages!?
+
+--
+
+## I added this section for fun :)
+
+---
+
+# Signed languages
+
+**Sign phonemes** are smaller units of the sign
+
+--
+
+They're categorized into five **parameters** which are *further* categorized into **primes**
+
+--
+
+**Parameters:**
+
+- handshape
+
+- palm orientation 
+
+- movement 
+
+- location 
+
+- non-manual signals
+
+---
+
+# Signed languages: Parameters
+
+**Palm orientation**
+  
+- palms facing up or down, facing the signer, away from the signer, etc.
+
+**Movement** 
+
+- upwards, downwards, diagonally, zigzag, etc.
+  
+**Location** 
+
+- in the signing space
+
+**Non-manual signals** 
+
+- facial expressions, eyebrow raising/lowering, eye gaze...
+
+- Note: *"manual" = with hands*
+
+---
+
+# Signed languages
+
+## Handshape examples
+
+.pull-left[
+***school***
+```{r, out.height="120%", out.width="120%", echo=FALSE}
+knitr::include_graphics("./images/school.gif")
+```
+]
+
+.pull-right[
+***impossible***
+```{r, out.height="120%", out.width="120%", echo=FALSE}
+knitr::include_graphics("./images/impossible.gif")
+```
+]
+
+
+---
+
+# Signed languages
+
+## Location examples
+
+.pull-left[
+***apple***
+```{r, out.height="120%", out.width="120%", echo=FALSE}
+knitr::include_graphics("./images/apple.gif")
+```
+]
+
+.pull-right[
+***onion***
+```{r, out.height="120%", out.width="120%", echo=FALSE}
+knitr::include_graphics("./images/onion.gif")
+```
+]
+
+---
+
+# Signed languages 
+
+## Movement examples
+
+.pull-left[
+***airplane***
+```{r, out.height="120%", out.width="120%", echo=FALSE}
+knitr::include_graphics("./images/airplane.gif")
+```
+]
+
+.pull-right[
+***fly***
+```{r, out.height="120%", out.width="120%", echo=FALSE}
+knitr::include_graphics("./images/fly.gif")
+```
+]
+
+---
+
+# Signed languages 
+
+## Palm orientation examples
+
+.pull-left[
+***balance***
+```{r, out.height="120%", out.width="120%", echo=FALSE}
+knitr::include_graphics("./images/balance.gif")
+```
+]
+
+.pull-right[
+***maybe***
+```{r, out.height="120%", out.width="120%", echo=FALSE}
+knitr::include_graphics("./images/maybe.gif")
+```
+]
+
+---
+
+# Signed language
+
+## Non-manual signals 
+
+
+**Statements** have neutral facial expressions 
+
+**Yes/no questions** (polar questions) have eyebrows raised
+
+**Wh-questions** have eyebrows lowered
+
+---
+
+background-image: url("./images/ipa_heart.jpg")
+background-size: 100% 100%
+background-position: center
+background-repeat: no-repeat
+
+class: center, middle
+
+## .
+
+## <span style="color: blue;">Never EVER</span>
+
+## <span style="color: green;">be frightened by</span>
+
+## <span style="color: red;">phonetics</span>
+
+## <span style="color: blue;">!!!!!</span>
+
+class: center, middle
+
+# Review 
+
+---
+
+# Review
+
+Last week was <span style="color: red;">vowels</span>, now we're moving on to the other main type of segment in phonetics... <span style="color: blue;">consonants!</span>
+
+--
+
+.pull-left[
+<span style="color: red;">Vowels</span>
+
+- *unobstructed airflow*
+
+- *voiced*
+
+]
+
+--
+
+.pull-right[
+<span style="color: blue;">Consonants</span>
+
+- *partial or complete obstruction*
+
+- *may or may not be voiced*
+]
+
+
+```{r, out.height="25%", out.width="25%", echo=FALSE}
+knitr::include_graphics("./images/cat.webp")
+```
+
+---
+
+# Review
+
+<span style="color: blue;">Consonant features:</span>
+
+- <span style="color: green;">Voicing:</span> vibration of the vocal cords
+
+- <span style="color: green;">Place:</span> where is the obstruction of airflow in the vocal tract?
+
+- <span style="color: green;">Manner</span> what type of obstruction of airflow occurs?
+
+```{r, out.height="50%", out.width="50%", echo=FALSE}
+knitr::include_graphics("./images/we_feelz_it.jpg")
+```
+
+
+---
+
+# Review anatomy
+
+```{r, out.height="150%", out.width="150%", echo=FALSE}
+knitr::include_graphics("./images/fill_in_blanks.png")
+```
+
+---
+
+# Review anatomy (answers)
+
+```{r, out.height="150%", out.width="150%", echo=FALSE}
+knitr::include_graphics("./images/vocal_tract_answers.png")
+```
+
+---
+
+class: center, middle
+
+# Review (consonant features)
+
+---
+
+# Review (consonant features)
+
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/consonants.png")
+```
+
+--
+
+The <span style="color: green;">*columns*</span> are for <span style="color: blue;">*place*</span> 
+
+The <span style="color: green;">*rows*</span> are for <span style="color: blue;">*manner*</span>
+
+When there's two in a cell, the <span style="color: green;">right</span> is <span style="color: blue;">*voiced*</span>
+
+---
+
+class: center, middle
+
+# Review (place of articulation)
+
+
+---
+
+# Review (place of articulation)
+
+***Where is the obstruction in the vocal tract?***
+
+--
+
+- <span style="color: blue;">Labials:</span> lips
+
+  - <span style="color: green;">Bilabials:</span> both lips
+  
+  - <span style="color: green;">Labiodentals:</span> lower lips and upper teeth
+
+--
+
+- <span style="color: blue;">Coronals:</span> between the tongue tip/blade and the front part of the mouth
+
+  - <span style="color: green;">Dentals:</span> tongue and teeth 
+  
+  - <span style="color: green;">Alveolars:</span> tongue and alveolar ridge
+  
+  - <span style="color: green;">Postalveolars:</span> tongue and the space right behind alveolar ridge
+
+---
+
+# Review (place of articulation)
+
+***Where is the obstruction in the vocal tract?***
+
+--
+
+- <span style="color: blue;">Retroflexes:</span> the tongue tip is arched backward
+
+--
+
+- <span style="color: blue;">Palatals:</span> tongue body raised against the hard palate 
+
+--
+
+- <span style="color: blue;">Velars:</span> back of tongue against the soft palate (=velum)
+
+--
+
+- <span style="color: blue;">Gutturals:</span> pronounced in the very back of the mouth 
+  
+  - <span style="color: green;">Uvulars:</span> back of tongue against the uvula
+  
+  - <span style="color: green;">Pharyngeals:</span> root of tongue obstructing the pharynx
+  
+  - <span style="color: green;">Glottals:</span> vocal folds obstructing the glottis
+  
+---
+
+class: center, middle
+
+# Review (manner of articulation)
+
+
+---
+
+# Review (manner of articulation)
+
+***What type of obstruction is it?*** 
+
+--
+
+Is it <span style="color: blue;">complete</span> blockage of airflow?
+
+--
+
+- <span style="color: green;">*stops/plosives*</span>
+  
+  - stops can be **aspirated** (pronounced with a tiny [h] sound after the obstruction is released)
+
+--
+
+- <span style="color: green;">*trills, taps, flaps*</span>
+
+  - obstruction doesn't last long enough to cause a release of pressure at the end
+  
+---
+
+# Review (manner of articulation)
+
+***What type of obstruction is it?***
+
+--
+
+Is it <span style="color: blue;">partial</span> blockage of airflow?
+
+--
+
+- <span style="color: green;">*fricatives*</span>
+  
+- <span style="color: green;">*approximants*</span>
+
+  - have less obstruction than fricatives
+
+--
+  
+- <span style="color: green;">*laterals*</span>
+
+  - obstruction in the center, but air flows past the tongue on the side(s)
+  
+
+---
+
+# Review (manner of articulation)
+
+***What type of obstruction is it?***
+
+--
+
+Is the airflow blocked in <span style="color: blue;">*one part*</span> of the vocal tract but allowed to flow through a different part?
+
+--
+
+- <span style="color: green;">*affricates*</span>
+
+  - a combination between stops and fricatives
+
+- <span style="color: green;">*nasals*</span>
+
+  - complete obstruction through the *oral cavity* but air is redirected to flow through the *nasal cavity*
+
+---
+
+# Review (manner of articulation)
+
+Manner of articulation can be grouped into **sound classes**
+
+--
+
+.pull-left[
+- <span style="color: blue;">liquids:</span> 
+
+  - rhotics + laterals 
+  
+]
+
+.pull-right[
+- <span style="color: blue;">rhotics:</span> 
+
+  - *r*-like sounds
+]
+
+--
+
+- <span style="color: blue;">obstruents:</span> 
+
+  - consonants with *more* obstruction 
+
+  - <span style="color: green;">*stops, fricatives, affricates*</span>
+
+--
+
+- <span style="color: blue;">sonorants:</span> 
+
+  - consonants with *less* obstruction
+
+  - <span style="color: green;">*nasals, liquids, approximants*</span>
+  
+
+---
+
+class: center, middle
+
+# Practice!!!
+
+
+```{r, out.height="50%", out.width="50%", echo=FALSE}
+knitr::include_graphics("./images/ipa_please.jpg")
+```
+
+---
+
+# Practice (description)
+
+**Give a full description of EACH consonant in the following words, and give the corresponding IPA symbol.** (Ex. [p] *is a voiceless bilabial stop*)
+
+1. move
+
+2. hide
+
+3. cloth
+
+4. stove
+
+5. gosh
+
+6. bank
+  
+7. thrift
+
+8. hard
+
+9. fork
+
+
+---
+
+# Practice (description)
+
+**Give the full description of each IPA symbol, and give an example of an English word with that phoneme in it.**
+
+1. [f] 
+
+2. [l] 
+
+3. [ŋ] 
+
+4. [k]
+
+5. [ʔ] 
+
+6. [w] 
+
+7. [ð]
+
+8. [t͡ʃ]
+
+9. [θ] 
+
+
+
+
+
+
+---
+
+# Yay!
+
+
+```{r, out.height="75%", out.width="75%", echo=FALSE}
+knitr::include_graphics("./images/i_survived.jpg")
+```
+
+
+

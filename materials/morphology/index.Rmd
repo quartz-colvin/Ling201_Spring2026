@@ -1,6 +1,6 @@
 ---
-title: "**Morphology I**"
-subtitle: "**Tuesday**"
+title: "**Morphology**"
+subtitle: "**Friday Materials**"
 author: "Quartz Colvin (they/them)"
 institute: "Rutgers University"
 date: "`r Sys.Date()`"
@@ -770,7 +770,5 @@ class: middle, center
 
 # Coming up 
 
-.pull-left[
 
-### Reading 
 
