@@ -1,0 +1,115 @@
+---
+title: "Introduction to Linguistic Theories"
+subtitle: "Spring 2026"
+output:
+  html_document:
+    css: styles.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<style>
+a {
+  color: red;
+  text-decoration: none;
+}
+a:hover {
+  color: grey;
+  text-decoration: underline;
+}
+</style>
+
+This is an R Markdown document serving as the directory. You could find links to the slides of the recitation sessions for the course *Introduction to Lingusitic Theories* (Spring 2026).
+
+<br><br>
+
+#### **Week 01**: Introduction (DATE, DATE)
+- <span style="color:red"><b>Tuesday:</b></span> <u>[TBD.]</u> <br>
+- <span style="color:red"><b>Friday:</b></span> <u>[TBD.]</u> <br>
+<br>
+
+#### **Week 02**: Morphology I (DATE, DATE)
+- <span style="color:red"><b>Tuesday:</b></span> <u>[TBD.]</u> <br>
+- <span style="color:red"><b>Friday:</b></span> <u>[TBD.]</u> <br>
+<br>
+
+
+#### **Week 03**: Morphology II (DATE, DATE)
+- <span style="color:red"><b>Tuesday:</b></span> <u>[TBD.]</u> <br>
+- <span style="color:red"><b>Friday:</b></span> <u>[TBD.]</u> <br>
+<br>
+
+
+#### **Week 04**: Syntax I (DATE, DATE)
+- <span style="color:red"><b>Tuesday:</b></span> <u>[TBD.]</u> <br>
+- <span style="color:red"><b>Friday:</b></span> <u>[TBD.]</u> <br>
+<br>
+
+
+#### **Week 05**: Syntax II (DATE, DATE)
+- <span style="color:red"><b>Tuesday:</b></span> <u>[TBD.]</u> <br>
+- <span style="color:red"><b>Friday:</b></span> <u>[TBD.]</u> <br>
+<br>
+
+
+#### **Week 06**: Midterm Exam Exam (TBD.)
+- <span style="color:red"><b>Date</b></span>: <u>[TBD.]</u> <br>
+- <span style="color:red"><b>Time</b></span>: <u>[TBD.]</u> <br>
+- <span style="color:red"><b>Venue</b></span>: <u>[TBD.]</u> <br>
+<br>
+
+
+#### **Week 07**: Semantics I (DATE, DATE)
+- <span style="color:red"><b>Tuesday:</b></span> <u>[TBD.]</u> <br>
+- <span style="color:red"><b>Friday:</b></span> <u>[TBD.]</u> <br>
+<br>
+
+
+#### **Week 08**: Semantics II (DATE, DATE)
+- <span style="color:red"><b>Tuesday:</b></span> <u>[TBD.]</u> <br>
+- <span style="color:red"><b>Friday:</b></span> <u>[TBD.]</u> <br>
+<br>
+
+
+#### **Week 09**: Pragmatics (DATE, DATE)
+- <span style="color:red"><b>Tuesday:</b></span> <u>[TBD.]</u> <br>
+- <span style="color:red"><b>Friday:</b></span> <u>[TBD.]</u> <br>
+<br>
+
+
+#### **Week 10**: Phonetics I (DATE, DATE)
+- <span style="color:red"><b>Tuesday:</b></span> <u>[TBD.]</u> <br>
+- <span style="color:red"><b>Friday:</b></span> <u>[TBD.]</u> <br>
+<br>
+
+
+#### **Week 11**: Phonetics II (DATE, DATE)
+- <span style="color:red"><b>Tuesday:</b></span> <u>[TBD.]</u> <br>
+- <span style="color:red"><b>Friday:</b></span> <u>[TBD.]</u> <br>
+<br>
+
+
+#### **Week 12**: Phonology I (DATE, DATE)
+- <span style="color:red"><b>Tuesday:</b></span> <u>[TBD.]</u> <br>
+- <span style="color:red"><b>Friday:</b></span> <u>[TBD.]</u> <br>
+<br>
+
+
+#### **Week 13**: ??? (DATE, DATE)
+- <span style="color:red"><b>Tuesday:</b></span> <u>[TBD.]</u> <br>
+- <span style="color:red"><b>Friday:</b></span> <u>[TBD.]</u> <br>
+<br>
+
+
+#### **Week 14**: Phonology II (DATE, DATE)
+- <span style="color:red"><b>Tuesday:</b></span> <u>[TBD.]</u> <br>
+- <span style="color:red"><b>Friday:</b></span> <u>[TBD.]</u> <br>
+<br>
+
+
+#### **Week 16**: Final Exam (TBD.)
+- <span style="color:red"><b>Date</b></span>: <u>[TBD.]</u> <br>
+- <span style="color:red"><b>Time</b></span>: <u>[TBD.]</u> <br>
+- <span style="color:red"><b>Venue</b></span>: <u>[TBD.]</u> <br>

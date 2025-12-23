@@ -1,0 +1,41 @@
+---
+title: "**Introduction**"
+author: "Quartz Colvin (they/them)"
+institute: "Rutgers University"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+
+
+
+# Hi, I'm Quartz!
+
+- **3rd year PhD student**
+  
+  - undergrad at University of Minnesota: Linguistics and Global Studies 
+  
+  - masters at Georgetown University: Theoretical Linguistics
+
+--
+
+- **Research:** I do what I want! This means a bit of everything in linguistics, though I tend to gravitate towards semantic and morphological questions with an emphasis on fieldwork methodology
+
+  - **Language areas I've worked on:** Algonquian, *Hmong-Mien*, Semitic, Cook Islands Māori 
+
+--
+
+- **Fun facts:** 3rd oldest of 7 kids, half raised in Arkansas and half in Wisconsin, I have several small animals (rats, hermit crabs, a gecko, 2 frogs, a hamster, and 2 cats)
+
+--
+

@@ -1,0 +1,99 @@
+<style>
+  .infobox {
+    position: fixed;
+    z-index: 2147483647;
+    background: rgba(255,255,255,.92);
+    padding: 0 .8rem;
+    height: 2.2rem;
+    line-height: 2.2rem;
+    border-radius: .5rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,.12);
+    font-size: .9rem;
+    font-family: inherit;
+    white-space: nowrap;
+  }
+
+  /* Bottom-left navigation bar */
+  .navbox {
+    bottom: 20px; left: 20px;
+    font-weight: normal;
+    color: #333333; /* dark grey */
+  }
+  .navbox a {
+    margin-right: .75rem;
+    position: relative;
+    color: #333333; /* dark grey */
+    text-decoration: none;       /* remove default underline */
+    transition: color 0.2s ease;
+  }
+  .navbox a::after {
+    content: "";
+    position: absolute;
+    left: 0; bottom: -2px;
+    width: 100%; height: 2px;
+    background-color: #aaaaaa;   /* light grey underline */
+    transform: scaleX(0);        /* hidden by default */
+    transform-origin: right;
+    transition: transform 0.25s ease;
+  }
+  .navbox a:hover {
+    color: #aaaaaa;              /* light grey on hover */
+  }
+  .navbox a:hover::after {
+    transform: scaleX(1);        /* animate underline in */
+    transform-origin: left;
+  }
+  .navbox a:last-child { margin-right: 0; }
+
+  /* Top-right course bar */
+  .coursebar {
+    top: 15px; right: 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333333; /* always dark grey */
+  }
+</style>
+
+<div class="infobox navbox">
+  <a id="go-first" href="#1">First</a>
+  <a id="go-prev" href="#">Previous</a>
+  <a id="go-dir" href="../index.html">Directory</a>
+  <a id="go-next" href="#">Next</a>
+  <a id="go-last" href="#">Last</a>
+</div>
+
+<div class="infobox coursebar">
+  LING201 – Introduction to Linguistic Theories
+</div>
+
+<script>
+(function () {
+  function ready(fn){
+    if (document.readyState !== 'loading') fn();
+    else document.addEventListener('DOMContentLoaded', fn);
+  }
+  ready(function initNav(){
+    var tries = 0, iv = setInterval(function(){
+      tries++;
+      var ss = window.slideshow;
+      if (ss && (ss.gotoNextSlide || ss.next)) {
+        clearInterval(iv);
+
+        // Set Last link
+        if (ss.getSlideCount) {
+          document.getElementById('go-last').href = '#' + ss.getSlideCount();
+        }
+
+        // Wire Prev/Next
+        document.getElementById('go-prev').addEventListener('click', function(e){
+          e.preventDefault(); (ss.gotoPreviousSlide || ss.prev).call(ss);
+        });
+        document.getElementById('go-next').addEventListener('click', function(e){
+          e.preventDefault(); (ss.gotoNextSlide || ss.next).call(ss);
+        });
+      }
+      if (tries > 200) clearInterval(iv);
+    }, 50);
+  });
+})();
+</script>
