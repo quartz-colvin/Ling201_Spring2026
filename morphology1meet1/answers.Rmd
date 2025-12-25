@@ -1,0 +1,98 @@
+---
+title: "**Morphology I**"
+subtitle: "**ANSWERS**"
+author: "Quartz Colvin (they/them)"
+institute: "Rutgers University"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+
+### Review: inflectional vs derivational
+
+.pull-left[
+- cat →  cats
+
+- smile → smiles 
+
+- walk →  walked
+
+- quick →  quickness 
+
+- manage →  manageable 
+]
+
+--
+
+.pull-right[
+
+= **inflectional**
+
+= **inflectional**
+
+= **inflectional**
+
+= **derivational**
+
+= **derivational**
+
+]
+
+---
+
+# Terminology (Review)
+
+
+### Review: simple vs complex
+
+.pull-left[
+- cat 
+
+- books
+
+- textbook
+
+- silksong
+
+- builder
+
+- fantastic
+
+- rainbow
+
+- uncomfortable
+
+- squid
+]
+
+--
+
+.pull-right[
+= **simple**
+
+= **complex**
+
+= **complex (compound)**
+
+= **complex (compound)**
+
+= **complex**
+
+= **complex**
+
+= **complex (compound)**
+
+= **complex**
+
+= **simple**
+]

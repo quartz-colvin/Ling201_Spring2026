@@ -27,23 +27,23 @@ This is an R Markdown document serving as the directory. You could find links to
 
 #### **Week 01**: Introduction (DATE, DATE)
 - **Tuesday:** [slides](https://quartz-colvin.github.io/Ling201_Spring_2026/intro1) <br>
-- **Friday:** [TBD.] <br>
+- **Friday:** [continue] <br>
 <br>
 
 #### **Week 02**: Morphology I (DATE, DATE)
-- **Tuesday:** [TBD.] <br>
-- **Friday:** [TBD.] <br>
+- **Tuesday:** [slides](https://quartz-colvin.github.io/Ling201_Spring_2026/morphology1meet1) <br>
+- **Friday:** [continue] <br>
 <br>
 
 
 #### **Week 03**: Morphology II (DATE, DATE)
-- **Tuesday:** [TBD.] <br>
-- **Friday:** [TBD.] <br>
+- **Tuesday:** [*in progress*](https://quartz-colvin.github.io/Ling201_Spring_2026/morphology2meet1) <br>
+- **Friday:** [continue] <br>
 <br>
 
 
 #### **Week 04**: Syntax I (DATE, DATE)
-- **Tuesday:** [TBD.] <br>
+- **Tuesday:** [TBD.](https://quartz-colvin.github.io/Ling201_Spring_2026/syntax1meet1) <br>
 - **Friday:** [TBD.] <br>
 <br>
 
@@ -62,7 +62,7 @@ This is an R Markdown document serving as the directory. You could find links to
 
 
 #### **Week 07**: Semantics I (DATE, DATE)
-- **Tuesday:** [TBD.] <br>
+- **Tuesday:** [TBD](https://quartz-colvin.github.io/Ling201_Spring_2026/semantics1meet1) <br>
 - **Friday:** [TBD.] <br>
 <br>
 
@@ -74,13 +74,13 @@ This is an R Markdown document serving as the directory. You could find links to
 
 
 #### **Week 09**: Pragmatics (DATE, DATE)
-- **Tuesday:** [TBD.] <br>
+- **Tuesday:** [TBD](https://quartz-colvin.github.io/Ling201_Spring_2026/pragmatics1meet1) <br>
 - **Friday:** [TBD.] <br>
 <br>
 
 
 #### **Week 10**: Phonetics I (DATE, DATE)
-- **Tuesday:** [TBD.] <br>
+- **Tuesday:** [TBD](https://quartz-colvin.github.io/Ling201_Spring_2026/phonetics1meet1) <br>
 - **Friday:** [TBD.] <br>
 <br>
 
@@ -92,7 +92,7 @@ This is an R Markdown document serving as the directory. You could find links to
 
 
 #### **Week 12**: Phonology I (DATE, DATE)
-- **Tuesday:** [TBD.] <br>
+- **Tuesday:** [TBD](https://quartz-colvin.github.io/Ling201_Spring_2026/phonology1meet1) <br>
 - **Friday:** [TBD.] <br>
 <br>
 

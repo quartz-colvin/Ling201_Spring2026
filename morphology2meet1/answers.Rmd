@@ -1,0 +1,115 @@
+---
+title: "**Morphology II**"
+subtitle: "**ANSWERS**"
+author: "Quartz Colvin (they/them)"
+institute: "Rutgers University"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+
+# Identifying word-formation processes
+
+.pull-left[
+1. feed → fed
+
+2. leaf →  leaves
+
+3. peace →  peaceful
+
+4. foot, ball → football 
+
+5. good →  best
+
+6. chair, woman →  chairwomen
+
+7. back, pack →  backpacks
+
+8. like →  like-liked
+
+9. go →  underwent
+]
+
+.pull-right[
+
+= **alternation**
+
+= **affixation (inflectional)**
+
+= **affixation (derivational)**
+
+= **compounding**
+
+= **suppletion** 
+
+= **compounding; suppletion**
+
+= **compounding; affixation (infl.)**
+
+= **reduplication; affixation (infl.)**
+
+= **suppletion; compounding**
+]
+
+---
+
+# Practice! (answers)
+
+.pull-left[
+### disappearance 
+
+```{r, out.width="60%", out.height="60%", dpi=900, echo=FALSE}
+knitr::include_graphics("./images/disappearance.png")
+```
+
+### silliness
+
+```{r, out.width="50%", out.height="50%", dpi=900, echo=FALSE}
+knitr::include_graphics("./images/silliness.png")
+```
+]
+
+.pull-right[
+### unthinkable
+
+```{r, out.width="60%", out.height="60%", dpi=900, echo=FALSE}
+knitr::include_graphics("./images/unthinkable.png")
+```
+
+### overgeneralization 
+
+```{r, out.width="75%", out.height="75%", dpi=900, echo=FALSE}
+knitr::include_graphics("./images/overgeneralization.png")
+```
+
+]
+
+---
+
+# Practice! (answers)
+
+.pull-left[
+### internationalism 
+
+```{r, out.width="80%", out.height="80%", dpi=900, echo=FALSE}
+knitr::include_graphics("./images/internationalism.png")
+```
+]
+
+.pull-right[
+### ***Bonus:*** blackberries 
+
+```{r, out.width="60%", out.height="60%", dpi=900, echo=FALSE}
+knitr::include_graphics("./images/blackberries.png")
+```
+]
