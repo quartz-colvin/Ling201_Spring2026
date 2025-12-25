@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Linguistic Theories"
-subtitle: "Spring 2026"
+subtitle: "LING201:02"
 output:
   html_document:
     css: styles.css
@@ -21,36 +21,36 @@ a:hover {
 }
 </style>
 
-This is an R Markdown document serving as the directory. You could find links to the slides of the recitation sessions for the course *Introduction to Lingusitic Theories* (Spring 2026).
+This is an R Markdown document serving as the directory. You could find links to the slides of the recitation sessions for the course *Introduction to Linguistic Theories* (Spring 2026).
 
 <br><br>
 
 #### **Week 01**: Introduction (DATE, DATE)
-- <span style="color:red"><b>Tuesday:</b></span> <u>[TBD.]</u> <br>
-- <span style="color:red"><b>Friday:</b></span> <u>[TBD.]</u> <br>
+- **Tuesday:** [slides](https://quartz-colvin.github.io/Ling201_Spring_2026/intro1) <br>
+- **Friday:** [TBD.] <br>
 <br>
 
 #### **Week 02**: Morphology I (DATE, DATE)
-- <span style="color:red"><b>Tuesday:</b></span> <u>[TBD.]</u> <br>
-- <span style="color:red"><b>Friday:</b></span> <u>[TBD.]</u> <br>
+- **Tuesday:** [TBD.] <br>
+- **Friday:** [TBD.] <br>
 <br>
 
 
 #### **Week 03**: Morphology II (DATE, DATE)
-- <span style="color:red"><b>Tuesday:</b></span> <u>[TBD.]</u> <br>
-- <span style="color:red"><b>Friday:</b></span> <u>[TBD.]</u> <br>
+- **Tuesday:** [TBD.] <br>
+- **Friday:** [TBD.] <br>
 <br>
 
 
 #### **Week 04**: Syntax I (DATE, DATE)
-- <span style="color:red"><b>Tuesday:</b></span> <u>[TBD.]</u> <br>
-- <span style="color:red"><b>Friday:</b></span> <u>[TBD.]</u> <br>
+- **Tuesday:** [TBD.] <br>
+- **Friday:** [TBD.] <br>
 <br>
 
 
 #### **Week 05**: Syntax II (DATE, DATE)
-- <span style="color:red"><b>Tuesday:</b></span> <u>[TBD.]</u> <br>
-- <span style="color:red"><b>Friday:</b></span> <u>[TBD.]</u> <br>
+- **Tuesday:** [TBD.] <br>
+- **Friday:** [TBD.] <br>
 <br>
 
 
@@ -62,50 +62,50 @@ This is an R Markdown document serving as the directory. You could find links to
 
 
 #### **Week 07**: Semantics I (DATE, DATE)
-- <span style="color:red"><b>Tuesday:</b></span> <u>[TBD.]</u> <br>
-- <span style="color:red"><b>Friday:</b></span> <u>[TBD.]</u> <br>
+- **Tuesday:** [TBD.] <br>
+- **Friday:** [TBD.] <br>
 <br>
 
 
 #### **Week 08**: Semantics II (DATE, DATE)
-- <span style="color:red"><b>Tuesday:</b></span> <u>[TBD.]</u> <br>
-- <span style="color:red"><b>Friday:</b></span> <u>[TBD.]</u> <br>
+- **Tuesday:** [TBD.] <br>
+- **Friday:** [TBD.] <br>
 <br>
 
 
 #### **Week 09**: Pragmatics (DATE, DATE)
-- <span style="color:red"><b>Tuesday:</b></span> <u>[TBD.]</u> <br>
-- <span style="color:red"><b>Friday:</b></span> <u>[TBD.]</u> <br>
+- **Tuesday:** [TBD.] <br>
+- **Friday:** [TBD.] <br>
 <br>
 
 
 #### **Week 10**: Phonetics I (DATE, DATE)
-- <span style="color:red"><b>Tuesday:</b></span> <u>[TBD.]</u> <br>
-- <span style="color:red"><b>Friday:</b></span> <u>[TBD.]</u> <br>
+- **Tuesday:** [TBD.] <br>
+- **Friday:** [TBD.] <br>
 <br>
 
 
 #### **Week 11**: Phonetics II (DATE, DATE)
-- <span style="color:red"><b>Tuesday:</b></span> <u>[TBD.]</u> <br>
-- <span style="color:red"><b>Friday:</b></span> <u>[TBD.]</u> <br>
+- **Tuesday:** [TBD.] <br>
+- **Friday:** [TBD.] <br>
 <br>
 
 
 #### **Week 12**: Phonology I (DATE, DATE)
-- <span style="color:red"><b>Tuesday:</b></span> <u>[TBD.]</u> <br>
-- <span style="color:red"><b>Friday:</b></span> <u>[TBD.]</u> <br>
+- **Tuesday:** [TBD.] <br>
+- **Friday:** [TBD.] <br>
 <br>
 
 
 #### **Week 13**: ??? (DATE, DATE)
-- <span style="color:red"><b>Tuesday:</b></span> <u>[TBD.]</u> <br>
-- <span style="color:red"><b>Friday:</b></span> <u>[TBD.]</u> <br>
+- **Tuesday:** [TBD.] <br>
+- **Friday:** [TBD.] <br>
 <br>
 
 
 #### **Week 14**: Phonology II (DATE, DATE)
-- <span style="color:red"><b>Tuesday:</b></span> <u>[TBD.]</u> <br>
-- <span style="color:red"><b>Friday:</b></span> <u>[TBD.]</u> <br>
+- **Tuesday:** [TBD.] <br>
+- **Friday:** [TBD.] <br>
 <br>
 
 
