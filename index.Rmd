@@ -37,13 +37,13 @@ This is an R Markdown document serving as the directory. You could find links to
 
 
 #### **Week 03**: Morphology II (DATE, DATE)
-- **Tuesday:** [*in progress*](https://quartz-colvin.github.io/Ling201_Spring_2026/morphology2meet1) <br>
+- **Tuesday:** [slides](https://quartz-colvin.github.io/Ling201_Spring_2026/morphology2meet1) <br>
 - **Friday:** [continue] <br>
 <br>
 
 
 #### **Week 04**: Syntax I (DATE, DATE)
-- **Tuesday:** [TBD.](https://quartz-colvin.github.io/Ling201_Spring_2026/syntax1meet1) <br>
+- **Tuesday:** [*in progress.*](https://quartz-colvin.github.io/Ling201_Spring_2026/syntax1meet1) <br>
 - **Friday:** [TBD.] <br>
 <br>
 
