@@ -167,7 +167,33 @@ class: center, middle
 
 # Grade components
 
-***fill in grade components???***
+.pull-left[
+
+**Category**
+
+- Homework 
+
+- Midterm exam
+
+- Final exam
+
+- Attendance/Participation 
+
+]
+
+.pull-right[
+
+**Percent of final grade**
+
+50%
+
+20%
+
+20%
+
+10%
+
+]
 
 ---
 
@@ -205,13 +231,48 @@ You may not work together on assignments, and you may not get assignment answers
 
 # Attendance/Participation
 
-***add this part from the syllabus???***
+**Come to class!!!** It's good for your brain!
+
+.pull-left[
+
+**Unreported absences** 
+
+14+ 
+
+8+
+
+4+
+
+]
+
+.pull-right[
+
+**Penalty (out of 10 points)**
+
+50% deduction 
+
+30%
+
+10%
+
+]
 
 ---
 
 # Contact/Office Hours 
 
-***fill in from syllabus???***
+My office hours are **Mondays 2-3pm** in Room 3 in the linguistics department basement
+
+1. In person
+
+2. [Zoom](https://rutgers.zoom.us/j/92289362765?pwd=pKy9Ui218agbvE8ZaYA2gT4jEUhimX.1) 
+
+--
+
+**and by appointment!**
+
+
+
 
 ---
 
@@ -272,6 +333,12 @@ You may not work together on assignments, and you may not get assignment answers
 
   - Student Food Pantry
 ]
+
+---
+
+class: center, middle
+
+# ***CONTENT TIME!***
 
 ---
 
