@@ -1,0 +1,61 @@
+---
+title: "**Introduction: ANSWERS**"
+author: "Quartz Colvin (they/them)"
+institute: "Rutgers University"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+
+class: center, middle
+
+# Answers
+
+---
+
+# Non-standard rules (*a*-prefixing)
+
+.pull-left[
+- Even though *a*-prefixing is non-standard, it follows rules!
+
+- You can use a-prefixing:
+
+  - Before *-ing* **verbs** but not **adjs** or **nouns**
+
+  - Before a **consonant** but not a vowel
+
+- **Non-standard varieties follow their own rules.**
+
+- **These rules are part of speakers’ mental grammar.**
+
+]
+
+--
+
+.pull-right[
+
+*You probably got something like this:*
+
+1. ✔ I know he was a-tellin’ the truth.
+
+2. **✘** Those a-screamin’ children didn’t bother me.
+
+3. ✔ He was a-leadin’ his cow to pasture.
+
+4. **✘** The movie was a-charmin’.
+
+5. **✘** John kept a-eatin’ his food.
+
+6. **✘** He kept a-askin’ questions. 
+
+]
