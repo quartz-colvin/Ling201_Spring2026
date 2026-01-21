@@ -37,7 +37,7 @@ a:hover {
 
 This is an R Markdown document serving as the directory. You could find links to the slides of the recitation sessions for the course *Introduction to Linguistic Theories* (Spring 2026). 
 
-#### > [Syllabus](Spring2026_Ling201_Syllabus.docx) (clickable)<br>
+#### > [Syllabus](Spring2026_Ling201_Syllabus.pdf) (clickable!)<br>
 
 ---
 
@@ -45,7 +45,7 @@ This is an R Markdown document serving as the directory. You could find links to
 
 #### **Week 01**: Introduction (Jan 20, 23)
 - **Tuesday:** [slides](https://quartz-colvin.github.io/Ling201_Spring_2026/intro1) <br>
-- **Friday:** [slides] <br>
+- **Friday:** [slides](https://quartz-colvin.github.io/Ling201_Spring_2026/intro2) <br>
 <br>
 
 #### **Week 02**: Morphology I (Jan 27, 30)
