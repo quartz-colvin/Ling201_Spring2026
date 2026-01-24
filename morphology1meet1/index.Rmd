@@ -1,6 +1,6 @@
 ---
 title: "**Morphology I**"
-subtitle: "**Tuesday+Friday**"
+subtitle: "**Tuesday**"
 author: "Quartz Colvin (they/them)"
 institute: "Rutgers University"
 date: "`r Sys.Date()`"
@@ -30,15 +30,11 @@ class: center, middle
 
 --
 
-- The rules of language comprise a mental grammar, aka linguistic competence
+- The rules of language comprise a mental grammar (part of your linguistic competence)
 
 --
 
 - Speakers use their mental grammar to produce and understand language
-
---
-
-- Speakers of all languages and dialects have a mental grammar – though it may differ from what is found in a textbook or language class
 
 --
 
@@ -64,11 +60,9 @@ class: center, middle
 
 # **Exercise** (intuitions about word structure)
 
-**Which of the following words sound like a possible English word to you?**
-
---
-
 **Discuss with a partner:**
+
+- Which of the following words sound like a possible English word to you?
 
 - Do you agree on your answers? 
 
@@ -115,7 +109,7 @@ We know that words can consist of smaller parts like **prefixes, roots, and suff
 
   - *un-* can be added to a verb (*un-do*) or adjective (*unhappy*), but not a noun (**uncar*)
 
-  - *-able* can be added to a verb (*read-able*), but not a noun (**horse-able*) or adjective (**happy-able*)
+  - *-able* can be added to a verb (*read-able*), but not a noun (*horse-able) or adjective (*happy-able)
 
 --
 
@@ -199,7 +193,7 @@ It’s okay for a word to have just one morpheme - every word has **at least one
 
 --
 
-- Sometimes you’ll hear terms like bimorphemic or trimorphemic – what do you think they mean?
+- Sometimes you’ll hear terms like bimorphemic or trimorphemic too
 
 ---
 
@@ -555,40 +549,88 @@ The process of forming new words is called **derivation**, and these affixes are
   
   - *pack → un-pack*
 
+---
+
+class: middle, center
+
+# **More practice**
+
+## inflectional vs. derivational affixes
+
+## simple vs. complex words
 
 ---
 
-# Summary
+# Review: inflectional vs derivational
 
-What is a **morpheme**?
+**For each of these, is the change inflectional or derivational?**
 
---
+.pull-left[
+- cat →  cats
 
-- Smallest linguistic unit with meaning
+- smile → smiles 
 
---
+- walk →  walked
 
-- Can have lexical meaning or grammatical function
+- quick →  quickness 
 
---
+- manage →  manageable 
 
-Morphemes can be **homophones** or **allomorphs**
+- extreme → extremely
 
---
+- joke → joking 
 
-Types of morphemes
-
-  - Roots vs. affixes
-
-    - Simple vs. compound words
+]
 
 --
 
-  - Free vs. bound
+.pull-right[
+
+= **inflectional**
+
+= **inflectional**
+
+= **inflectional**
+
+= **derivational**
+
+= **derivational**
+
+]
+
+---
+
+class: center, middle
+
+# simple vs. complex
 
 --
 
-  - Inflectional vs. derivational
+## **simple:** ONE MORPHEME
+
+## **complex:** everything else *(polymorphemic and compound words)*
+
+---
+
+# Review: simple vs complex
+
+- cat 
+
+- books
+
+- textbook
+
+- silksong
+
+- builder
+
+- fantastic
+
+- rainbow
+
+- uncomfortable
+
+- squid
 
 
 
@@ -605,7 +647,7 @@ Types of morphemes
 
 class: center, middle
 
-# **[Friday]** Practice with terminology
+# Practice (last one!)
 
 ---
 
@@ -655,167 +697,57 @@ class: center, middle
 
 ---
 
-class: middle, center
 
-# Morphological analysis
+# Summary
 
----
-
-# Morphological analysis
-
-
-**Morphological analysis is a technique for figuring out how the morphology of a language works**
-
-- You can use it to learn how the morphology of an unfamiliar language works, as long as you have a set of words with different morphemes and their translations (*glosses*) into English
+What is a **morpheme**?
 
 --
 
-**Steps:**
-
-1. Identify any repeated sequences of sounds in the dataset - these may be morphemes!
-
-2. Identify any repeated meanings in the English glosses
-
-3. Try to match each meaning from **Step 2** with a potential morpheme from **Step 1**
-
----
-
-# Morphological analysis 
-
-## **Steps**
-
-1. Identify any repeated sequences of sounds in the dataset - these may be morphemes!
-
-2. Identify any repeated meanings in the English glosses
-
-3. Try to match each meaning from **Step 2** with a potential morpheme from **Step 1**
-
-  - Try to find two words that differ by just one meaning or morpheme 
-  
-  - As you work through this, look out for potential homophones or allomorphs
-  
-  - Don't be afraid to revise your hypotheses if the data suggests you're on the wrong track!
-
----
-
-class: middle, center
-
-# Practice
-
----
-
-## Dataset 1: Isthmus Zapotec (Oto-Manguean, Mexico)
-
-```{r, out.width="120%", out.height="auto", echo=FALSE}
-knitr::include_graphics("./images/zapotec_dataset.png")
-```
-
-- What morphemes does Isthmus Zapotec use to indicate the following concepts?
-  
-  - stick, dough, tortilla, chicken, rope 
-  
-  - third person singular (she, he, it)
-  
-  - second person plural (plural 'you', y'all)
-  
-  - possession ('s)
-  
-- The word for four is *tapa*. How would you say "his four" and "your four"?
-
-
----
-
-## Dataset 2
-
-```{r, out.width="100%", out.height="100%", echo=FALSE}
-knitr::include_graphics("./images/luiseno_dataset.jpg")
-```
-
-
-class: middle, center
-
-# Terminology (REVIEW)
-
----
-
-# Terminology (Review)
-
-- inflectional vs derivational 
-
-- simple vs complex
+- Smallest linguistic unit with meaning
 
 --
 
-### Review: inflectional vs derivational
-
-.pull-left[
-- cat →  cats
-
-- smile → smiles 
-
-- walk →  walked
-
-- quick →  quickness 
-
-- manage →  manageable 
-]
+- Can have lexical meaning or grammatical function
 
 --
 
-.pull-right[
+Morphemes can be **homophones** or **allomorphs**
 
-= **inflectional**
+--
 
-= **inflectional**
+Types of morphemes
 
-= **inflectional**
+  - Roots vs. affixes
 
-= **derivational**
+    - Simple vs. compound words
 
-= **derivational**
+--
 
-]
+  - Free vs. bound
 
----
+--
 
-# Terminology (Review)
-
-
-### Review: simple vs complex
-
-- cat 
-
-- books
-
-- textbook
-
-- silksong
-
-- builder
-
-- fantastic
-
-- rainbow
-
-- uncomfortable
-
-- squid
+  - Inflectional vs. derivational
 
 ---
 
-class: center, middle
+# Coming up: more **Morphology**
 
-# simple vs complex
+### **Reading**
 
-## **simple:** ONE MORPHEME
+- Read **Sections 4.0, 4.1 and 4.2** of Chapter 4: Morphology from *Language Files*, if you haven't yet!
 
-## **complex:** everything else *(polymorphemic and compound words)*
+- Read ??? for ???
+
+### **Homework**
+
+- ???
+
+### Other reminders
+
+- my office hour is in person and on Zoom, Mondays 2-3pm!
 
 
 
----
 
-# Coming up
-
-
-***???***

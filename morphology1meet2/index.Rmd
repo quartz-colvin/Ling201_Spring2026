@@ -1,0 +1,99 @@
+---
+title: "**Morphology I**"
+subtitle: "**Friday**"
+author: "Quartz Colvin (they/them)"
+institute: "Rutgers University"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+
+class: middle, center
+
+# Morphological analysis
+
+---
+
+# Morphological analysis
+
+
+**Morphological analysis is a technique for figuring out how the morphology of a language works**
+
+- You can use it to learn how the morphology of an unfamiliar language works, as long as you have a set of words with different morphemes and their translations (*glosses*) into English
+
+--
+
+**Steps:**
+
+1. Identify any repeated sequences of sounds in the dataset - these may be morphemes!
+
+2. Identify any repeated meanings in the English glosses
+
+3. Try to match each meaning from **Step 2** with a potential morpheme from **Step 1**
+
+---
+
+# Morphological analysis 
+
+## **Steps**
+
+1. Identify any repeated sequences of sounds in the dataset - these may be morphemes!
+
+2. Identify any repeated meanings in the English glosses
+
+3. Try to match each meaning from **Step 2** with a potential morpheme from **Step 1**
+
+  - Try to find two words that differ by just one meaning or morpheme 
+  
+  - As you work through this, look out for potential homophones or allomorphs
+  
+  - Don't be afraid to revise your hypotheses if the data suggests you're on the wrong track!
+
+---
+
+class: middle, center
+
+# Practice
+
+---
+
+## Dataset 1: Isthmus Zapotec (Oto-Manguean, Mexico)
+
+```{r, out.width="120%", out.height="auto", echo=FALSE}
+knitr::include_graphics("./images/zapotec_dataset.png")
+```
+
+- What morphemes does Isthmus Zapotec use to indicate the following concepts?
+  
+  - stick, dough, tortilla, chicken, rope 
+  
+  - third person singular (she, he, it)
+  
+  - second person plural (plural 'you', y'all)
+  
+  - possession ('s)
+  
+- The word for four is *tapa*. How would you say "his four" and "your four"?
+
+
+---
+
+## Dataset 2
+
+```{r, out.width="100%", out.height="100%", echo=FALSE}
+knitr::include_graphics("./images/luiseno_dataset.jpg")
+```
+
+
+
+

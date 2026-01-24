@@ -35,7 +35,7 @@ a:hover {
 
 ---
 
-This is an R Markdown document serving as the directory. You could find links to the slides of the recitation sessions for the course *Introduction to Linguistic Theories* (Spring 2026). 
+This is an R Markdown document serving as the directory for links to the slides for the course *Introduction to Linguistic Theories* (Spring 2026). 
 
 #### > [Syllabus](Spring2026_Ling201_Syllabus.pdf) (clickable!)<br>
 
