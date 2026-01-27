@@ -1,0 +1,221 @@
+---
+title: "**Syntax II**"
+subtitle: "**Tuesday+Friday**"
+author: "Quartz Colvin (they/them)"
+institute: "Rutgers University"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+
+class: center, middle
+
+# A girl saw a bear with a telescope.
+
+This sentence has two possible interpretations. What are they? Who has the telescope?
+
+---
+
+# A girl saw a bear with a telescope
+
+.pull-left[
+
+**Interpretation 1**
+
+*A girl used a telescope to see a bear*
+
+```{r, out.width="auto", out.height="auto", echo=FALSE}
+knitr::include_graphics("./images/saw_with_telescope.png")
+```
+
+]
+
+.pull-right[
+**Interpretation 2**
+
+*A girl saw a bear that had a telescope*
+
+```{r, out.width="auto", out.height="auto", echo=FALSE}
+knitr::include_graphics("./images/bear_with_telescope.png")
+```
+
+]
+
+---
+
+# A girl saw a bear with a telescope
+
+This is an example of a **structurally ambiguous** sentence.
+
+We can use syntax trees to visualize its two possible structures.
+
+- In this case, these syntax trees show how there are two ways to interpret
+what [*with a telescope*] modifies.
+
+This means that *the meaning of a sentence isn't just the sum of its words:*
+
+- **Syntactic structure also contributes to meaning.**
+
+So let's take some time to understand these structures and how to draw them as trees.
+
+---
+
+class: center, middle
+
+# Types of phrases
+
+---
+
+# Types of phrases
+
+**Syntax trees** show how words are combined into **constituents** and how constituents are related.
+
+Another name for constituents is **phrases**, and we'll be talking about the following phrase types:
+
+Each phrase type has a **head word** and is named after that head word's part of speech, and each phrase contains that head word *and all the words that modify that head word:*
+
+- **NP – noun phrase** (*man, the man, the happy man, the man with the hat*)
+
+- **PP – prepositional phrase** (*into the forest, by the author, for good luck*)
+
+- **AdjP – adjective phrase** (*happy, extremely angry*)
+
+- **AdvP – adverb phrase** (*quickly, very quickly*)
+
+- **VP – verb phrase** (*eats, eats pizza, eats quickly, eats pizza quickly at noon*)
+
+- **TP – tense phrase** or ***sentence*** (*John eats pizza quickly. I saw a dog by the tree.*)
+
+---
+
+class: center, middle
+
+# Noun phrases (NP)
+
+---
+
+# NPs
+
+A noun phrase consists of a noun and all the words that modify it.
+
+The simplest NP is a single noun:
+
+- Harriet, dogs, soup, snow
+
+A NP can also include any of the following:
+
+- A determiner: the hat, my shoes, this idea, which tree
+
+- One or more adjective phrases (AdjP): blue sky, a great time, big red trucks
+
+  - Note: an adjective will always go in a separate AdjP, for reasons we'll discuss later.
+
+- One or more prepositional phrases (PP): spaghetti with meatballs, trees in the yard, the tall bridge over the river
+
+---
+
+# Phrase structure rules (NPs)
+
+We use phrase structure rules (PSRs) to specify what elements a phrase can contain.
+
+PSRs have the following format:
+
+--
+
+.pull-left[
+- XP → X Y Z
+]
+
+.pull-right[
+phrase type X is composed of elements X, Y, Z, in that order
+]
+
+--
+
+We can write a PSR to account for each type of NP we've seen so far
+
+.pull-left[
+
+- *dog* (simple noun)
+
+- *the dog* (determiner-noun)
+
+- *friendly dog* (adjective-noun)
+
+- *dog in the park* (noun-PP)
+
+- *the friendly dog in the park* (determiner-adj-noun-PP)
+
+]
+
+.pull-right[
+
+NP → N
+
+NP → D N
+
+NP → AdjP N
+
+NP → N PP
+
+NP → D AdjP N PP
+
+]
+
+---
+
+# Phrase structure rules (NPs)
+
+We can combine all of these NP rules into one rule:
+
+- **NP → (D) (AdjP+) N (PP+)**
+
+--
+
+**Notes**
+
+- order matters - elements always appear in the order given in the rule
+
+- parentheses = optional 
+
+- no parentheses = required 
+
+- + = one or more allowed
+
+--
+
+So this rule means that an NP consists of:
+
+- optional determiner, one or more optional adjective phrase(s), noun, one or more optional prepositional phrase(s) – *in that order*
+
+---
+
+# ***continue slide 9 of week 5 slides???***
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

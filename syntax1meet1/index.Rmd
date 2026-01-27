@@ -144,12 +144,14 @@ class: center, middle
 
 2. **Be prepared to justify your answer**
 
-
 ]
 
 .pull-right[
 
-***insert jabberwocky image???***
+```{r, out.width="auto", out.height="auto", echo=FALSE}
+knitr::include_graphics("./images/jabberwocky.png")
+```
+
 ]
 
 ---
@@ -168,7 +170,9 @@ There are two main strategies for figuring out a words part of speech based on i
 
 .pull-right[
 
-***insert jabberwocky???***
+```{r, out.width="auto", out.height="auto", echo=FALSE}
+knitr::include_graphics("./images/jabberwocky.png")
+```
 
 ]
 
@@ -204,8 +208,9 @@ Because it fits the **syntactic distribution** of nouns- it goes where nouns go 
 
 .pull-right[
 
-***insert jabberwocky???***
-
+```{r, out.width="auto", out.height="auto", echo=FALSE}
+knitr::include_graphics("./images/jabberwocky.png")
+```
 ]
 
 ---
@@ -234,7 +239,9 @@ Because it fits the **morphological distribution** of nouns- it uses morphemes a
 
 .pull-right[
 
-***insert jabberwocky???***
+```{r, out.width="auto", out.height="auto", echo=FALSE}
+knitr::include_graphics("./images/jabberwocky.png")
+```
 
 ]
 
@@ -416,9 +423,412 @@ We can distinguish between:
 
 # Pronouns 
 
-***continue???*** slide 14 of week 4 slides
+.pull-left[
+A **pronoun** takes the place of a noun
 
+]
 
+.pull-right[
+
+*Mary had a little lamb = She had it.*
+
+]
+
+--
+
+Some linguists consider pronouns to be a **subcategory of nouns** because they behave similarly in many ways
+
+.pull-left[
+
+- they can be subjects
+
+- they can be objects
+]
+
+.pull-right[
+
+*Dolly sings = She sings*
+
+*Did you help your mom? = Did you help her?*
+
+]
+
+--
+
+Some linguists consider pronouns a **separate part of speech** because in some ways, they behave differently
+
+.pull-left[
+
+- they (usually) aren't modified by *the* or an adjective
+
+]
+
+.pull-right[
+
+- *the happy student*
+
+- **the them* or **happy them*
+
+- but, *lucky you!*
+]
+
+- in this class, we consider them a **subcategory of nouns**
+
+---
+
+class: center, middle
+
+# Verbs
+
+---
+
+# Verbs
+
+How do we define a verb?
+
+.pull-left[
+- verbs are "action words"
+
+- verbs can also denote **states**
+
+- or **processes** that aren't really *actions*
+
+- nouns can denote actions too, so we can't *just* rely on definitions!
+]
+
+.pull-right[
+
+*sit, jump, fly*
+
+*be, have, know, agree, want*
+
+*dream, feel, rest*
+
+*a flying leap*
+]
+
+---
+
+# Verbs 
+
+**Morphological distribution** - what kind of morphemes can English verbs have?
+
+.pull-left[
+- verbs can be conjugated for tense and subject
+
+- derivational morphemes that make verbs: *-ize, -ify, -ate, -en*
+]
+
+.pull-right[
+
+*I do, she does, we did, we have done*
+
+*modernize, electrify, validate, hasten*
+]
+
+--
+
+**Syntactic distribution** - where do verbs go in English sentences? 
+
+.pull-left[
+- verbs go after the subject and before the object(s)
+
+- all sentences have at least one verb 
+
+- some sentences have **auxiliary verbs** in addition to the main verb 
+
+- **modal verbs** are a type of auxiliary verb that expresses obligation, possibility, etc.
+
+]
+
+.pull-right[
+
+*She knows me, I did it*
+
+*I like pizza. I want an ice cream*
+
+*I am singing. I have finished. I don't know. I am going to rest.*
+
+*can, could, may, might, shall, should, would, must, ought to*
+]
+
+---
+
+class: center, middle
+
+# Adjectives and adverbs 
+
+---
+
+# Adjectives and adverbs 
+
+How can we define **adjectives** and **adverbs**?
+
+--
+
+**Adjectives** and **adverbs** modify other words, providing additional description
+
+.pull-left[
+
+- **adjectives** modify **nouns**
+
+- **adverbs** modify **verbs**, **adjectives**, and other **adverbs**
+]
+
+.pull-right[
+
+*ferocious lion*
+
+*The cat hissed angrily. It was extremely loud. It hissed very loudly.*
+]
+
+--
+
+**Syntactic distribution**
+
+.pull-left[
+- they generally go before the word they modify
+
+- but adverbs can go before or after verbs
+]
+
+.pull-right[
+*playful kitten, very small*
+
+*I quickly stopped. I stopped quickly.*
+
+]
+
+---
+
+# Adjectives and adverbs 
+
+**Morphological distribution**
+
+.pull-left[
+
+- many English adjectives can inflect for comparative and superlative with *-er* and *-est*
+
+- but not all!
+
+- derivational morphemes for adjectives: *-ic, -ish, -al, -ous, -ive, -y, -ile, -like*
+
+- derivational morphemes for adverbs: *-ly*
+
+- though not all adverbs end in *-ly*
+
+- some adjectives end in *-ly* too!
+]
+
+.pull-right[
+*nicer, nicest, meaner, meanest*
+
+**frigider*, **frigidest*
+
+*bookish, scandalous, horrific, active, sloppy*
+
+*happily, slowly*
+
+*My cat meows loud when he is very hungry.*
+
+*the friendly cat*
+]
+
+---
+
+class: center, middle
+
+# Determiners, prepositions and conjunctions 
+
+---
+
+# Determiners, prepositions and conjunctions
+
+These three are less well-known and harder to define
+
+**Discuss:**
+
+1. What do you remember from the reading or previous knowledge about **determiners, prepositions,** and **conjunctions**?
+
+2. What are some examples of words in each of these categories?
+
+**Note**
+
+- Note: *determiner* includes *articles, possessive pronouns, demonstrative pronouns, interrogatives,* and *quantifiers* – you may not have heard the term *determiner* in previous coursework, but you may have heard of some of these subcategories.
+
+---
+
+# Determiners
+
+**Determiners** gather together many words you may have learned as separate categories:
+
+.pull-left[
+- articles
+
+- possessive pronouns
+
+- demonstratives
+
+- interrogative determiners
+
+- quantifiers
+]
+
+.pull-right[
+
+*the, a*
+
+*my, our, your, his, her, their, its*
+
+*this apple, that barn*
+
+*which computer, what floor*
+
+*all, some, many*
+]
+
+--
+
+Determiners help specify a word's **reference:** what actual thing in the world a word refers to
+
+- *this chalk, that chalk, my dog, not her dog, all cats, not some cats*
+
+---
+
+# Determiners
+
+**Morphological distribution:**
+
+- English determiners don't have any specific morphemes that are typical of them – in fact, they tend to be monomorphemic
+
+**Syntactic distribution:**
+
+.pull-left[
+- determiners can go before a noun
+
+- or before an adjective, then a noun
+
+- English usually doesn't allow two determiners in a row
+]
+
+.pull-right[
+*the apple, my cat*
+
+*the red apple, my fluffy cat*
+
+**the my friend*
+
+]
+
+---
+
+# Prepositions 
+
+**Prepositions** indicate some relationship between a noun and the other words in a sentence: 
+
+- *in, on, to, by, for, from, over, under, above, below, with, without*
+
+- Often a spatial relationship, but also grammatical relationships, conceptual relationships
+
+--
+
+**Morphological distribution**
+
+- Like determiners, prepositions don't have specific suffixes and are often monomorphemic.
+
+--
+
+**Syntactic distribution**
+
+.pull-left[
+- prepositions go before nouns (*pre*-position)
+
+- there can be intervening determiners and adjectives
+]
+
+.pull-right[
+*on topic, in time, with cheese*
+
+*in an hour, without melted cheese*
+]
+
+---
+
+# Conjunctions
+
+**Conjunctions** join together two words, phrases, or clauses
+
+- *and, or, but, because, if, since*
+
+--
+
+**Coordinating conjunctions** (*and, or, but*) join two words/phrases of the same type
+
+- *cats and dogs, come and go, I ate an apple and I read a book.*
+
+- **Syntactic distribution:** between the two elements being joined
+
+--
+
+**Subordinating conjunctions** (aka **complementizers**) are used to insert one sentence (subordinate clause) into another sentence (main clause)
+
+- *because, that, if, since, whether*...
+
+- *I went to bed because I was tired. If you study, you will succeed.*
+
+- **syntactic distribution:** before the subordinate clause being inserted
+
+***add color???***
+
+---
+
+class: middle, center
+
+# Open and closed classes
+
+---
+
+# Open and closed classes
+
+We can divide the parts of speech into **open** and **closed classes**.
+
+--
+
+**Open class** words have more of a *lexical meaning* – typical dictionary definition. It's fairly easy to borrow or coin new words in these categories.
+
+- This includes nouns, verbs, adjectives, and adverbs
+
+--
+
+**Closed class** words have more of a *grammatical meaning*. It's less common, but not impossible, to borrow or coin new words in these categories.
+
+- This includes determiners, prepositions, and conjunctions
+
+---
+
+class: center, middle
+
+# Summary 
+
+---
+
+# Summary 
+
+**Parts of speech** are categories of words that tend to behave in similar ways:
+
+- noun, verb, adjective, adverb, determiner, preposition, conjunction
+
+We often learn them in school by **definition**.
+
+But we can also figure them out based on context, by considering their:
+
+- **morphological distribution** – what kinds of morphemes they have.
+
+- **syntactic distribution** – where they tend to appear in the sentence.
+
+By examining their distribution, we can notice patterns in the way certain types of words behave.
+
+And this will be fundamental to our understanding of **syntax**, as we start putting words together to form **sentences**.
 
 
 

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>Syntax I</title>
+    <title>Syntax II</title>
     <meta charset="utf-8" />
     <meta name="author" content="Quartz Colvin (they/them)" />
     <meta name="date" content="2026-01-26" />
@@ -14,7 +14,7 @@
 class: center, middle, inverse, title-slide
 
 .title[
-# <strong>Syntax I</strong>
+# <strong>Syntax II</strong>
 ]
 .subtitle[
 ## <strong>Tuesday+Friday</strong>
@@ -34,987 +34,199 @@ class: center, middle, inverse, title-slide
 
 class: center, middle
 
-# So far...
+# A girl saw a bear with a telescope.
+
+This sentence has two possible interpretations. What are they? Who has the telescope?
 
 ---
 
-# So far, we've studied...
+# A girl saw a bear with a telescope
 
-1. **Fundamental concepts in linguistics:** mental grammar, prescriptivism vs. descriptivism, standard vs. non-standard language, grammaticality 
+.pull-left[
 
---
+**Interpretation 1**
 
-2. **Morphology:** the study of the structure of words- morphemes, morphological processes, morphological analysis, hierarchical structure
+*A girl used a telescope to see a bear*
 
---
+&lt;img src="./images/saw_with_telescope.png" width="auto" height="auto" /&gt;
 
-### Now, we're moving on to **syntax!**
+]
 
-**syntax:** the study of the structure of sentences; how sentences are built up out of words
+.pull-right[
+**Interpretation 2**
 
---
+*A girl saw a bear that had a telescope*
 
-First we'll start with something we've already mentioned several times...
+&lt;img src="./images/bear_with_telescope.png" width="auto" height="auto" /&gt;
 
-- **parts of speech:** nouns, verbs, adjectives, adverbs...
+]
+
+---
+
+# A girl saw a bear with a telescope
+
+This is an example of a **structurally ambiguous** sentence.
+
+We can use syntax trees to visualize its two possible structures.
+
+- In this case, these syntax trees show how there are two ways to interpret
+what [*with a telescope*] modifies.
+
+This means that *the meaning of a sentence isn't just the sum of its words:*
+
+- **Syntactic structure also contributes to meaning.**
+
+So let's take some time to understand these structures and how to draw them as trees.
 
 ---
 
 class: center, middle
 
-# Parts of speech
+# Types of phrases
 
 ---
 
-# Parts of speech 
+# Types of phrases
 
-**Parts of speech** (aka **lexical classes**) are categories we use to classify words
+**Syntax trees** show how words are combined into **constituents** and how constituents are related.
 
-- nouns, verbs, adjectives, adverbs...
+Another name for constituents is **phrases**, and we'll be talking about the following phrase types:
 
---
+Each phrase type has a **head word** and is named after that head word's part of speech, and each phrase contains that head word *and all the words that modify that head word:*
 
-They were important in the **morphology** unit
+- **NP – noun phrase** (*man, the man, the happy man, the man with the hat*)
 
-- derivational morphology can change a word's *part of speech* 
+- **PP – prepositional phrase** (*into the forest, by the author, for good luck*)
 
-- inflectional morphology is specific to a *part of speech*: nouns, verbs, and adjectives all inflect differently
+- **AdjP – adjective phrase** (*happy, extremely angry*)
 
---
+- **AdvP – adverb phrase** (*quickly, very quickly*)
 
-They will also be important for syntax! 
+- **VP – verb phrase** (*eats, eats pizza, eats quickly, eats pizza quickly at noon*)
 
-- sentences are made of words
-
-- a word's *part of speech* determines its role in a sentence
-
---
-
-  - the subject of a sentence is always a **noun**, every sentence needs a main **verb**...
-
----
-
-# Parts of speech
-
-What are the parts of speech? 
-
-How do we identify a word's part of speech? 
-
-**Try to define the following:**
-
-.pull-left[
-
-- noun
-
-- verb
-
-- adjective
-
-]
-
---
-
-.pull-right[
-
-- denotes a person, place, thing
-
-- denotes actions
-
-- adds a description to a noun
-
-]
-
---
-
-We can provide definitions of these categories
-
-- but, these definitions rely on us **already knowing** the meaning of the word.
-
-  - we know *table* is a noun because we know it refers to a thing
-
---
-
-- can we figure out a word's part of speech **without knowing what it means?** Just by seeing how it's used in a sentence?
+- **TP – tense phrase** or ***sentence*** (*John eats pizza quickly. I saw a dog by the tree.*)
 
 ---
 
 class: center, middle
 
-# Exercise (Jabberwocky)
+# Noun phrases (NP)
 
 ---
 
-# Jabberwocky
+# NPs
+
+A noun phrase consists of a noun and all the words that modify it.
+
+The simplest NP is a single noun:
+
+- Harriet, dogs, soup, snow
+
+A NP can also include any of the following:
+
+- A determiner: the hat, my shoes, this idea, which tree
+
+- One or more adjective phrases (AdjP): blue sky, a great time, big red trucks
+
+  - Note: an adjective will always go in a separate AdjP, for reasons we'll discuss later.
+
+- One or more prepositional phrases (PP): spaghetti with meatballs, trees in the yard, the tall bridge over the river
+
+---
+
+# Phrase structure rules (NPs)
+
+We use phrase structure rules (PSRs) to specify what elements a phrase can contain.
+
+PSRs have the following format:
+
+--
+
+.pull-left[
+- XP → X Y Z
+]
+
+.pull-right[
+phrase type X is composed of elements X, Y, Z, in that order
+]
+
+--
+
+We can write a PSR to account for each type of NP we've seen so far
 
 .pull-left[
 
-- let's use Lewis Carroll's 1871 poem "Jabberwocky" to figure out another way of considering parts of speech 
+- *dog* (simple noun)
 
-- the words are nonsense, but the syntax is still English
+- *the dog* (determiner-noun)
 
-- so, we can't rely on what we know about the words, we have to rely on how they're being used!
+- *friendly dog* (adjective-noun)
 
-1. **Guess what the part of speech is for each underlined word**
+- *dog in the park* (noun-PP)
 
-2. **Be prepared to justify your answer**
+- *the friendly dog in the park* (determiner-adj-noun-PP)
 
 ]
 
 .pull-right[
 
-&lt;img src="./images/jabberwocky.png" width="auto" height="auto" /&gt;
+NP → N
+
+NP → D N
+
+NP → AdjP N
+
+NP → N PP
+
+NP → D AdjP N PP
 
 ]
 
 ---
 
-# Jabberwocky
+# Phrase structure rules (NPs)
 
-.pull-left[
+We can combine all of these NP rules into one rule:
 
-There are two main strategies for figuring out a words part of speech based on its usage
-
-- we can consider the word's **syntactic distribution**
-
-- we can consider the words **morphological distribution**
-
-]
-
-.pull-right[
-
-&lt;img src="./images/jabberwocky.png" width="auto" height="auto" /&gt;
-
-]
-
----
-
-class: middle, center
-
-# Distribution
-
----
-
-# Syntactic distribution 
-
-.pull-left[
-
-**Syntactic distribution...**
-
-- Where does the word appear in the sentence?
-
-- What other words appear around it?
-
-Consider the word *borogoves*
-
-- it comes after *the*
-
-- what other words can follow *the*? NOUNS!
-
-- we conclude that *borogoves* is also a noun 
-
-Because it fits the **syntactic distribution** of nouns- it goes where nouns go in the sentence!
-
-]
-
-.pull-right[
-
-&lt;img src="./images/jabberwocky.png" width="auto" height="auto" /&gt;
-]
-
----
-
-# Morphological distribution
-
-.pull-left[
-
-**Morphological distribution**
-
-- What morphemes does it have? 
-
-- Are they associated with a specific part of speech?
-
-Consider *borogoves* again
-
-- it seems to end in the plural suffix *-s*
-
-- what other words use plural *-s*? NOUNS!
-
-- again, we conclude that *borogoves* is a noun 
-
-Because it fits the **morphological distribution** of nouns- it uses morphemes associated with nouns
-
-]
-
-.pull-right[
-
-&lt;img src="./images/jabberwocky.png" width="auto" height="auto" /&gt;
-
-]
-
----
-
-# Part of speech
-
-Parts of speech aren't just random categories you have to memorize in English class
-
-Words of a particular part of speech tend to behave in similar ways:
-
-- They have a similar **morphological distribution** (similar morphemes),
-
-- and a similar **syntactic distribution** (similar role in sentences).
+- **NP → (D) (AdjP+) N (PP+)**
 
 --
 
-That is, they follow a pattern – a pattern that forms part of our mental grammar.
+**Notes**
 
-- We pick up these patterns as children acquiring our native language.
+- order matters - elements always appear in the order given in the rule
 
-- A small child might not know what a noun is, but they might know you can say *take ball, take toy, take teddy, take blankie*... but not **take eat*.
+- parentheses = optional 
 
-- So categories like noun and verb are part of our mental grammar, even before we learn about them explicitly in an English class.
+- no parentheses = required 
 
----
-
-# Parts of speech 
-
-Since these categories are part of our mental grammar, they give us intuitions about how a word can or cannot be used in a sentence.
-
-And we can use these intuitions in a **replacement test** to figure out a word's part of speech:
-
-- Think of a sentence where you know each word's part of speech:
-
-  - *John ate a delicious sandwich.*
-
-- Take a word you don't know and use it to replace one of the words in your sentence.
-
-- If sounds like a well-formed sentence, it probably has the same part of speech!
-
-- If not, move on to the next word and try replacing that instead.
-
----
-
-# Parts of speech 
-
-Let's go through the following parts of speech one by one:
-
-- noun, verb, adjective, adverb, determiner, preposition, conjunction
+- + = one or more allowed
 
 --
 
-For each one:
+So this rule means that an NP consists of:
 
-- We'll provide a **definition**
-
-- We'll talk about its **morphological distribution** – what morphemes it can have
-
-- We'll talk about its **syntactic distribution** – where it appears in a sentence
-
---
-
-Note that these distributions can vary from language to language:
-
-- English: *intelligent student* vs. Spanish: *estudiante inteligente*
-
---
-
-But in each language, each part of speech has its own morphological and syntactic distribution
+- optional determiner, one or more optional adjective phrase(s), noun, one or more optional prepositional phrase(s) – *in that order*
 
 ---
 
-class: center, middle
+# ***continue slide 9 of week 5 slides???***
 
-# Nouns
 
----
 
-# Nouns
 
-How can we define a noun?
 
-.pull-left[
 
-- Nouns denote a person, place, or thing...
 
-- but also abstract entities, concepts, and even actions
 
-]
 
-.pull-right[
 
-*student, school, desk*
 
-*hope, idea, year, math, fishing*
 
-]
 
---
 
-What kinds of nouns are there?
 
---
 
-We can distinguish between:
-
-.pull-left[
-
-- common nouns
-
-- proper nouns (names)
-
-]
-
-.pull-right[
-
-*girl, river, college*
-
-*Mary, Raritan, Rutgers*
-
-]
-
----
-
-# Nouns 
-
-**Morphological distribution** - what suffixes can a noun have in English?
-
-.pull-left[
-
-- Nouns can take plural *-s* or possessive *-'s* 
-
-- Derivational morphemes that form nouns: *-tion/-sion, -ness, -ity, -itude, -ing, -ment*...
-
-]
-
-.pull-right[
-
-*cats, dogs, Mary's, students'*
-
-*instruction, happiness, sincerity, ineptitude, reading, encouragement*
-
-]
-
---
-
-**Syntactic distribution** - where do nouns appear in sentences in English?
-
-.pull-left[
-
-- nouns can follow determiners like *a, the, my*...
-
-- nouns can follow adjectives
-
-- nouns can follow prepositions 
-
-- nouns can be subjects of sentences 
-
-- nouns can be objects of sentences
-
-]
-
-.pull-right[
-
-*a dog, the cat, my friend*
-
-*friendly dog, angry cat, best friend*
-
-*at school, in line, on demand*
-
-*Dogs are humans' best friend*
-
-*I saw a dog*
-
-]
-
----
-
-# Pronouns 
-
-.pull-left[
-A **pronoun** takes the place of a noun
-
-]
-
-.pull-right[
-
-*Mary had a little lamb = She had it.*
-
-]
-
---
-
-Some linguists consider pronouns to be a **subcategory of nouns** because they behave similarly in many ways
-
-.pull-left[
-
-- they can be subjects
-
-- they can be objects
-]
-
-.pull-right[
-
-*Dolly sings = She sings*
-
-*Did you help your mom? = Did you help her?*
-
-]
-
---
-
-Some linguists consider pronouns a **separate part of speech** because in some ways, they behave differently
-
-.pull-left[
-
-- they (usually) aren't modified by *the* or an adjective
-
-]
-
-.pull-right[
-
-- *the happy student*
-
-- **the them* or **happy them*
-
-- but, *lucky you!*
-]
-
-- in this class, we consider them a **subcategory of nouns**
-
----
-
-class: center, middle
-
-# Verbs
-
----
-
-# Verbs
-
-How do we define a verb?
-
-.pull-left[
-- verbs are "action words"
-
-- verbs can also denote **states**
-
-- or **processes** that aren't really *actions*
-
-- nouns can denote actions too, so we can't *just* rely on definitions!
-]
-
-.pull-right[
-
-*sit, jump, fly*
-
-*be, have, know, agree, want*
-
-*dream, feel, rest*
-
-*a flying leap*
-]
-
----
-
-# Verbs 
-
-**Morphological distribution** - what kind of morphemes can English verbs have?
-
-.pull-left[
-- verbs can be conjugated for tense and subject
-
-- derivational morphemes that make verbs: *-ize, -ify, -ate, -en*
-]
-
-.pull-right[
-
-*I do, she does, we did, we have done*
-
-*modernize, electrify, validate, hasten*
-]
-
---
-
-**Syntactic distribution** - where do verbs go in English sentences? 
-
-.pull-left[
-- verbs go after the subject and before the object(s)
-
-- all sentences have at least one verb 
-
-- some sentences have **auxiliary verbs** in addition to the main verb 
-
-- **modal verbs** are a type of auxiliary verb that expresses obligation, possibility, etc.
-
-]
-
-.pull-right[
-
-*She knows me, I did it*
-
-*I like pizza. I want an ice cream*
-
-*I am singing. I have finished. I don't know. I am going to rest.*
-
-*can, could, may, might, shall, should, would, must, ought to*
-]
-
----
-
-class: center, middle
-
-# Adjectives and adverbs 
-
----
-
-# Adjectives and adverbs 
-
-How can we define **adjectives** and **adverbs**?
-
---
-
-**Adjectives** and **adverbs** modify other words, providing additional description
-
-.pull-left[
-
-- **adjectives** modify **nouns**
-
-- **adverbs** modify **verbs**, **adjectives**, and other **adverbs**
-]
-
-.pull-right[
-
-*ferocious lion*
-
-*The cat hissed angrily. It was extremely loud. It hissed very loudly.*
-]
-
---
-
-**Syntactic distribution**
-
-.pull-left[
-- they generally go before the word they modify
-
-- but adverbs can go before or after verbs
-]
-
-.pull-right[
-*playful kitten, very small*
-
-*I quickly stopped. I stopped quickly.*
-
-]
-
----
-
-# Adjectives and adverbs 
-
-**Morphological distribution**
-
-.pull-left[
-
-- many English adjectives can inflect for comparative and superlative with *-er* and *-est*
-
-- but not all!
-
-- derivational morphemes for adjectives: *-ic, -ish, -al, -ous, -ive, -y, -ile, -like*
-
-- derivational morphemes for adverbs: *-ly*
-
-- though not all adverbs end in *-ly*
-
-- some adjectives end in *-ly* too!
-]
-
-.pull-right[
-*nicer, nicest, meaner, meanest*
-
-**frigider*, **frigidest*
-
-*bookish, scandalous, horrific, active, sloppy*
-
-*happily, slowly*
-
-*My cat meows loud when he is very hungry.*
-
-*the friendly cat*
-]
-
----
-
-class: center, middle
-
-# Determiners, prepositions and conjunctions 
-
----
-
-# Determiners, prepositions and conjunctions
-
-These three are less well-known and harder to define
-
-**Discuss:**
-
-1. What do you remember from the reading or previous knowledge about **determiners, prepositions,** and **conjunctions**?
-
-2. What are some examples of words in each of these categories?
-
-**Note**
-
-- Note: *determiner* includes *articles, possessive pronouns, demonstrative pronouns, interrogatives,* and *quantifiers* – you may not have heard the term *determiner* in previous coursework, but you may have heard of some of these subcategories.
-
----
-
-# Determiners
-
-**Determiners** gather together many words you may have learned as separate categories:
-
-.pull-left[
-- articles
-
-- possessive pronouns
-
-- demonstratives
-
-- interrogative determiners
-
-- quantifiers
-]
-
-.pull-right[
-
-*the, a*
-
-*my, our, your, his, her, their, its*
-
-*this apple, that barn*
-
-*which computer, what floor*
-
-*all, some, many*
-]
-
---
-
-Determiners help specify a word's **reference:** what actual thing in the world a word refers to
-
-- *this chalk, that chalk, my dog, not her dog, all cats, not some cats*
-
----
-
-# Determiners
-
-**Morphological distribution:**
-
-- English determiners don't have any specific morphemes that are typical of them – in fact, they tend to be monomorphemic
-
-**Syntactic distribution:**
-
-.pull-left[
-- determiners can go before a noun
-
-- or before an adjective, then a noun
-
-- English usually doesn't allow two determiners in a row
-]
-
-.pull-right[
-*the apple, my cat*
-
-*the red apple, my fluffy cat*
-
-**the my friend*
-
-]
-
----
-
-# Prepositions 
-
-**Prepositions** indicate some relationship between a noun and the other words in a sentence: 
-
-- *in, on, to, by, for, from, over, under, above, below, with, without*
-
-- Often a spatial relationship, but also grammatical relationships, conceptual relationships
-
---
-
-**Morphological distribution**
-
-- Like determiners, prepositions don't have specific suffixes and are often monomorphemic.
-
---
-
-**Syntactic distribution**
-
-.pull-left[
-- prepositions go before nouns (*pre*-position)
-
-- there can be intervening determiners and adjectives
-]
-
-.pull-right[
-*on topic, in time, with cheese*
-
-*in an hour, without melted cheese*
-]
-
----
-
-# Conjunctions
-
-**Conjunctions** join together two words, phrases, or clauses
-
-- *and, or, but, because, if, since*
-
---
-
-**Coordinating conjunctions** (*and, or, but*) join two words/phrases of the same type
-
-- *cats and dogs, come and go, I ate an apple and I read a book.*
-
-- **Syntactic distribution:** between the two elements being joined
-
---
-
-**Subordinating conjunctions** (aka **complementizers**) are used to insert one sentence (subordinate clause) into another sentence (main clause)
-
-- *because, that, if, since, whether*...
-
-- *I went to bed because I was tired. If you study, you will succeed.*
-
-- **syntactic distribution:** before the subordinate clause being inserted
-
-***add color???***
-
----
-
-class: middle, center
-
-# Open and closed classes
-
----
-
-# Open and closed classes
-
-We can divide the parts of speech into **open** and **closed classes**.
-
---
-
-**Open class** words have more of a *lexical meaning* – typical dictionary definition. It's fairly easy to borrow or coin new words in these categories.
-
-- This includes nouns, verbs, adjectives, and adverbs
-
---
-
-**Closed class** words have more of a *grammatical meaning*. It's less common, but not impossible, to borrow or coin new words in these categories.
-
-- This includes determiners, prepositions, and conjunctions
-
----
-
-class: center, middle
-
-# Summary 
-
----
-
-# Summary 
-
-**Parts of speech** are categories of words that tend to behave in similar ways:
-
-- noun, verb, adjective, adverb, determiner, preposition, conjunction
-
-We often learn them in school by **definition**.
-
-But we can also figure them out based on context, by considering their:
-
-- **morphological distribution** – what kinds of morphemes they have.
-
-- **syntactic distribution** – where they tend to appear in the sentence.
-
-By examining their distribution, we can notice patterns in the way certain types of words behave.
-
-And this will be fundamental to our understanding of **syntax**, as we start putting words together to form **sentences**.
-
-
-
-
-
-
-
-
----
-
-class: center, middle
-
-# **[FRIDAY SLIDES]** 
-
----
-
-class: middle, center 
-
-# Constituents!
-
----
-
-# Constituents 
-
-## What is a constituent? 
-
-- ***A group of words that acts together as a unit***
-
-- a basic structure in syntax
-
---
-
-Some examples
-
-- **Justin** teaches linguistics.
-
-- **My cat** likes rice.
-
-- **That tall guy from NJ** likes philosophy.
-
---
-
-Even though the bold constituents can have only one word or several, they act as a unit to describe a single concept.
-
----
-
-# Constituents: phrases (types)
-
-**Phrases** are types of constituents 
-
---
-
-Each phrase has a main word (or **head**), and phrases are named after the head word's part of speech.
-
----
-
-# Constituents: phrases
-
-- Noun phrase (NP)
-  
-  - *woman, the woman, the happy woman, the woman with the hat*
-  
-- Prepositional phrase (PP)
-
-  - *into the forest, by the author, for good luck*
-
-- Verb phrase (VP)
-
-  - *eats, eats pizza, eats quickly, eats pizza quickly at midnight*
-  
-- Adjective phrase (AdjP)
-
-  - *happy*
-  
-- Adverb phrase (AdvP)
-
-  - *quickly*
-
-**Note that one constituent may contain another, smaller constituent.**
-
----
-
-class: center, middle
-
-# Constituency tests!
-
----
-
-# Constituency tests 
-We can do tests to determine whether a group of words form a constituent or not.
-
-These are the four tests we'll use:
-
---
-
-1. replacement/substitution 
-
-2. stand-alone
-
-3. movement 
-
-4. coordination 
-
-**As is usually the case, these tests don't always work 100% of the time, so you should try multiple!!!**
-
----
-
-# Constituency tests 
-
-Consider the following sentence ([the happy student] and [in New Brunswick] are constituents)
-
-- [The happy student] lives [in New Brunswick]
-
-This is the example sentence which we will perform constituency tests for.
-
----
-
-# Constituency tests
-
-## Replacement
-
-
-**Replacement test:** try replacing a group of words with a *pro-form* (a pronoun or another generic expression such as *there, like that, do, do that, that way*).
-
-If it works, or still sounds grammatical, then the words are a constituent.
-
---
-
-- [The happy student] lives in New Brunswick → [She] lives in New Brunswick
-  
-  - this works, so [the happy student] is a constituent!
-
---
-
-- The happy student [lives in New] Brunswick → The happy student [??] Brunswick
-
-  - this **doesn't** work, so [lives in New] is not a constituent 
-
-
----
-
-# Constituency tests 
-
-## Stand alone
-
-**Stand alone test:** try coming up with a question that can be answered by just saying the group of words you want to test on its own
-
-- Who lives in New Brunswick? [The happy student]!
-
-  - this works, so [the happy student] is a constituent
-
-
----
-
-# Constituency tests  
-
-## Movement 
-
-**Movement test:** try moving a group of words to a different part of the sentence, like the beginning or end of the sentence. You *may* need to add extra words to support this movement.
-
-- The person who lives in New Brunswick is [the happy student].
-
-  - this works, so [the happy student] is a constituent
-  
-- Student who lives in New Brunswick is [the happy]
-
-  - this doesn't work, so [the happy] is not a constituent
-
-
----
-
-# Constituency tests 
-
-## Coordination 
-
-**Coordination test:** coordinating conjunctions like *and* or *or* will always join two words or phrases of the same type. So, if a group of words is a constituent, you should be able to insert another phrase of the same type joined with *and* or *or*
-
-- [The happy student] and [the grumpy professor] live in New Brunswick.
-
-  - this works, so [the happy student] is a constituent
 
 
     </textarea>
