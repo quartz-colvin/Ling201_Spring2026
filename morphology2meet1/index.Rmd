@@ -438,7 +438,7 @@ fui "i went" → fuiste "you went" → fue "s/he went"
 
 iré "i will go" → irás "you will go" → irá "s/he will go"
 
-<u>**Danish** *lille "little, small"</u>
+<u>**Danish** *lille* "little, small"</u>
 
 singular *lille* → *et lille hus* "a little house" 
 
