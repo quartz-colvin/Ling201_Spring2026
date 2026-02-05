@@ -20,11 +20,11 @@ output:
 
 class: middle, center
 
-# **[FRIDAY]** Terminology (NEW!)
+# **[FRIDAY]** Morphological processes (Review!)
 
 ---
 
-# Terminology (New!)
+# Morphological processes (Review!)
 
 .pull-left[
 - compounding
@@ -48,18 +48,35 @@ class: middle, center
 - reanalysis
 ]
 
---
-
 .pull-right[
-```{r, out.width="50%", out.height="50%", echo=FALSE, fig.cap="Zero-derivation example."}
+
+1. **Discuss what these mean**
+
+2. **Come up with an example of each**
+
+]
+
+---
+
+# Morphological processes (memes)
+
+.pull-left[
+```{r, out.width="50%", out.height="40%", echo=FALSE, fig.cap="Zero-derivation example."}
 knitr::include_graphics("./images/kevining.jpg")
 ```
+]
 
-```{r, out.width="50%", out.height="50%", echo=FALSE, fig.cap="Blending meme example."}
+.pull-right[
+```{r, out.width="100%", out.height="100%", echo=FALSE, fig.cap="Blending meme example."}
 knitr::include_graphics("./images/snurch.gif")
 ```
 ]
 
+---
+
+class: center, middle
+
+# Order of affixation
 
 ---
 
@@ -74,6 +91,8 @@ knitr::include_graphics("./images/snurch.gif")
 --
 
 - Now imagine you start with the root and then add affixes until you get the full word. Do you start with the prefix or suffix? Which do you add first?
+
+--
 
   - Is it *un* + *believable* **or** *unbelieve* + *able*? Why? 
   
@@ -121,15 +140,13 @@ This suggest that the **order of affixation**- the order in which you add affixe
 
 - we can test a word's order of affixation by:
 
-  - adding an affix and seeing if it makes a real word
+  1. adding an affix and seeing if it makes a real word
+
+  2. trying to understand what the word means. if your definition involves some smaller combination of the root and an affix, it suggests that the affix is added first 
 
 --
 
-  - trying to understand what the word means. if your definition involves some smaller combination of the root and an affix, it suggests that the affix is added first 
-
---
-
-***neither of these tests works 100% of the time, so you should try a combination of them!***
+***neither of these tests works 100% of the time, so it's good to try both!***
 
 ---
 
@@ -139,11 +156,11 @@ class: middle, center
 
 ---
 
-# Morphological trees
-
-## Hierarchical structure
+# Hierarchical structure
 
 - order of affixation is somehow connected to the *meaning* of a word
+
+--
 
 - the fact that we can't add affixes in any order suggests that words have a **hierarchical structure**
 
@@ -201,6 +218,8 @@ class: middle, center
 
 # Trees!
 
+### (**Spoiler:** these kinds of structures will also be important in the syntax unit!)
+
 ---
 
 # Trees 
@@ -215,11 +234,15 @@ class: middle, center
 
 --
 
-3. look at the morphemes immediately before and after the root. Which one is added first? Draw lines upward connecting them, and label the new word's part of speech
+3. look at the morphemes immediately before and after the root. 
+
+  - Which one is added first? 
+  
+  - Draw lines upward connecting them, and label the new word's part of speech
 
 --
 
-4. this new word becomes the base you'll keep building off of. Repeat step 3 using this new base instead of the root, and continue until you have no unconnected morphemes left
+4. this new word becomes the base you'll keep building off of. **Repeat step 3** using this new base instead of the root, and continue until you have no unconnected morphemes left
 
 
 ---
@@ -373,3 +396,83 @@ class: middle, center
 2. unwrappable
 
 3. unbearable
+
+
+---
+
+# More practice (if time)
+
+Draw trees for the following words, noting any possible cases of structural ambiguity!
+
+.pull-left[
+
+1. digitized
+
+2. disambiguate
+
+3. balloon animal
+
+4. antibiotics
+
+5. snowboarding
+
+6. revolutionary
+
+7. ungovernable
+
+8. counter-clockwise
+
+9. herpetologists
+
+10. ad-blocker
+
+]
+
+
+
+
+
+---
+
+# Summary 
+
+We reviewed the many kinds of morphological processes (word formation processes)
+
+- some of them (acronyms, blends, and clipping) are more recently developed 
+
+- memes and slang words can come from some of these new processes! 
+
+--
+
+Order of affixation is important, and part of our mental grammars
+
+- order of affixation hints at **the hierarchical structure of language**
+
+  - we can show this hierarchical structure in either bracket notation or tree structures
+  
+  - having different orders of affixation can sometimes lead to cases of **morphological ambiguity** (or **structural ambiguity**)
+
+
+
+---
+
+# Coming up: **Syntax!**
+
+### Reading 
+
+- read **Chapter 2: Parts of Speech** from the *Syntax* textbook for **Tuesday, Feb 10**
+
+### Homework
+
+- **HW1 is due this Sunday (Feb 8)**
+
+- I will post **HW2** this weekend, it will be due **next Sunday**
+
+### Reminders
+
+- my office hour is in person and on Zoom, Mondays 2-3pm!
+
+  - in-person in Room 3 in the Linguistics Department basement
+
+  - the Zoom link is on Canvas
+

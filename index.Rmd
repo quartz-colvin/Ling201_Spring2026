@@ -56,8 +56,8 @@ This is an R Markdown document serving as the directory for links to the slides 
 
 #### **Week 03**: Morphology II (Feb 3, 6)
 - **Tuesday:** [slides](https://quartz-colvin.github.io/Ling201_Spring2026/morphology2meet1) <br>
-- **Friday:** [slides] <br>
-  - <u> **Due Feb 8:**</u> [HW1](Ling 201 - HW1 - Spring 2026.docx) <br>
+- **Friday:** [slides](https://quartz-colvin.github.io/Ling201_Spring2026/morphology2meet2) <br>
+  - <u> **Due Sunday (Feb 8):**</u> [HW1](Ling 201 - HW1 - Spring 2026.docx) <br>
 <br>
 
 

@@ -721,6 +721,7 @@ class: middle, center
 
 # Identifying word-formation processes
 
+.pull-left[
 1. feed → fed
 
 2. leaf →  leaves
@@ -738,6 +739,31 @@ class: middle, center
 8. like →  like-liked
 
 9. go →  underwent
+]
+
+--
+
+.pull-right[
+
+**alternation**
+
+**alternation, suffixation (inflectional)**
+
+**suffixation (derivational)**
+
+**compounding**
+
+**suppletion**
+
+**compounding, alternation**
+
+**compounding, suffixation (inflectional)**
+
+**reduplication, suffixation (inflectional)**
+
+**suppletion, prefixation (derivational)**
+
+]
 
 ---
 
