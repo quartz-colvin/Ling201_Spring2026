@@ -1,6 +1,6 @@
 ---
 title: "**Syntax I**"
-subtitle: "**Tuesday+Friday**"
+subtitle: "**Tuesday**"
 author: "Quartz Colvin (they/them)"
 institute: "Rutgers University"
 date: "`r Sys.Date()`"
@@ -20,7 +20,7 @@ output:
 
 class: center, middle
 
-# So far...
+# So far, we've studied...
 
 ---
 
@@ -36,11 +36,11 @@ class: center, middle
 
 ### Now, we're moving on to **syntax!**
 
-**syntax:** the study of the structure of sentences; how sentences are built up out of words
+**Syntax:** the study of the structure of sentences; how sentences are built up out of words
 
 --
 
-First we'll start with something we've already mentioned several times...
+First, we'll start with something we've already mentioned several times...
 
 - **parts of speech:** nouns, verbs, adjectives, adverbs...
 
@@ -61,6 +61,8 @@ class: center, middle
 --
 
 They were important in the **morphology** unit
+
+--
 
 - derivational morphology can change a word's *part of speech* 
 
@@ -85,6 +87,8 @@ They will also be important for syntax!
 What are the parts of speech? 
 
 How do we identify a word's part of speech? 
+
+--
 
 **Try to define the following:**
 
@@ -178,9 +182,16 @@ knitr::include_graphics("./images/jabberwocky.png")
 
 ---
 
+
+
+
+
+
+
+
 class: middle, center
 
-# Distribution
+# Syntactic & morphological distribution
 
 ---
 
@@ -198,7 +209,7 @@ Consider the word *borogoves*
 
 - it comes after *the*
 
-- what other words can follow *the*? NOUNS!
+- what other words can follow *the*? <u>NOUNS</u>!
 
 - we conclude that *borogoves* is also a noun 
 
@@ -229,7 +240,7 @@ Consider *borogoves* again
 
 - it seems to end in the plural suffix *-s*
 
-- what other words use plural *-s*? NOUNS!
+- what other words use plural *-s*? <u>NOUNS</u>!
 
 - again, we conclude that *borogoves* is a noun 
 
@@ -247,9 +258,19 @@ knitr::include_graphics("./images/jabberwocky.png")
 
 ---
 
+class: center, middle
+
+# Back to parts of speech
+
+
+
+---
+
 # Part of speech
 
 Parts of speech aren't just random categories you have to memorize in English class
+
+--
 
 Words of a particular part of speech tend to behave in similar ways:
 
@@ -263,6 +284,8 @@ That is, they follow a pattern – a pattern that forms part of our mental gramm
 
 - We pick up these patterns as children acquiring our native language.
 
+--
+
 - A small child might not know what a noun is, but they might know you can say *take ball, take toy, take teddy, take blankie*... but not **take eat*.
 
 - So categories like noun and verb are part of our mental grammar, even before we learn about them explicitly in an English class.
@@ -273,17 +296,25 @@ That is, they follow a pattern – a pattern that forms part of our mental gramm
 
 Since these categories are part of our mental grammar, they give us intuitions about how a word can or cannot be used in a sentence.
 
+--
+
 And we can use these intuitions in a **replacement test** to figure out a word's part of speech:
+
+--
 
 - Think of a sentence where you know each word's part of speech:
 
-  - *John ate a delicious sandwich.*
+  - *John ate a delicious sandwich.* (for example)
+
+--
 
 - Take a word you don't know and use it to replace one of the words in your sentence.
 
-- If sounds like a well-formed sentence, it probably has the same part of speech!
+--
 
-- If not, move on to the next word and try replacing that instead.
+  - If it sounds like a well-formed sentence, it probably has the same part of speech!
+
+  - If not, move on to the next word and try replacing that instead.
 
 ---
 
@@ -299,7 +330,11 @@ For each one:
 
 - We'll provide a **definition**
 
+--
+
 - We'll talk about its **morphological distribution** – what morphemes it can have
+
+--
 
 - We'll talk about its **syntactic distribution** – where it appears in a sentence
 
@@ -324,6 +359,8 @@ class: center, middle
 # Nouns
 
 How can we define a noun?
+
+--
 
 .pull-left[
 
@@ -371,6 +408,8 @@ We can distinguish between:
 
 **Morphological distribution** - what suffixes can a noun have in English?
 
+--
+
 .pull-left[
 
 - Nouns can take plural *-s* or possessive *-'s* 
@@ -391,6 +430,8 @@ We can distinguish between:
 
 **Syntactic distribution** - where do nouns appear in sentences in English?
 
+--
+
 .pull-left[
 
 - nouns can follow determiners like *a, the, my*...
@@ -407,15 +448,15 @@ We can distinguish between:
 
 .pull-right[
 
-*a dog, the cat, my friend*
+*a <u>dog</u>, the <u>cat</u>, my <u>friend</u>*
 
-*friendly dog, angry cat, best friend*
+*friendly <u>dog</u>, angry <u>cat</u>, best <u>friend</u>*
 
-*at school, in line, on demand*
+*at <u>school</u>, in <u>line</u>, on <u>demand</u>*
 
-*Dogs are humans' best friend*
+*<u>Dogs</u> are humans' best friend*
 
-*I saw a dog*
+*I saw a <u>dog</u>*
 
 ]
 
@@ -430,13 +471,15 @@ A **pronoun** takes the place of a noun
 
 .pull-right[
 
-*Mary had a little lamb = She had it.*
+*<u>Mary</u> had <u>a little lamb</u>. = <u>She</u> had <u>it</u>.*
 
 ]
 
 --
 
 Some linguists consider pronouns to be a **subcategory of nouns** because they behave similarly in many ways
+
+--
 
 .pull-left[
 
@@ -447,15 +490,17 @@ Some linguists consider pronouns to be a **subcategory of nouns** because they b
 
 .pull-right[
 
-*Dolly sings = She sings*
+*Dolly sings = <u>She</u> sings*
 
-*Did you help your mom? = Did you help her?*
+*Did you help your mom? = Did you help <u>her</u>?*
 
 ]
 
 --
 
 Some linguists consider pronouns a **separate part of speech** because in some ways, they behave differently
+
+--
 
 .pull-left[
 
@@ -467,12 +512,21 @@ Some linguists consider pronouns a **separate part of speech** because in some w
 
 - *the happy student*
 
-- **the them* or **happy them*
+- **the them* 
+
+- **happy them*
 
 - but, *lucky you!*
 ]
 
-- in this class, we consider them a **subcategory of nouns**
+--
+
+In this class, we consider them a **subcategory of nouns**
+
+
+
+
+
 
 ---
 
@@ -485,6 +539,8 @@ class: center, middle
 # Verbs
 
 How do we define a verb?
+
+--
 
 .pull-left[
 - verbs are "action words"
@@ -513,6 +569,8 @@ How do we define a verb?
 
 **Morphological distribution** - what kind of morphemes can English verbs have?
 
+--
+
 .pull-left[
 - verbs can be conjugated for tense and subject
 
@@ -530,6 +588,8 @@ How do we define a verb?
 
 **Syntactic distribution** - where do verbs go in English sentences? 
 
+--
+
 .pull-left[
 - verbs go after the subject and before the object(s)
 
@@ -543,11 +603,13 @@ How do we define a verb?
 
 .pull-right[
 
-*She knows me, I did it*
+*She <u>knows</u> me, I <u>did</u> it*
 
-*I like pizza. I want an ice cream*
+.
 
-*I am singing. I have finished. I don't know. I am going to rest.*
+*I <u>like</u> pizza. I <u>want</u> an ice cream*
+
+*I <u>am</u> singing. I <u>have</u> finished. I <u>don't</u> know. I <u>am</u> going to rest.*
 
 *can, could, may, might, shall, should, would, must, ought to*
 ]
@@ -577,9 +639,9 @@ How can we define **adjectives** and **adverbs**?
 
 .pull-right[
 
-*ferocious lion*
+*<u>ferocious</u> lion*
 
-*The cat hissed angrily. It was extremely loud. It hissed very loudly.*
+*The cat hissed <u>angrily</u>. It was <u>extremely</u> loud. It hissed <u>very</u> loudly.*
 ]
 
 --
@@ -593,9 +655,9 @@ How can we define **adjectives** and **adverbs**?
 ]
 
 .pull-right[
-*playful kitten, very small*
+*<u>playful</u> kitten, <u>very</u> small*
 
-*I quickly stopped. I stopped quickly.*
+*I <u>quickly</u> stopped. I stopped <u>quickly</u>.*
 
 ]
 
@@ -623,15 +685,17 @@ How can we define **adjectives** and **adverbs**?
 .pull-right[
 *nicer, nicest, meaner, meanest*
 
-**frigider*, **frigidest*
+**frigider* is bad
 
-*bookish, scandalous, horrific, active, sloppy*
+**frigidest*
+
+*bookish, scandalous, horrific, active, sloppy, senile, cave-like*
 
 *happily, slowly*
 
-*My cat meows loud when he is very hungry.*
+*My cat meows <u>loud</u> when he is very hungry.*
 
-*the friendly cat*
+*the <u>friendly</u> cat*
 ]
 
 ---
@@ -644,13 +708,17 @@ class: center, middle
 
 # Determiners, prepositions and conjunctions
 
-These three are less well-known and harder to define
+These three are less well-known and harder to define...
+
+--
 
 **Discuss:**
 
 1. What do you remember from the reading or previous knowledge about **determiners, prepositions,** and **conjunctions**?
 
 2. What are some examples of words in each of these categories?
+
+--
 
 **Note**
 
@@ -661,6 +729,8 @@ These three are less well-known and harder to define
 # Determiners
 
 **Determiners** gather together many words you may have learned as separate categories:
+
+--
 
 .pull-left[
 - articles
@@ -680,9 +750,9 @@ These three are less well-known and harder to define
 
 *my, our, your, his, her, their, its*
 
-*this apple, that barn*
+*<u>this</u> apple, <u>that</u> barn*
 
-*which computer, what floor*
+*<u>which</u> computer, <u>what</u> floor*
 
 *all, some, many*
 ]
@@ -691,7 +761,9 @@ These three are less well-known and harder to define
 
 Determiners help specify a word's **reference:** what actual thing in the world a word refers to
 
-- *this chalk, that chalk, my dog, not her dog, all cats, not some cats*
+--
+
+- *<u>this</u> chalk, <u>that</u> chalk, <u>my</u> dog, not <u>her</u> dog, <u>all</u> cats, not <u>some</u> cats*
 
 ---
 
@@ -700,6 +772,8 @@ Determiners help specify a word's **reference:** what actual thing in the world 
 **Morphological distribution:**
 
 - English determiners don't have any specific morphemes that are typical of them – in fact, they tend to be monomorphemic
+
+--
 
 **Syntactic distribution:**
 
@@ -712,11 +786,11 @@ Determiners help specify a word's **reference:** what actual thing in the world 
 ]
 
 .pull-right[
-*the apple, my cat*
+*<u>the</u> apple, <u>my</u> cat*
 
-*the red apple, my fluffy cat*
+*<u>the</u> red apple, <u>my</u> fluffy cat*
 
-**the my friend*
+**<u>the my</u> friend*
 
 ]
 
@@ -726,7 +800,11 @@ Determiners help specify a word's **reference:** what actual thing in the world 
 
 **Prepositions** indicate some relationship between a noun and the other words in a sentence: 
 
+--
+
 - *in, on, to, by, for, from, over, under, above, below, with, without*
+
+--
 
 - Often a spatial relationship, but also grammatical relationships, conceptual relationships
 
@@ -747,9 +825,9 @@ Determiners help specify a word's **reference:** what actual thing in the world 
 ]
 
 .pull-right[
-*on topic, in time, with cheese*
+*<u>on</u> topic, <u>in</u> time, <u>with</u> cheese*
 
-*in an hour, without melted cheese*
+*<u>in</u> an hour, <u>without</u> melted cheese*
 ]
 
 ---
@@ -764,21 +842,31 @@ Determiners help specify a word's **reference:** what actual thing in the world 
 
 **Coordinating conjunctions** (*and, or, but*) join two words/phrases of the same type
 
-- *cats and dogs, come and go, I ate an apple and I read a book.*
+--
+
+- *cats <u>and</u> dogs, come <u>and</u> go, I ate an apple <u>and</u> I read a book.*
+
+--
 
 - **Syntactic distribution:** between the two elements being joined
 
 --
 
-**Subordinating conjunctions** (aka **complementizers**) are used to insert one sentence (subordinate clause) into another sentence (main clause)
+**Subordinating conjunctions** (aka **complementizers**) are used to insert one sentence (<span style="color: red;">subordinate clause</span>) into another sentence (<span style="color: blue;">main clause</span>)
 
 - *because, that, if, since, whether*...
 
-- *I went to bed because I was tired. If you study, you will succeed.*
+--
 
-- **syntactic distribution:** before the subordinate clause being inserted
+- *<span style="color: blue;">I went to bed</span> <u>because</u> <span style="color: red;">I was tired</span>.*
 
-***add color???***
+--
+
+- *<u>If</u> <span style="color: red;">you study</span>, <span style="color: blue;">you will succeed</span>.*
+
+--
+
+- **Syntactic distribution:** before the subordinate clause being inserted
 
 ---
 
@@ -796,11 +884,15 @@ We can divide the parts of speech into **open** and **closed classes**.
 
 **Open class** words have more of a *lexical meaning* – typical dictionary definition. It's fairly easy to borrow or coin new words in these categories.
 
+--
+
 - This includes nouns, verbs, adjectives, and adverbs
 
 --
 
 **Closed class** words have more of a *grammatical meaning*. It's less common, but not impossible, to borrow or coin new words in these categories.
+
+--
 
 - This includes determiners, prepositions, and conjunctions
 
@@ -818,7 +910,11 @@ class: center, middle
 
 - noun, verb, adjective, adverb, determiner, preposition, conjunction
 
+--
+
 We often learn them in school by **definition**.
+
+--
 
 But we can also figure them out based on context, by considering their:
 
@@ -826,188 +922,39 @@ But we can also figure them out based on context, by considering their:
 
 - **syntactic distribution** – where they tend to appear in the sentence.
 
+--
+
 By examining their distribution, we can notice patterns in the way certain types of words behave.
+
+--
 
 And this will be fundamental to our understanding of **syntax**, as we start putting words together to form **sentences**.
 
 
-
-
-
-
-
-
 ---
 
-class: center, middle
+# Coming up: **More syntax!**
 
-# **[FRIDAY SLIDES]** 
+### Reading 
 
----
+- read **Chapter 2: Parts of Speech** from the *Syntax* textbook, if you haven't already!
 
-class: middle, center 
 
-# Constituents!
+### Homework
 
----
+- **HW2** will be due **this Sunday**!
 
-# Constituents 
 
-## What is a constituent? 
+### Reminders
 
-- ***A group of words that acts together as a unit***
+- my office hour is in person and on Zoom, Mondays 2-3pm!
 
-- a basic structure in syntax
+  - in-person in Room 3 in the Linguistics Department basement
 
---
+  - the Zoom link is on Canvas
 
-Some examples
 
-- **Justin** teaches linguistics.
 
-- **My cat** likes rice.
 
-- **That tall guy from NJ** likes philosophy.
-
---
-
-Even though the bold constituents can have only one word or several, they act as a unit to describe a single concept.
-
----
-
-# Constituents: phrases (types)
-
-**Phrases** are types of constituents 
-
---
-
-Each phrase has a main word (or **head**), and phrases are named after the head word's part of speech.
-
----
-
-# Constituents: phrases
-
-- Noun phrase (NP)
-  
-  - *woman, the woman, the happy woman, the woman with the hat*
-  
-- Prepositional phrase (PP)
-
-  - *into the forest, by the author, for good luck*
-
-- Verb phrase (VP)
-
-  - *eats, eats pizza, eats quickly, eats pizza quickly at midnight*
-  
-- Adjective phrase (AdjP)
-
-  - *happy*
-  
-- Adverb phrase (AdvP)
-
-  - *quickly*
-
-**Note that one constituent may contain another, smaller constituent.**
-
----
-
-class: center, middle
-
-# Constituency tests!
-
----
-
-# Constituency tests 
-We can do tests to determine whether a group of words form a constituent or not.
-
-These are the four tests we'll use:
-
---
-
-1. replacement/substitution 
-
-2. stand-alone
-
-3. movement 
-
-4. coordination 
-
-**As is usually the case, these tests don't always work 100% of the time, so you should try multiple!!!**
-
----
-
-# Constituency tests 
-
-Consider the following sentence ([the happy student] and [in New Brunswick] are constituents)
-
-- [The happy student] lives [in New Brunswick]
-
-This is the example sentence which we will perform constituency tests for.
-
----
-
-# Constituency tests
-
-## Replacement
-
-
-**Replacement test:** try replacing a group of words with a *pro-form* (a pronoun or another generic expression such as *there, like that, do, do that, that way*).
-
-If it works, or still sounds grammatical, then the words are a constituent.
-
---
-
-- [The happy student] lives in New Brunswick → [She] lives in New Brunswick
-  
-  - this works, so [the happy student] is a constituent!
-
---
-
-- The happy student [lives in New] Brunswick → The happy student [??] Brunswick
-
-  - this **doesn't** work, so [lives in New] is not a constituent 
-
-
----
-
-# Constituency tests 
-
-## Stand alone
-
-**Stand alone test:** try coming up with a question that can be answered by just saying the group of words you want to test on its own
-
-- Who lives in New Brunswick? [The happy student]!
-
-  - this works, so [the happy student] is a constituent
-
-
----
-
-# Constituency tests  
-
-## Movement 
-
-**Movement test:** try moving a group of words to a different part of the sentence, like the beginning or end of the sentence. You *may* need to add extra words to support this movement.
-
-- The person who lives in New Brunswick is [the happy student].
-
-  - this works, so [the happy student] is a constituent
-  
-- Student who lives in New Brunswick is [the happy]
-
-  - this doesn't work, so [the happy] is not a constituent
-
-
----
-
-# Constituency tests 
-
-## Coordination 
-
-**Coordination test:** coordinating conjunctions like *and* or *or* will always join two words or phrases of the same type. So, if a group of words is a constituent, you should be able to insert another phrase of the same type joined with *and* or *or*
-
-- [The happy student] and [the grumpy professor] live in New Brunswick.
-
-  - this works, so [the happy student] is a constituent
 
 
