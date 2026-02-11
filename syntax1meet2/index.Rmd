@@ -18,13 +18,57 @@ output:
 
 ---
 
+class: center, middle
 
+# Review 
 
 ---
 
-class: center, middle
+# Review 
 
-# **[FRIDAY SLIDES]** 
+
+**Parts of speech** are categories of words that tend to behave in similar ways:
+
+- noun, verb, adjective, adverb, determiner, preposition, conjunction
+
+--
+
+We already have clear intuitions about what nouns, verbs, and adjectives are, but...
+
+--
+
+- **Adverbs** modify verbs, adjectives, or other adverbs
+
+--
+
+- **Determiners** help specify a word's **reference** (what actual thing in the world a word refers to)
+
+--
+
+- **Prepositions** indicate some relationship between a noun and the other words in a sentence
+
+--
+
+- **Conjunctions** join together two words, phrases, or clauses
+
+--
+
+We can figure them out based on context, by considering their:
+
+- **morphological distribution** – what kinds of morphemes they have.
+
+- **syntactic distribution** – where they tend to appear in the sentence.
+
+--
+
+And this will be fundamental to our understanding of **syntax**, as we start putting words together to form **sentences**.
+
+--
+
+The first step of building sentences from individual words brings us to **constituency**, the topic of today!
+
+
+
 
 ---
 
@@ -38,19 +82,32 @@ class: middle, center
 
 ## What is a constituent? 
 
+.pull-left[
+
 - ***A group of words that acts together as a unit***
 
 - a basic structure in syntax
 
---
 
 Some examples
 
 - **Justin** teaches linguistics.
 
-- **My cat** likes rice.
+- **My cat** likes rice. 
+
+  - *(this is true)*
 
 - **That tall guy from NJ** likes philosophy.
+
+]
+
+.pull-right[
+
+```{r, out.width="50%", out.height="auto", echo=FALSE}
+knitr::include_graphics("./images/gible.jpg")
+```
+
+]
 
 --
 
@@ -66,6 +123,12 @@ Even though the bold constituents can have only one word or several, they act as
 
 Each phrase has a main word (or **head**), and phrases are named after the head word's part of speech.
 
+- remember how we drew trees for *blackberry*? 
+
+- **headedness** applies to bigger constituents too!
+
+  - headedness is a property of language and its relevant wherever we can discuss structure in language
+
 ---
 
 # Constituents: phrases
@@ -73,26 +136,39 @@ Each phrase has a main word (or **head**), and phrases are named after the head 
 - Noun phrase (NP)
   
   - *woman, the woman, the happy woman, the woman with the hat*
-  
+
+--
+
 - Prepositional phrase (PP)
 
   - *into the forest, by the author, for good luck*
 
+--
+
 - Verb phrase (VP)
 
   - *eats, eats pizza, eats quickly, eats pizza quickly at midnight*
-  
+
+--
+
 - Adjective phrase (AdjP)
 
   - *happy*
-  
+
+--
+
 - Adverb phrase (AdvP)
 
-  - *quickly*
+  - *quickly, very quickly*
 
 **Note that one constituent may contain another, smaller constituent.**
 
 ---
+
+
+
+
+
 
 class: center, middle
 
@@ -101,6 +177,7 @@ class: center, middle
 ---
 
 # Constituency tests 
+
 We can do tests to determine whether a group of words form a constituent or not.
 
 These are the four tests we'll use:
@@ -192,6 +269,114 @@ If it works, or still sounds grammatical, then the words are a constituent.
 - [The happy student] and [the grumpy professor] live in New Brunswick.
 
   - this works, so [the happy student] is a constituent
+
+---
+
+class: center, middle
+
+# Practice
+
+---
+
+# Practice
+
+(Worksheet can be downloaded [here!](constituency-tests-worksheet.pdf))
+
+.pull-left[
+
+**The happy student lives in New Brunswick.**
+
+- is "in New Brunswick" a constituent?
+
+- is "the happy" a constituent?
+
+- is "student lives" a constituent?
+
+
+**The tragedy upset the entire family.**
+
+- is "the tragedy" a constituent?
+
+
+**They hid in the cave.**
+
+- is "in the cave" a constituent?
+
+**The computer was very expensive.**
+
+- is "computer was very" a constituent?
+
+
+**The geese swam across the lake.**
+
+- is "swam across" a constituent?
+
+]
+
+
+.pull-right[
+
+**Mary gave a book to her sister.**
+
+- is "a book to her sister" a constituent?
+
+**Linda read a book about geology.**
+
+- is "a book about geology" a constituent?
+
+]
+
+
+---
+
+class: center, middle
+
+# Summary
+
+---
+
+# Summary 
+
+We have four main constituency tests we'll use for this class:
+
+- replacement/substitution
+
+- stand-alone
+
+- movement
+
+- coordination
+
+These tests don't always work 100% of the time, so you should try multiple!!!
+
+--
+
+Building constituents is the first step to building full sentences, which we will start doing next week, with our familiar tree structures!
+
+
+
+---
+
+# Coming up: **More syntax!**
+
+### Reading 
+
+- read **Chapter 3** from the Carnie textbook for Feb 17
+
+### Homework
+
+- **HW2** will be due **this Sunday**!
+
+- **HW3** will be *posted* on Sunday
+
+
+### Reminders
+
+- my office hour is in person and on Zoom, Mondays 2-3pm!
+
+  - in-person in Room 3 in the Linguistics Department basement
+
+  - the Zoom link is on Canvas
 
 
 

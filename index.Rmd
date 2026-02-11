@@ -63,7 +63,8 @@ This is an R Markdown document serving as the directory for links to the slides 
 
 #### **Week 04**: Syntax I (Feb 10, 13)
 - **Tuesday:** [slides](https://quartz-colvin.github.io/Ling201_Spring2026/syntax1meet1) <br>
-- **Friday:** [slides] <br>
+- **Friday:** [slides](https://quartz-colvin.github.io/Ling201_Spring2026/syntax1meet2) <br>
+  - <u> **Due Sunday (Feb 15):**</u> [HW2](Ling 201 - HW2 - Spring 2026.docx) <br>
 <br>
 
 
