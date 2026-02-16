@@ -69,15 +69,17 @@ This is an R Markdown document serving as the directory for links to the slides 
 
 
 #### **Week 05**: Syntax II (17, 20)
-- **Tuesday:** [slides] <br>
+- **Tuesday:** [slides](https://quartz-colvin.github.io/Ling201_Spring2026/syntax2meet1) <br>
 - **Friday:** [slides] <br>
+  - <u> **Due Sunday (Feb 22):**</u> [HW3](Ling 201 - HW3 - Spring 2026.docx) <br>
 <br>
 
 
-#### **Week 06**: Midterm Exam Exam (TBD.)
-- <span style="color:red"><b>Date</b></span>: <u>[TBD.]</u> <br>
-- <span style="color:red"><b>Time</b></span>: <u>[TBD.]</u> <br>
-- <span style="color:red"><b>Venue</b></span>: <u>[TBD.]</u> <br>
+
+#### **Week 06**: Review, Midterm Exam (Feb 24, 27)
+- <span style="color:red"><b>Date</b></span>: <u>February 27, 2026</u> <br>
+- <span style="color:red"><b>Time</b></span>: <u>12:10 PM - 1:30 PM</u> <br>
+- <span style="color:red"><b>Venue</b></span>: <u>Scott Hall, Room 116</u> <br>
 <br>
 
 
@@ -90,12 +92,14 @@ This is an R Markdown document serving as the directory for links to the slides 
 #### **Week 08**: Semantics II (March 10, 13)
 - **Tuesday:** [slides] <br>
 - **Friday:** [slides] <br>
+  - <u> **Due Sunday (March 15):**</u> [HW4] <br>
 <br>
 
 
 #### **Week 09**: Pragmatics (March 24, 27)
 - **Tuesday:** [slides] <br>
 - **Friday:** [slides] <br>
+  - <u> **Due Sunday (March 29):**</u> [HW5] <br>
 <br>
 
 
@@ -108,12 +112,14 @@ This is an R Markdown document serving as the directory for links to the slides 
 #### **Week 11**: Phonetics II (April 7, 10)
 - **Tuesday:** [slides] <br>
 - **Friday:** [slides] <br>
+  - <u> **Due Sunday (April 12):**</u> [HW6] <br>
 <br>
 
 
 #### **Week 12**: Phonology I (April 14, 17)
 - **Tuesday:** [slides] <br>
 - **Friday:** [slides] <br>
+  - <u> **Due Sunday (April 19):**</u> [HW7] <br>
 <br>
 
 
@@ -126,8 +132,8 @@ This is an R Markdown document serving as the directory for links to the slides 
 #### **Week 14**: Phonology III \& Review (April 28, May 1)
 - **Tuesday:** [slides] <br>
 - **Friday:** [slides] <br>
+  - <u> **Due Sunday (May 3):**</u> [HW8] <br>
 <br>
-
 
 #### **Week 15**: Final Exam (May 8)
 - <span style="color:red"><b>Date</b></span>: <u>May 8, 2026</u> <br>

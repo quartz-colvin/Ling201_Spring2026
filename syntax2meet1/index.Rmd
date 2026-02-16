@@ -1,6 +1,6 @@
 ---
 title: "**Syntax II**"
-subtitle: "**Tuesday+Friday**"
+subtitle: "**Tuesday**"
 author: "Quartz Colvin (they/them)"
 institute: "Rutgers University"
 date: "`r Sys.Date()`"
@@ -34,7 +34,7 @@ This sentence has two possible interpretations. What are they? Who has the teles
 
 *A girl used a telescope to see a bear*
 
-```{r, out.width="auto", out.height="auto", echo=FALSE}
+```{r, out.width="120%", out.height="auto", echo=FALSE}
 knitr::include_graphics("./images/saw_with_telescope.png")
 ```
 
@@ -45,7 +45,7 @@ knitr::include_graphics("./images/saw_with_telescope.png")
 
 *A girl saw a bear that had a telescope*
 
-```{r, out.width="auto", out.height="auto", echo=FALSE}
+```{r, out.width="120%", out.height="auto", echo=FALSE}
 knitr::include_graphics("./images/bear_with_telescope.png")
 ```
 
@@ -57,14 +57,19 @@ knitr::include_graphics("./images/bear_with_telescope.png")
 
 This is an example of a **structurally ambiguous** sentence.
 
+--
+
 We can use syntax trees to visualize its two possible structures.
 
-- In this case, these syntax trees show how there are two ways to interpret
-what [*with a telescope*] modifies.
+- In this case, these syntax trees show how there are two ways to interpret what [*with a telescope*] modifies.
+
+--
 
 This means that *the meaning of a sentence isn't just the sum of its words:*
 
 - **Syntactic structure also contributes to meaning.**
+
+--
 
 So let's take some time to understand these structures and how to draw them as trees.
 
@@ -82,17 +87,31 @@ class: center, middle
 
 Another name for constituents is **phrases**, and we'll be talking about the following phrase types:
 
+--
+
 Each phrase type has a **head word** and is named after that head word's part of speech, and each phrase contains that head word *and all the words that modify that head word:*
+
+--
 
 - **NP – noun phrase** (*man, the man, the happy man, the man with the hat*)
 
+--
+
 - **PP – prepositional phrase** (*into the forest, by the author, for good luck*)
+
+--
 
 - **AdjP – adjective phrase** (*happy, extremely angry*)
 
+--
+
 - **AdvP – adverb phrase** (*quickly, very quickly*)
 
+--
+
 - **VP – verb phrase** (*eats, eats pizza, eats quickly, eats pizza quickly at noon*)
+
+--
 
 - **TP – tense phrase** or ***sentence*** (*John eats pizza quickly. I saw a dog by the tree.*)
 
@@ -108,19 +127,27 @@ class: center, middle
 
 A noun phrase consists of a noun and all the words that modify it.
 
+--
+
 The simplest NP is a single noun:
 
-- Harriet, dogs, soup, snow
+- *Harriet, dogs, soup, snow*
+
+--
 
 A NP can also include any of the following:
 
-- A determiner: the hat, my shoes, this idea, which tree
+- A **determiner:** *<u>the</u> hat, <u>my</u> shoes, <u>this</u> idea, <u>which</u> tree*
 
-- One or more adjective phrases (AdjP): blue sky, a great time, big red trucks
+--
 
-  - Note: an adjective will always go in a separate AdjP, for reasons we'll discuss later.
+- One or more **adjective phrases** (AdjP): *<u>blue</u> sky, a <u>great</u> time, <u>big</u> <u>red</u> trucks*
 
-- One or more prepositional phrases (PP): spaghetti with meatballs, trees in the yard, the tall bridge over the river
+  - **Note:** an adjective will always go in a separate AdjP, for reasons we'll discuss later.
+
+--
+
+- One or more **prepositional phrases** (PP): *spaghetti <u>with</u> meatballs, trees <u>in</u> the yard, the tall bridge <u>over</u> the river*
 
 ---
 
@@ -133,11 +160,11 @@ PSRs have the following format:
 --
 
 .pull-left[
-- XP → X Y Z
+- **X**P → **X** <span style="color:blue">Y Z</span>
 ]
 
 .pull-right[
-phrase type X is composed of elements X, Y, Z, in that order
+phrase **type X** is composed of elements **X**, <span style="color:blue">Y</span>, <span style="color:blue">Z</span>, in that order
 ]
 
 --
@@ -160,15 +187,15 @@ We can write a PSR to account for each type of NP we've seen so far
 
 .pull-right[
 
-NP → N
+**N**P → **N**
 
-NP → D N
+**N**P → <span style="color:blue">D</span> **N**
 
-NP → AdjP N
+**N**P → <span style="color:blue">AdjP</span> **N**
 
-NP → N PP
+**N**P → **N** <span style="color:blue">PP</span>
 
-NP → D AdjP N PP
+**N**P → <span style="color:blue">D AdjP</span> **N** <span style="color:blue">PP</span>
 
 ]
 
@@ -178,7 +205,7 @@ NP → D AdjP N PP
 
 We can combine all of these NP rules into one rule:
 
-- **NP → (D) (AdjP+) N (PP+)**
+- **N**P → <span style="color:blue">(D) (AdjP+)</span> **N** <span style="color:blue">(PP+)</span>
 
 --
 
@@ -190,7 +217,7 @@ We can combine all of these NP rules into one rule:
 
 - no parentheses = required 
 
-- + = one or more allowed
+- "+" = one or more allowed
 
 --
 
@@ -200,9 +227,11 @@ So this rule means that an NP consists of:
 
 ---
 
+.pull-left[
+
 # Syntax trees 
 
-.pull-left[
+
 
 - phrase structure rules can be used to draw **syntax trees!**
 
@@ -222,7 +251,7 @@ with lines – some phrases contain other phrases.
 ]
 
 .pull-right[
-```{r, out.width="auto", out.height="auto", echo=FALSE}
+```{r, out.width="70%", out.height="auto", echo=FALSE}
 knitr::include_graphics("./images/syntax_trees.png")
 ```
 ]
@@ -233,17 +262,21 @@ knitr::include_graphics("./images/syntax_trees.png")
 
 Consider the following sentence. Are *happy* and *quickly* constituents?
 
-- The happy dog ran quickly.
+- The <span style="color:blue">happy</span> dog ran <span style="color:blue">quickly</span>.
+
+--
 
 Let's try some tests:
 
-- The dog who ran quickly was happy. (movement)
+- *The dog who ran quickly was <span style="color:blue">happy.</span>* (movement)
 
-- How was the dog who ran quickly? Happy! (stand alone)
+- *How was the dog who ran quickly? <span style="color:blue">Happy</span>!* (stand alone)
 
-- How did the happy dog run? Quickly! (stand alone)
+- *How did the happy dog run? <span style="color:blue">Quickly</span>!* (stand alone)
 
-- The happy dog ran like that. (replacement)
+- *The happy dog ran <span style="color:blue">like that</span>.* (replacement)
+
+--
 
 Adjectives and adverbs are their own constituents, so they need to be put into their own phrases:
 
@@ -269,7 +302,7 @@ We can verify they are siblings by checking they have the same **parent**: both 
 
 .pull-right[
 
-```{r, out.width="auto", out.height="auto", echo=FALSE}
+```{r, out.width="65%", out.height="auto", echo=FALSE}
 knitr::include_graphics("./images/very_slow_turtle.png")
 ```
 ]
@@ -296,7 +329,7 @@ Since the adverb modifies the adjective:
 
 .pull-right[
 
-```{r, out.width="auto", out.height="auto", echo=FALSE}
+```{r, out.width="65%", out.height="auto", echo=FALSE}
 knitr::include_graphics("./images/very_slow_turtle.png")
 ```
 ]
@@ -309,6 +342,8 @@ Suppose you had two adjectives in a row. Are those adjectives in separate AdjPs 
 
 - *the big gray dog*
 
+**Discuss!!!**
+
 ---
 
 # Adjective phrase (AdjP)
@@ -319,11 +354,11 @@ Suppose you had two adjectives in a row. Are those adjectives in separate AdjPs 
 
 - *the big gray dog*
 
-Each phrase has its own head word – for AdjP, that's an adjective:
+**Each phrase has its own head word** – for AdjP, that's an adjective:
 
 - With a phrase [*big gray*], which is the head?
 
-So each adjective needs its own phrase.
+So, **each adjective needs its own phrase.**
 
 - The same is true of nouns, verbs, adverbs –
 each needs its own phrase.
@@ -334,7 +369,7 @@ And each AdjP describes *dog*, so they're both siblings of *dog*.
 
 .pull-right[
 
-```{r, out.width="auto", out.height="auto", echo=FALSE}
+```{r, out.width="65%", out.height="auto", echo=FALSE}
 knitr::include_graphics("./images/big_gray_dog.png")
 ```
 
@@ -352,7 +387,7 @@ Most basic AdvP: one adverb (AdvP → Adv)
 ]
 
 .pull-right[
-```{r, out.width="auto", out.height="auto", echo=FALSE}
+```{r, out.width="40%", out.height="auto", echo=FALSE}
 knitr::include_graphics("./images/very_happy.png")
 ```
 
@@ -370,7 +405,7 @@ If you have two adverbs in a row, they will be in nested like this, to show that
 
 .pull-right[
 
-```{r, out.width="auto", out.height="auto", echo=FALSE}
+```{r, out.width="40%", out.height="auto", echo=FALSE}
 knitr::include_graphics("./images/very_quickly.png")
 ```
 ]
@@ -383,27 +418,27 @@ knitr::include_graphics("./images/very_quickly.png")
 
 All PPs consist of a preposition (P) and an NP:
 
-- PP → P NP
+- **PP → P NP**
 
 Other examples of PP (note it's always P + NP):
 
-- *in the park*
+- *<u>in</u> the park*
 
-- *by the tree*
+- *<u>by</u> the tree*
 
-- *with your friends*
+- *<u>with</u> your friends*
 
-- *under the sky*
+- *<u>under</u> the sky*
 
-- *for my mom*
+- *<u>for</u> my mom*
 
-- *at the beach*
+- *<u>at</u> the beach*
 
 ]
 
 .pull-right[
 
-```{r, out.width="auto", out.height="auto", echo=FALSE}
+```{r, out.width="50%", out.height="auto", echo=FALSE}
 knitr::include_graphics("./images/at_the_show.png")
 ```
 ]
@@ -434,7 +469,7 @@ This is an example of **recursion**, an important feature of language.
 
 .pull-right[
 
-```{r, out.width="auto", out.height="auto", echo=FALSE}
+```{r, out.width="120%", out.height="auto", echo=FALSE}
 knitr::include_graphics("./images/long_PP.png")
 ```
 ]
@@ -443,9 +478,9 @@ knitr::include_graphics("./images/long_PP.png")
 
 # Prepositional phrase (PP)
 
-These phrases both contain two PPs, but have different syntactic structures. Why?
+These phrases both contain two PPs, but have different syntactic structures. **Why?**
 
-```{r, out.width="auto", out.height="auto", echo=FALSE}
+```{r, out.width="100%", out.height="auto", echo=FALSE}
 knitr::include_graphics("./images/tolkein_trees.png")
 ```
 
@@ -455,9 +490,10 @@ knitr::include_graphics("./images/tolkein_trees.png")
 
 Recall the **modification rule** – a phrase that modifies a word must be its sibling
 
+
 Remember to follow this rule as you draw syntax trees!
 
-```{r, out.width="auto", out.height="auto", echo=FALSE}
+```{r, out.width="100%", out.height="auto", echo=FALSE}
 knitr::include_graphics("./images/tolkein_constituents.png")
 ```
 
@@ -475,16 +511,70 @@ So far we’ve seen four types of phrase, and a PSR to generate each one:
 
 - **PP → P NP**
 
---
+---
 
-Now we're going to learn two more phrase types so that we can build up to entire sentences:
+class: center, middle
+
+# Practice! (as a class)
+
+### *that tall girl in a long blue dress*
 
 
-- Verb Phrase (VP)
-
-- Tense Phrase (TP), aka Sentence
 
 ---
+
+class: center, middle
+
+# Practice! (in groups)
+
+---
+
+# Practice drawing trees
+
+**Draw tree structures for the following phrases.**
+
+.pull-left[
+
+1. my cat
+
+2. my clingy cat
+
+3. my very clingy cat
+
+4. the very clingy cat in the window
+
+5. that really funny rat in the pink hammock
+
+
+```{r, out.width="75%", out.height="auto", echo=FALSE}
+knitr::include_graphics("./images/gible.jpg")
+```
+
+]
+
+.pull-right[
+
+```{r, out.width="75%", out.height="auto", echo=FALSE}
+knitr::include_graphics("./images/butter.jpg")
+```
+
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+
 
 class: center, middle
 
@@ -496,13 +586,15 @@ class: center, middle
 
 A **verb phrase (VP)** contains a verb and everything that modifies it – generally, everything in a sentence **except** the subject (the entity that performs the action indicated by the verb).
 
+--
+
 - The most basic VP is a single verb:
 
 .pull-left[
 
-- Peter ate
+- *Peter <u>ate</u>.*
 
-- Sonia left
+- *Sonia <u>left</u>.*
 ]
 
 .pull-right[
@@ -518,17 +610,21 @@ VP → V
 
 Besides the verb, VPs also contain any objects of the verb.
 
+--
+
 - **Direct object (DO)** – person or entity affected by the action indicated by the verb. Direct objects are NPs:
 
   - Peter baked **[a cake]**.
   
 --
 
-- Indirect object (IO) – person or entity that receives something or benefits from the action. Indirect objects can be PPs or NPs:
+- <span style="color:blue">Indirect object (IO)</span> – person or entity that receives something or benefits from the action. 
 
-  - Peter baked **[a cake]** [for his mother]
+- Indirect objects can be PPs or NPs:
 
-  - Peter baked [his mother] **[a cake]**
+  - Peter baked **[a cake]** <span style="color:blue">[for his mother]</span>
+
+  - Peter baked <span style="color:blue">[his mother]</span> **[a cake]**
 
 --
 
@@ -541,6 +637,8 @@ To account for objects, let's update our VP rule:
 # Verb phrase - adjuncts
 
 In addition to objects, a VP can contain adjuncts – optional elements that describe the action and therefore modify the verb.
+
+--
 
 - **Adjuncts** may be **PPs** or **AdvPs**:
 
@@ -608,37 +706,121 @@ This general rule for a VP looks messy because they can contain so many things:
 
 - **VP → (AdvP+) V (NP) (NP) (AdvP+) (PP+) (AdvP+)**
 
+--
+
 But just remember a few things:
 
 - A **VP always has a verb head**
 
-- A VP can contain many optional things like NP, PP, and AdvP arguments and adjuncts, BUT:
+--
+
+- A VP can contain many optional things like NP, PP, and AdvP arguments and adjuncts, **BUT:**
+
+--
 
   - VPs do not contain the subject of the verb.
 
+--
+
   - VPs will not directly contain an AdjP (since AdjPs describe nouns, not verbs).
+
+--
 
   - Any NPs or PPs will always go after the verb.
 
+--
+
   - Objects (NP/PP) and adjuncts (PP/AdvP) will always be siblings of the verb.
+
+
+---
+
+class: center, middle
+
+# Practice! (as a class)
+
+### *writing my schedule in my planner with a brown pen*
+
+
+
+
+
+
+
+
+
+
+---
+
+class: center, middle
+
+# Practice! (in groups)
+
+
+---
+
+# Practice (VPs)
+
+**Draw tree structures for the following phrases.**
+
+1. loves rice
+
+2. studies linguistics in ABW 
+
+3. learns about France in school
+
+4. watching my sister in school in Paris
+
+5. ate Korean BBQ with my partner
+
+
+
+
+
+
+
+---
+
+class: center, middle
+
+# Sentences (TPs)
+
+
+
 
 ---
 
 # Tense phrases (TP) - sentences
 
-**Sentences** are also known as **tense phrases** (**TP**, or occasionally S). They consist of:
+**Sentences** are also known as **tense phrases** (**TP**, or occasionally S). 
 
-- NP – a required subject
+--
 
-- (T) – an optional slot called "tense" that can be filled by:
+They consist of:
+
+- **NP** – a required subject
+
+--
+
+- **(T)** – an optional slot called "tense" that can be filled by:
+
+--
 
   - modal verbs (*can, might, should...*)
 
+--
+
   - auxiliary verbs (*is, are, has, will...*)
+
+--
 
   - the infinitive marker *to* as in *to go, to see*
 
+--
+
 - **VP** – a required verb phrase (sometimes called the **predicate**)
+
+--
 
 General PSR for sentences: **TP → NP (T) VP**
 
@@ -648,17 +830,31 @@ General PSR for sentences: **TP → NP (T) VP**
 
 - Write the sentence at the bottom of the page – leave yourself plenty of room
 
+--
+
 - Label the part of speech of each word.
+
+--
 
 - Sentences have a subject NP and predicate VP – try to identify these first, and draw the subject.
 
+--
+
 - Trees should follow PSRs, so try to identify elements that can be part of rules for different phrases.
+
+--
 
 - Every noun, adj, adv, prep has its own corresponding NP, AdjP, AdvP, PP – identify these smaller trees first, then figure out how they connect to the rest of the tree.
 
+--
+
 - VPs can have lots of elements, so figure them out last.
 
+--
+
 - Pay attention to what modifies what – any phrase that modifies a word should be its sibling.
+
+--
 
 - Because of the way English is structured, it can often be easier to start at the end and work backwards.
 
@@ -666,214 +862,68 @@ General PSR for sentences: **TP → NP (T) VP**
 
 class: center, middle
 
-# **Practice!**
+# **Practice!** (as a whole class)
 
 ### *Keng quickly ate a big bowl of hot pho for dinner.*
-
-
-
-
-
 
 
 ---
 
 class: center, middle
 
-# Complex sentences
+# Practice (in groups)
 
 ---
 
-# Simple and complex sentences
+# Practice
 
-.pull-left[
-So far we've been studying **simple sentences:** sentences with one subject NP and one predicate VP.
+**Draw tree structures for the following sentences.**
 
-Now we're going to talk about **complex sentences:** sentences that have another sentence (clause) embedded inside of them.
+1. Rats are very fun pets.
 
-- She said [that **she went to China**].
+2. Quartz often studies in ABW. 
 
-- I bought an umbrella [because **it was raining**].
+3. I will babysit my sister in Paris for Spring Break
 
-- That's the movie [**I saw**].
+  - *(treat Spring Break as one N)*
 
-- The book [that **I read**] was very interesting.
+4. My dad has fluffy sheep.
 
-]
+5. Gible likes hoarding trash under the couch.
 
-.pull-right[
-
-
-```{r, out.width="auto", out.height="auto", echo=FALSE}
-knitr::include_graphics("./images/complex_went_to_china.png")
-```
-]
 
 ---
 
-# Complex sentences 
 
-.pull-left[
 
-We can distinguish two parts of a complex sentence, though the terminology varies widely between textbooks.
 
-- **Dependent clause** (aka subordinate clause, embedded clause, embedded sentence) – the sentence that has been inserted into the larger sentence
 
-  - She said [that **she went to China**].
-  
-- *Main clause* (aka independent clause, main sentence) – the full sentence, technically including the dependent clause, since the dependent clause is inside of the main clause
 
-  - *She said [that she went to China].*
 
-]
 
 
 
-.pull-right[
-```{r, out.width="auto", out.height="auto", echo=FALSE}
-knitr::include_graphics("./images/complex_went_to_china.png")
-```
-]
 
----
 
-# Complementizers 
 
-Dependent clauses are usually linked to main clauses with a special type of word called a **complementizer** or **subordinating conjunction** (relative pronouns are a subtype):
-
-- *that, which, because, if, so, since, which, who, although, where...*
-
-- She said [**that** she went to China].
-
-- I bought an umbrella [**because** it was raining].
-
-- Please tell me [**if** you're going to the store].
-
-Sometimes the complementizer is omitted (often in English, *that* can be variably omitted):
-
-- She said [**(that)** she went to China].
-
-- The book [**(that)** I read] is about dinosaurs.
-
-- Ben thought [**(that)** he was going to be late].
-
----
-
-# Structure of dependent clauses 
-
-.pull-left[
-
-Since dependent clauses are **embedded sentences** with their own subject NP and predicate VP, we will consider them **TP**: TP → NP (T) VP
-
-Dependent clause TPs are then inserted into a larger constituent called the **complementizer phrase** or **CP**: CP → (C) TP
-
-- C for the complementizer, which is optional (we'll include a CP level even if there's no explicit complementizer for structural reasons)
-
-And the CP is then inserted into the **main clause**.
-
-Note that some dependent clauses don't have an explicit subject NP. You can simply omit the subject slot when writing these:
-
-- I know the author [who **Ø wrote this book**].
-
-- He wants [**Ø to go to Machu Picchu**].
-
-]
-
-.pull-right[
-```{r, out.width="auto", out.height="auto", echo=FALSE}
-knitr::include_graphics("./images/dependent_clauses.png")
-```
-]
-
----
-
-# CPs inside VPs
-
-.pull-left[
-
-There are three roles CPs can play in a sentence.
-
-A CP can take the role of an NP, often acting as the object of a verb (sometimes called a noun clause):
-
-- Paula [asked [a question]NP]VP. → Paula [asked [where I went]CP]VP.
-
-A CP can take the role of AdvP, often acting as an adjunct to a verb (sometimes called an adverbial clause):
-
-- I was [running]VP. → I was [running [because I missed the bus]CP]VP.
-
-Let's modify our VP rule to account for these two cases:
-
-- VP → (AdvP+) V (NP) (NP/CP) (AdvP+) (PP+) (AdvP+) (CP+)
-
-]
-
-.pull-right[
-```{r, out.width="auto", out.height="auto", echo=FALSE}
-knitr::include_graphics("./images/CP_in_VP.png")
-```
-]
-
----
-
-# CPs inside NPs
-
-.pull-left[
-
-A CP can act as an AdjP, modifying a noun and going inside an NP (sometimes called an adjectival clause or relative clause):
-
-- [The girl]NP studies linguistics → [The girl [that I met]CP]NP studies linguistics
-
-These can go inside an NP anywhere in the sentence:
-
-- [The book [I read]] is about geology.
-
-- She bought [the book [I read]].
-
-Since these CPs go inside NPs, let's modify our NP rule:
-
-- NP → (D) (AdjP+) N (PP+) (CP+)
-
-]
-
-.pull-right[
-```{r, out.width="auto", out.height="auto", echo=FALSE}
-knitr::include_graphics("./images/CP_in_NP.png")
-```
-]
-
----
-
-# Reminders for drawing complex sentences
-
-If a sentence has two main verbs joined by a complementizer, it's complex.
-
-- Note that this doesn't include sentences with two main verbs joined by a coordinating conjunction like and, or, but: I read a book and I took a walk.
-
-Identify which of these verbs is in the main clause, and which is in the subordinate clause.
-
-- The subordinate clause is the one that starts with a complementizer.
-
-- But be aware that the complementizer that is sometimes omitted.
-
-Draw the tree for the subordinate clause first.
-
-Draw the tree for the main clause without the subordinate clause.
-
-- Then figure out how the two are connected.
-
-- Does the subordinate clause modify a noun, or is it part of the main clause's VP?
-
----
 
 # Key takeaways
 
 - Syntactic structure contributes to the meaning of sentences.
 
+--
+
 - It explains how the words in a sentence relate to each other.
+
+--
 
 - We use phrase structure rules to account for what types of phrases a language allows, what elements are allowed in those phrases, and in what order they occur.
 
+--
+
 - We use syntax trees to visualize sentence structure.
+
+--
 
 - Syntax trees are drawn based on phrase structure rules, so the two are connected.
 
@@ -882,6 +932,27 @@ Draw the tree for the main clause without the subordinate clause.
 
 
 
+
+
+---
+
+# Coming up: **More syntax!**
+
+### Reading 
+
+- read **Chapter 3** from the Carnie textbook, if you haven't already!
+
+### Homework
+
+- **HW3** is due on Sunday
+
+### Reminders
+
+- my office hour is in person and on Zoom, Mondays 2-3pm!
+
+  - in-person in Room 3 in the Linguistics Department basement
+
+  - the Zoom link is on Canvas
 
 
 
