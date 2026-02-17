@@ -4,8 +4,8 @@
     <title>Syntax II</title>
     <meta charset="utf-8" />
     <meta name="author" content="Quartz Colvin (they/them)" />
-    <meta name="date" content="2026-02-16" />
-    <script src="libs/header-attrs-2.30/header-attrs.js"></script>
+    <meta name="date" content="2026-02-17" />
+    <script src="libs/header-attrs-2.29/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/rutgers.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/rutgers-fonts.css" rel="stylesheet" />
   </head>
@@ -26,7 +26,7 @@ class: center, middle, inverse, title-slide
 ### Rutgers University
 ]
 .date[
-### 2026-02-16
+### 2026-02-17
 ]
 
 ---
@@ -41,15 +41,390 @@ class: center, middle
 # Review
 
 
-***summarize however far we got on Tuesday???***
+So far we’ve seen four types of phrase, and a PSR to generate each one:
+
+- **NP → (D) (AdjP+) N (PP+)**
+
+- **AdjP → (AdvP) Adj**
+
+- **AdvP → (AdvP) Adv**
+
+- **PP → P NP**
+
+And these correspond to constituents!
+
+--
+
+**Let's review with an example:**
+
+1. *a weird rat with curly fur*
 
 
 ---
 
 class: center, middle
 
-# [Continue what we didn't get to on Tuesday???]
+# Verb phrases and Tense phrases
 
+---
+
+# Verb phrase (VP)
+
+A **verb phrase (VP)** contains a verb and everything that modifies it – generally, everything in a sentence **except** the subject (the entity that performs the action indicated by the verb).
+
+--
+
+- The most basic VP is a single verb:
+
+.pull-left[
+
+- *Peter &lt;u&gt;ate&lt;/u&gt;.*
+
+- *Sonia &lt;u&gt;left&lt;/u&gt;.*
+]
+
+.pull-right[
+
+VP → V
+
+VP → V
+]
+
+---
+
+# Verb phrase - Objects
+
+Besides the verb, VPs also contain any objects of the verb.
+
+--
+
+- **Direct object (DO)** – person or entity affected by the action indicated by the verb. Direct objects are NPs:
+
+  - Peter baked **[a cake]**.
+  
+--
+
+- &lt;span style="color:blue"&gt;Indirect object (IO)&lt;/span&gt; – person or entity that receives something or benefits from the action. 
+
+- Indirect objects can be PPs or NPs:
+
+  - Peter baked **[a cake]** &lt;span style="color:blue"&gt;[for his mother]&lt;/span&gt;
+
+  - Peter baked &lt;span style="color:blue"&gt;[his mother]&lt;/span&gt; **[a cake]**
+
+--
+
+To account for objects, let's update our VP rule:
+
+- **VP → V (NP) (NP/PP)**
+
+---
+
+# Verb phrase - adjuncts
+
+In addition to objects, a VP can contain adjuncts – optional elements that describe the action and therefore modify the verb.
+
+--
+
+- **Adjuncts** may be **PPs** or **AdvPs**:
+
+.pull-left[
+
+  - The train arrived **[at 3pm]**
+  
+  - The train arrived **[quickly]**
+]
+
+.pull-right[
+
+VP → V **PP**
+
+VP → V **AdvP**
+]
+
+---
+
+# Verb phrase - adjuncts 
+
+.pull-left[
+
+A sentence can have multiple adjuncts:
+
+- The train arrived **[quickly] [at 3:00]** 
+
+And AdvP adjuncts can go in many places in the VP:
+
+- Before the verb: Dave **[quickly]** jumped into his car
+
+- Before a PP: Dave jumped **[quickly]** into his car
+
+- At end of VP: Dave jumped into his car **[quickly]**. 
+
+]
+
+.pull-right[
+
+.
+
+VP → V **AdvP PP**
+
+.
+
+VP → **AdvP** V PP
+
+VP → V **AdvP** PP
+
+VP → V PP **AdvP**
+
+]
+
+--
+
+So we have to revise our rule to allow adjuncts:
+
+- **VP → (AdvP+) V (NP) (NP) (AdvP+) (PP+) (AdvP+)**
+
+---
+
+# General PSR for VPs
+
+This general rule for a VP looks messy because they can contain so many things:
+
+- **VP → (AdvP+) V (NP) (NP) (AdvP+) (PP+) (AdvP+)**
+
+--
+
+But just remember a few things:
+
+- A **VP always has a verb head**
+
+--
+
+- A VP can contain many optional things like NP, PP, and AdvP arguments and adjuncts, **BUT:**
+
+--
+
+  - VPs do not contain the subject of the verb.
+
+--
+
+  - VPs will not directly contain an AdjP (since AdjPs describe nouns, not verbs).
+
+--
+
+  - Any NPs or PPs will always go after the verb.
+
+--
+
+  - Objects (NP/PP) and adjuncts (PP/AdvP) will always be siblings of the verb.
+
+
+---
+
+class: center, middle
+
+# Practice! (as a class)
+
+### *writing my schedule in my planner with a brown pen*
+
+
+
+
+
+
+
+
+
+
+---
+
+class: center, middle
+
+# Practice! (in groups)
+
+
+---
+
+# Practice (VPs)
+
+**Draw tree structures for the following phrases.**
+
+1. loves rice
+
+2. studies linguistics in ABW 
+
+3. learns about France in school
+
+4. watching my sister in school in Paris
+
+5. ate Korean BBQ with my partner
+
+
+
+
+
+
+
+---
+
+class: center, middle
+
+# Sentences (TPs)
+
+
+
+
+---
+
+# Tense phrases (TP) - sentences
+
+**Sentences** are also known as **tense phrases** (**TP**, or occasionally S). 
+
+--
+
+They consist of:
+
+- **NP** – a required subject
+
+--
+
+- **(T)** – an optional slot called "tense" that can be filled by:
+
+--
+
+  - modal verbs (*can, might, should...*)
+
+--
+
+  - auxiliary verbs (*is, are, has, will...*)
+
+--
+
+  - the infinitive marker *to* as in *to go, to see*
+
+--
+
+- **VP** – a required verb phrase (sometimes called the **predicate**)
+
+--
+
+General PSR for sentences: **TP → NP (T) VP**
+
+---
+
+# Reminders for drawing trees
+
+- Write the sentence at the bottom of the page – leave yourself plenty of room
+
+--
+
+- Label the part of speech of each word.
+
+--
+
+- Sentences have a subject NP and predicate VP – try to identify these first, and draw the subject.
+
+--
+
+- Trees should follow PSRs, so try to identify elements that can be part of rules for different phrases.
+
+--
+
+- Every noun, adj, adv, prep has its own corresponding NP, AdjP, AdvP, PP – identify these smaller trees first, then figure out how they connect to the rest of the tree.
+
+--
+
+- VPs can have lots of elements, so figure them out last.
+
+--
+
+- Pay attention to what modifies what – any phrase that modifies a word should be its sibling.
+
+--
+
+- Because of the way English is structured, it can often be easier to start at the end and work backwards.
+
+---
+
+class: center, middle
+
+# **Practice!** (as a whole class)
+
+### *Keng quickly ate a big bowl of hot pho for dinner.*
+
+
+---
+
+class: center, middle
+
+# Practice (in groups)
+
+---
+
+# Practice
+
+**Draw tree structures for the following sentences.**
+
+1. Rats are very fun pets.
+
+2. Quartz often studies in ABW. 
+
+3. I will babysit my sister in Paris for Spring Break
+
+  - *(treat Spring Break as one N)*
+
+4. My dad has fluffy sheep.
+
+5. Gible likes hoarding trash under the couch.
+
+
+---
+
+# PSR Summary
+
+NP → (D) (AdjP+) N (PP+)
+
+AdjP → (AdvP) Adj
+
+AdvP → (AdvP) Adv
+
+PP → P NP
+
+VP → (AdvP+) V (NP) (NP) (AdvP+) (PP+) (AdvP+)
+
+TP → NP (T) VP
+
+---
+
+
+
+
+
+
+
+
+
+
+
+# Key takeaways
+
+- Syntactic structure contributes to the meaning of sentences.
+
+--
+
+- It explains how the words in a sentence relate to each other.
+
+--
+
+- We use phrase structure rules to account for what types of phrases a language allows, what elements are allowed in those phrases, and in what order they occur.
+
+--
+
+- We use syntax trees to visualize sentence structure.
+
+--
+
+- Syntax trees are drawn based on phrase structure rules, so the two are connected.
 
 
 
@@ -86,7 +461,7 @@ Now we're going to talk about **complex sentences:** sentences that have another
 
 .pull-right[
 
-&lt;img src="./images/complex_went_to_china.png" alt="" width="auto" height="auto" /&gt;
+&lt;img src="./images/complex_went_to_china.png" width="70%" height="auto" /&gt;
 ]
 
 ---
@@ -110,7 +485,7 @@ We can distinguish two parts of a complex sentence, though the terminology varie
 
 
 .pull-right[
-&lt;img src="./images/complex_went_to_china.png" alt="" width="auto" height="auto" /&gt;
+&lt;img src="./images/complex_went_to_china.png" width="70%" height="auto" /&gt;
 ]
 
 ---
@@ -158,7 +533,7 @@ Note that some dependent clauses don't have an explicit subject NP. You can simp
 ]
 
 .pull-right[
-&lt;img src="./images/dependent_clauses.png" alt="" width="auto" height="auto" /&gt;
+&lt;img src="./images/dependent_clauses.png" width="60%" height="auto" /&gt;
 ]
 
 ---
@@ -184,7 +559,7 @@ Let's modify our VP rule to account for these two cases:
 ]
 
 .pull-right[
-&lt;img src="./images/CP_in_VP.png" alt="" width="auto" height="auto" /&gt;
+&lt;img src="./images/CP_in_VP.png" width="60%" height="auto" /&gt;
 ]
 
 ---
@@ -210,7 +585,7 @@ Since these CPs go inside NPs, let's modify our NP rule:
 ]
 
 .pull-right[
-&lt;img src="./images/CP_in_NP.png" alt="" width="auto" height="auto" /&gt;
+&lt;img src="./images/CP_in_NP.png" width="70%" height="auto" /&gt;
 ]
 
 
@@ -218,15 +593,15 @@ Since these CPs go inside NPs, let's modify our NP rule:
 
 class: center, middle
 
-# Practice (in groups)
+# Practice (as class)
 
----
+### *I'm happy because the house is clean.*
 
-# Practice
+### *I play Pokemon while I eat lunch.*
 
-***???***
+### *The guy from NJ likes philosophy.*
 
-
+### *I have new dice that my friend sent me.*
 
 
 
@@ -236,19 +611,35 @@ class: center, middle
 
 If a sentence has two main verbs joined by a complementizer, it's complex.
 
+--
+
 - Note that this doesn't include sentences with two main verbs joined by a coordinating conjunction like and, or, but: I read a book and I took a walk.
+
+--
 
 Identify which of these verbs is in the main clause, and which is in the subordinate clause.
 
+--
+
 - The subordinate clause is the one that starts with a complementizer.
+
+--
 
 - But be aware that the complementizer that is sometimes omitted.
 
+--
+
 Draw the tree for the subordinate clause first.
+
+--
 
 Draw the tree for the main clause without the subordinate clause.
 
+--
+
 - Then figure out how the two are connected.
+
+--
 
 - Does the subordinate clause modify a noun, or is it part of the main clause's VP?
 
@@ -256,7 +647,25 @@ Draw the tree for the main clause without the subordinate clause.
 
 ---
 
-# Coming Up!
+# Coming Up! 
+
+### Review &amp; Midterm
+
+- Review session on Tuesday in class! **Which things do y'all want more review/practice with?**
+
+- You are allowed **one notes-sheet** (front and back) for the midterm.
+
+### Homework
+
+- **HW3** is due on Sunday
+
+### Reminders
+
+- my office hour is in person and on Zoom, Mondays 2-3pm!
+
+  - in-person in Room 3 in the Linguistics Department basement
+
+  - the Zoom link is on Canvas
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
