@@ -1,0 +1,668 @@
+---
+title: "**Review Session**"
+subtitle: "**Tuesday**"
+author: "Quartz Colvin (they/them)"
+institute: "Rutgers University"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+
+# Topics to review
+
+.pull-left[
+1. **Morphology**
+
+  a. morpheme types
+  
+  b. types of affixation
+  
+  c. morphological processes
+  
+  d. morphological analysis
+
+2. **Syntax**
+
+  a. constituency tests
+  
+  b. drawing full sentences (TPs)
+
+]
+
+
+
+---
+
+class: center, middle
+
+# Morphology 
+
+## **Morpheme types**
+
+
+---
+
+## Morpheme types
+
+.pull-left[
+1. root
+
+2. affix
+
+3. free morpheme 
+
+4. bound morpheme
+
+5. inflectional morpheme 
+
+6. derivational morpheme
+]
+
+
+
+---
+
+## Morpheme types 
+
+**Root:** the base morpheme that other morphemes attach to
+
+--
+
+**Affix:** any morpheme that attaches to a root
+
+--
+
+**Free morpheme:** can occur on its own as a word
+
+--
+
+**Bound morpheme:** cannot occur on its own as a word
+
+--
+
+**Inflectional:** adds grammatical nuance (plurality or tense in English)
+
+--
+
+- <span style="color:blue">examples (in English).</span> plural *-s*, past tense *-ed*, comparative *-er*, superlative *-est*
+
+--
+
+- <span style="color:green">examples (in Spanish).</span> *com-* 'eat' (root) → *com*-***o*** 'I eat'; *com*-***es*** 'you eat'; *com*-***e*** 's/he eats'... and so on
+
+--
+
+**Derivational:** change the word's meaning *a lot*, and can change the word's *part of speech* 
+
+--
+
+- <span style="color:blue">examples (in English).</span> *violin* → *violin*-***ist***; *agree* → *agree*-***ment***; *simple* → *simpl*-***ify***; *exist* → *exist*-***ence***; *pack* → ***un***-*pack*
+
+--
+
+- <span style="color:green">examples (Spanish).</span> verb → noun
+
+  - *comunicar* -> *comunica*-***ción***
+  
+  - *sentir* -> *senti*-***miento***
+  
+  - *trabajar* -> *trabaja*-***dor***
+
+
+---
+
+class: center, middle
+
+# Morphological terms for words
+
+--
+
+### **Simple/Monomorphemic:** 1 morpheme
+
+--
+
+### **Polymorphemic/complex:** more than 1 morpheme
+
+--
+
+### **Compound:** made of 2+ *roots*
+
+
+
+
+
+---
+
+class: center, middle
+
+# Morphology
+
+## **Types of affixation**
+
+---
+
+## Types of affixation 
+
+.pull-left[
+1. prefixation 
+
+2. suffixation 
+
+3. infixation 
+
+4. circumfixation 
+]
+
+
+---
+
+## Types of affixation 
+
+
+**Prefix:** attaches *before* the root
+
+--
+
+**Suffix:** attaches *after* the root
+
+--
+
+**Infix:** attaches *inside* the root
+
+--
+
+- <span style="color:blue">example (English).</span> Expletive infixation *absolutely* → *abso*-**freakin'**-*lutely*
+
+--
+
+- <span style="color:green">example (Tagalog).</span> ***-in-*** = perfect aspect 
+
+  - *giba* 'worn-out' (adj.) → *gi*-***ni***-*ba* 'ruined' (v.)
+
+--
+
+**Circumfix:** attaches on both sides of the root
+
+- <u>NOTE:</u> check that both parts don't correspond to different meanings, and that they both truly mean 1 thing *together*
+
+--
+
+- <span style="color:blue">example (English).</span> *bold* → **em**-*bold*-**en**
+
+  - *embold
+  
+  - *bolden
+
+--
+
+- <span style="color:green">example (Central Tamazight).</span> 'tent' (fem. noun); feminine nouns are marked with something like ***t-....-t***
+
+  - singular: ***ta***-*xam*-***t*** 
+  
+  - plural: ***ti***-*xam*-***in***
+
+---
+
+class: center, middle
+
+# Morphology
+
+## **Morphological processes**
+
+---
+
+## Morphological processes
+
+.pull-left[
+1. affixation
+
+2. compounding 
+
+3. reduplication 
+
+4. alternation 
+
+5. suppletion 
+
+6. zero derivation 
+
+7. acronyms 
+
+  - includes initialism 
+
+8. blend
+
+9. clipping 
+
+10. reanalysis 
+]
+
+
+
+---
+
+# Morphological processes 
+
+**Affixation:** adding an affix to a word 
+
+--
+
+**Compounding:** combining two roots to make a new word
+
+--
+
+**Reduplication:** repeating all or part of a word to make a new word
+
+--
+
+**Alternation:** changing one or more (small) sounds *within the morpheme*
+
+--
+
+- <span style="color:blue">examples (English).</span> *goose* → *geese*; *ring → rang → rung*; *teeth → teethe* 
+
+--
+
+**Suppletion:** when the new form of the word is phonetically entirely different 
+
+- <u>NOTE:</u> if you're wondering how in the world you got from one word to the other, it's probably suppletion
+
+--
+
+- <span style="color:blue">examples (English).</span> *is → was*; *go → went*
+
+--
+
+**Zero-derivation:** changing the word's part of speech without adding anything 
+
+--
+
+- <span style="color:blue">examples (English).</span> *jump* can be a noun or verb, depending on how it's used in the sentence
+
+---
+
+# Morphological processes
+
+**Acronym:** forming a new word from the initials of other words
+
+- <u>NOTE:</u>if you pronounce each letter as a letter, then it's a sub-type called **initialism**
+
+--
+
+**Blend:** taking parts of words that aren't morphemes and combining them... basically squishing two words together to make a new one 
+
+--
+
+- <span style="color:blue">example (English).</span> *brunch; smog*
+
+--
+
+**Clipping:** making new words by shortening the word; by "clipping" most of the original word to make a new one
+
+--
+
+- <span style="color:blue">example (English).</span> *advertisement* → *ad*
+
+--
+
+**Reanalysis:** when morpheme boundaries are changed and/or reinterpreted over time 
+
+--
+
+- <span style="color:green">Arabic</span> *al-jabr* → <span style="color:blue">English</span> *algebra* 
+
+- <span style="color:green">German</span> *Hamburg-er* → <span style="color:blue">English</span> *ham-burger*
+
+
+
+
+
+
+
+---
+
+class: center, middle
+
+# Morphology
+
+## **Morphological analysis**
+
+---
+
+## Morphological analysis: Chickasaw
+
+The following are some verb forms in [Chickasaw](https://www.chickasaw.tv/videos/language-revitalization-progress) (Muskogean), spoken in south-central Oklahoma. Chickasaw is an endangered language. Currently, there are only about 100 speakers of Chickasaw, most of whom are over 70 years old.
+
+--
+
+.pull-left[
+a. sachaaha "i am tall"
+
+b. chaaha "s/he is tall"
+
+c. chichaaha "you are tall"
+
+d. hoochaaha "they are tall"
+
+e. satikahbi "I am tired"
+
+f. chitikahbitok "you were tired"
+
+g. chichchokwa "you are cold"
+
+h. hopobatok "he was hungry"
+
+i. hoohopobatok "they were hungry"
+
+j. sahopoba "I am hungry"
+
+]
+
+.pull-right[
+1. **What is the root morpheme for the following verbs?**
+
+  - “to be tall”, “to be hungry”
+
+2. **What is the morpheme meaning:**
+
+  - past tense
+  
+  - “I”, “you”, “s/he”
+
+3. **If the Chickasaw root for “to be old” is *sipokni*, how would you say:**
+
+  - “You are old”
+
+  - “He was old”
+  
+  - “They are old”
+]
+
+
+
+
+
+
+
+
+
+---
+
+class: center, middle 
+
+# Syntax 
+
+## **Constituency tests**
+
+---
+
+## Constituency tests 
+
+.pull-left[
+1. replacement/substitution 
+
+2. stand-alone 
+
+3. movement 
+
+4. coordination 
+]
+
+
+---
+
+## Constituency tests - NPs
+
+<u>Base sentence:</u> Everyone loves **[my tabby cat Gible]**.
+
+--
+
+1. replacement/substitution test 
+
+--
+
+  - Everyone loves **[him]**. <span style="color:green">...✓</span>
+
+--
+
+2. stand-alone test
+
+--
+
+  - Who does everyone love? **[my tabby cat Gible]** <span style="color:green">...✓</span>
+
+--
+
+3. movement test
+
+--
+
+  - It's **[my tabby cat Gible]** that everyone loves. <span style="color:green">...✓</span>
+
+--
+
+4. coordination test 
+
+--
+
+  - Everyone loves **[my tabby cat Gible]** and **linguistics**. <span style="color:green">...✓</span>
+
+
+
+
+
+---
+
+## Constituency tests - VPs
+
+<u>Base sentence:</u> My brother and I **[played music]**.
+
+--
+
+1. replacement/substitution test 
+
+--
+
+  - My brother and I **[did that]**. <span style="color:green">...✓</span>
+
+--
+
+2. stand-alone test
+
+--
+
+  - What did you and your brother do? **[Played music]** <span style="color:green">...✓</span>
+
+--
+
+3. movement test
+
+--
+
+  - What my brother and I did was **[played music]**. <span style="color:green">...✓</span>
+
+--
+
+4. coordination test
+
+--
+
+  - My brother and I **[played music]** and **worked**. <span style="color:green">...✓</span>
+
+---
+
+# Constituency tests - PPs
+
+<u>Base sentence:</u> I played clarinet **[in high school]**.
+
+--
+
+1. replacement/substitution test 
+
+--
+
+  - I played clarinet **[in band]**. <span style="color:green">...✓</span>
+
+--
+
+2. stand-alone test 
+
+--
+
+  - When did you play clarinet? **[in high school]** <span style="color:green">...✓</span>
+
+--
+
+3. movement test 
+
+--
+
+  - **[In high school]** I played clarinet. <span style="color:green">...✓</span>
+
+--
+
+4. coordination test 
+
+--
+
+  - I played clarinet **[in high school]** and **[at UMN]**. <span style="color:green">...✓</span>
+
+
+---
+
+# Constituency tests - AdjPs/AdvPs
+
+<u>Base sentence:</u> Butter climbs **[very quickly]**.
+
+--
+
+1. replacement/substitution test 
+
+--
+
+  - Butter climbs **[slowly]**. <span style="color:green">...✓</span>
+
+--
+
+2. stand-alone test 
+
+--
+
+  - How does Butter climb? **[very quickly]** <span style="color:green">...✓</span>
+
+--
+
+3. movement test 
+
+--
+
+  - It was **[very quickly]** that Butter climbed. <span style="color:green">...✓</span>
+
+--
+
+4. coordination test 
+
+--
+
+  - Butter climbs **[very quickly]** and **effortlessly**. <span style="color:green">...✓</span>
+
+
+
+
+
+
+
+
+---
+
+class: center, middle
+
+# Syntax 
+
+## **Drawing sentences**
+
+---
+
+## Drawing sentences 
+
+### **TP → NP (T) VP** 
+
+--
+
+- **NP** – a required subject
+
+--
+
+- **(T)** – an optional slot called "tense" that can be filled by:
+
+--
+
+  - modal verbs (*can, might, should...*)
+
+--
+
+  - auxiliary verbs (*is, are, has, will...*)
+
+--
+
+  - the infinitive marker *to* as in *to go, to see*
+
+--
+
+- **VP** – a required verb phrase (sometimes called the **predicate**)
+
+--
+
+### **Everything EXCEPT THE SUBJECT (and T, if there is one) goes under the VP!!!**
+
+---
+
+# Practice sentences 
+
+1. I will hopefully grade the midterms quickly.
+
+2. My cat loves plastic.
+
+3. The other cat might hate me.
+
+4. My mom impressively broke her four hamstrings.
+
+5. Quartz works on many unrelated languages.
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+# Coming Up! **Semantics!**
+
+### Midterm
+
+- You are allowed **one notes-sheet** (front and back) for the midterm.
+
+### Reminders
+
+- my office hour is in person and on Zoom, Mondays 2-3pm!
+
+  - in-person in Room 3 in the Linguistics Department basement
+
+  - the Zoom link is on Canvas
+

@@ -77,9 +77,11 @@ This is an R Markdown document serving as the directory for links to the slides 
 
 
 #### **Week 06**: Review, Midterm Exam (Feb 24, 27)
-- <span style="color:red"><b>Date</b></span>: <u>February 27, 2026</u> <br>
-- <span style="color:red"><b>Time</b></span>: <u>12:10 PM - 1:30 PM</u> <br>
-- <span style="color:red"><b>Venue</b></span>: <u>Scott Hall, Room 116</u> <br>
+- **Tuesday (Review):** [slides](https://quartz-colvin.github.io/Ling201_Spring2026/midterm_review) <br>
+- **Friday (Midterm):** <br>
+  - <span style="color:red"><b>Date</b></span>: <u>February 27, 2026</u> <br>
+  - <span style="color:red"><b>Time</b></span>: <u>12:10 PM - 1:30 PM</u> <br>
+  - <span style="color:red"><b>Venue</b></span>: <u>Scott Hall, Room 116</u> <br>
 <br>
 
 
