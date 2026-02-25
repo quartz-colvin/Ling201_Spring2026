@@ -86,7 +86,7 @@ This is an R Markdown document serving as the directory for links to the slides 
 
 
 #### **Week 07**: Semantics I (March 3, 6)
-- **Tuesday:** [slides] <br>
+- **Tuesday:** [slides](https://quartz-colvin.github.io/Ling201_Spring2026/semantics1meet1) <br>
 - **Friday:** [slides] <br>
 <br>
 
@@ -94,9 +94,12 @@ This is an R Markdown document serving as the directory for links to the slides 
 #### **Week 08**: Semantics II (March 10, 13)
 - **Tuesday:** [slides] <br>
 - **Friday:** [slides] <br>
-  - <u> **Due Sunday (March 15):**</u> [HW4] <br>
+  - <u> **Due Sunday (March 15?):**</u> [HW4] <br>
 <br>
 
+#### <span style="color:green">***❀ Spring Break! ❀ ***</span> *(March 14-22)*
+
+<br>
 
 #### **Week 09**: Pragmatics (March 24, 27)
 - **Tuesday:** [slides] <br>
