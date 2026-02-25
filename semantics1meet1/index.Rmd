@@ -389,6 +389,12 @@ Once we define a word as a <span style="color:green">set</span> or <span style="
 
 ---
 
+class: center, middle
+
+# Semantic relations
+
+---
+
 # Synonyms
 
 **Synonyms** are words that have the same reference.
