@@ -1,6 +1,6 @@
 ---
 title: "**Semantics II**"
-subtitle: "**Tuesday**"
+subtitle: "**Friday**"
 author: "Quartz Colvin (they/them)"
 institute: "Rutgers University"
 date: "`r Sys.Date()`"
@@ -520,7 +520,7 @@ knitr::include_graphics("./images/you_lived.jpg")
 
 # Coming up!
 
-
+???
 
 
 
