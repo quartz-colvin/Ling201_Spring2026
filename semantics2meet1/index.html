@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="author" content="Quartz Colvin (they/them)" />
     <meta name="date" content="2026-02-27" />
-    <script src="libs/header-attrs-2.30/header-attrs.js"></script>
+    <script src="libs/header-attrs-2.29/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/rutgers.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/rutgers-fonts.css" rel="stylesheet" />
   </head>
@@ -193,7 +193,7 @@ Some important **properties** of sets are:
 
 .pull-left[
 
-&lt;img src="./images/flowers.png" alt="" width="100%" height="100%" /&gt;
+&lt;img src="./images/flowers.png" width="100%" height="100%" /&gt;
 ]
 
 
@@ -307,7 +307,7 @@ In order to compare two sets, we need set relations:
 
 .pull-right[
 
-&lt;img src="./images/animal-dog.png" alt="" width="100%" height="100%" /&gt;
+&lt;img src="./images/animal-dog.png" width="100%" height="100%" /&gt;
 ]
 
 ---
@@ -324,7 +324,7 @@ In order to compare two sets, we need set relations:
 
 - Formally: *A = B* iff for every *x: x ∈ A* iff *x ∈ B*
 
-&lt;img src="./images/birds.png" alt="" width="50%" height="50%" /&gt;
+&lt;img src="./images/birds.png" width="50%" height="50%" /&gt;
 
 ---
 
@@ -338,18 +338,18 @@ In order to compare two sets, we need set relations:
 
   - Formally: *A ⊆ B* iff for every *x:* if *x ∈ A* then *x ∈ B*
 
+.pull-left[
 - If *A* contains anything that's not in *B*, it's not a subset of *B*:
 
   - { a, o, y } ⊈ { a, e, i, o, u }
 
-.pull-left[
 - &lt;u&gt;Note&lt;/u&gt;: If *A* and *B* are identical, *A* is technically still a subset of *B*, because every element in *A* is also in *B*:
 
   - { a, e, i, o, u } ⊆ { a, e, i, o, u }
 ]
 
 .pull-right[
-&lt;img src="./images/vowels.png" alt="" width="70%" height="70%" /&gt;
+&lt;img src="./images/vowels.png" width="70%" height="70%" /&gt;
 ]
 
 
@@ -374,7 +374,7 @@ In natural language, we typically use subsets (⊆) rather than proper subsets (
 ]
 
 .pull-right[
-&lt;img src="./images/vowels.png" alt="" width="70%" height="70%" /&gt;
+&lt;img src="./images/vowels.png" width="70%" height="70%" /&gt;
 ]
 
 ---
@@ -506,27 +506,706 @@ We can do the same with set theory:
 
 # Declarative sentences 
 
-???slide 24 of week 8 slides
+So how can we describe a **sentence** in set theory?
+
+First, we have to talk about what a sentence is.
+
+Declarative sentences are sentences that state some proposition:
+
+- *Snoopy is a dog. Birds are animals.*
+
+- A **proposition** is a statement that can be true or false.
 
 
+Declarative statements contrast with **interrogative** (questions) and **imperative** (commands) sentences, neither of which states a proposition.
+
+- We'll ignore these for now and only focus on declarative sentences.
+
+---
+
+# Declarative sentences
+
+**Declarative sentences** typically state propositions in two steps:
+
+- First, they introduce some **topic** in the subject of the sentence:
+
+  - *&lt;u&gt;Snoopy&lt;/u&gt; is a dog. &lt;u&gt;Birds&lt;/u&gt; are animals.*
+
+- Then, they make some **comment** about that topic in the predicate:
+  
+  - *Snoopy &lt;u&gt;is a dog&lt;/u&gt;. Birds &lt;u&gt;are animals&lt;/u&gt;.*
+
+So to translate into a sentence into set theory, we need to figure out how to:
+
+- Identify a sentence's **topic** and state it in set theory
+
+- Identify a sentence's **comment** and state it in set theory
+
+---
+
+# Compositional semantics: Proper noun subjects
+
+Let's start by examining sentences with a **proper noun** (i.e. **name**) as a subject, and with the structure **Name is NOUN**: 
+
+- *Snoopy is a dog.*
+
+What is the subject (topic) of this sentence? 
+
+What is the predicate (comment) of this sentence? 
+
+What is it saying about the topic?
+
+Is there anything in this sentence that could be represented as a set or element?
+
+---
+
+# Compositional semantics: proper noun subjects
+
+In a sentence with the structure **Name is NOUN** like *Snoopy is a dog*:
+
+- The subject is a proper noun – that is, an **element**, not a set
+
+- The predicate: 
+
+  - Introduces some noun referring to a set: [[dog]] = set of all dogs
+
+  - Makes a claim about the relationship between the subject and this set: Snoopy is a member of the set of all dogs.
+
+- What symbol does set theory use to indicate that an element is a member of a set?
+
+- We can write this sentence in set theory as: [[Snoopy]] ∈ [[dog]]
+
+In general, sentences of the structure **Name is NOUN** can be written as **[[name]] ∈ [[NOUN]]**
+
+---
+
+# Compositional semantics: NAME is ADJ
+
+We can use a similar analysis to talk about sentences with other types of predicates.
+
+Consider the sentence *Snoopy is happy.*
+
+- This sentence has the form **NAME is ADJ**.
+
+- So far we've only been using set theory to define nouns: 
+
+  - [[bird]] = {x | x is a bird}
+
+- But we can use set theory to define adjectives, too:
+
+  - *happy* refers to the set of all happy things in the world, so [[happy]] = {x | x is happy}
+
+- So what does the sentence *Snoopy is happy* do? It mentions an individual *Snoopy* and a set [[happy]], and it makes the claim that *Snoopy* is a member of [[happy]].
+
+- The meaning of *Snoopy is happy* can be written in set theory as [[Snoopy]] ∈ [[happy]]
+
+Sentences of the form **NAME is ADJ** can be encoded in set theory as: **[[name]] ∈ [[ADJ]]**
+
+---
+
+# Compositional semantics: NAME VERBs
+
+Consider the sentence *Snoopy runs.*
+
+- Here the sentence has the form *NAME VERBs* – the predicate is a verb.
+
+- Suppose we define the verb *run* as referring to the set of all things in the world that run:
+
+  - [[run]] = {x | x runs}
+
+- Then we can see that *Snoopy runs* introduces an element *Snoopy*, introduces a set [[run]], and again makes the claim that the element is a member of the set: 
+
+  - [[Snoopy]] ∈ [[run]]
+
+- Sentences of the type **NAME VERBs** can be encoded: 
+
+  - **[[name]] ∈ [[VERB]]**
+
+--
+
+That's three different sentence types (*NAME is NOUN, NAME is ADJ, NAME VERBs*) that can all be encoded in set theory in similar ways – through **set membership**:
+
+- [[name]] ∈ [[NOUN]] 
+
+- [[name]] ∈ [[ADJ]] 
+
+- [[name]] ∈ [[VERB]]
+
+---
+
+# Compositional semantics: common noun subjects
+
+But what if the subject is a **common noun** (a noun that's not a name)? 
+
+- *Cats are animals.*
+
+- Now the subject doesn't refer to an individual, it refers to a set of things: 
+
+  - [[cat]]
+
+- Note that this sentence type *NOUNs are NOUNs* still has a predicate that:
+
+  - introduces another set [[animal]]
+
+  - and makes a claim about the relationship between the subject [[cat]] and [[animal]]
+
+- But we can no longer use membership (x ∈ A), because [[cat]] is a set, not an element.
+
+- What symbol do we use to state that all members of [[cat]] are also members of [[animal]]?
+
+  - **Subset:** [[cat]] **⊆** [[animal]]
+
+Sentences of the type **NOUNs are NOUNs** can be encoded: 
+
+- **[[NOUN]] ⊆ [[NOUN]]**
+
+---
+
+# Compositional semantics: common noun subjects
+
+We can use a similar formulation for sentences like *Cats are fuzzy* and *Cats meow.*
+
+*Cats are fuzzy* has the form **NOUNs are ADJ**
+
+- [[fuzzy]] = set of all fuzzy things = {x | x is fuzzy}
+
+  - *Cats are fuzzy* = [[cat]] ⊆ [[fuzzy]]
+
+--
+
+*Cats meow* has the form **NOUNs VERB**
+
+- [[meow]] = set of all things that meow = {x | x meows}
+
+  - *Cats meow* = [[cat]] ⊆ [[meow]]
+
+---
+
+# Compositional semantics: Subset vs. proper subset
+
+Note that we use **subset (⊆)** rather than **proper subset (⊂)**, because it works even when the sets in the subject and predicate are synonyms.
+
+.pull-left[
+- [[cat]] ⊆ [[meow]] 
+
+- [[cat]] ⊆ [[meow]]
+]
+
+.pull-right[
+
+still true even if nothing else in the universe meows besides cats
+
+still true even if cats are just one of many beings that meow
+
+]
+
+So using subsets gives us more flexibility and helps us deal with ambiguity in language.
+
+---
+
+# Compositional semantics: recap
+
+So according to the **Principle of Semantic Compositionality**, the meaning of sentences derives from both lexical meaning and syntactic structure
+
+We've seen six simple syntactic structures and how their meaning can be described in set theory:
+
+.pull-left[
+- NAME is NOUN
+
+- NAME is ADJ
+
+- NAME VERBs
+
+- NOUNs are NOUNs
+
+- NOUNs are ADJ
+
+- NOUNs VERB
+
+]
+
+.pull-right[
+[[NAME]] ∈ [[NOUN]]
+
+[[NAME]] ∈ [[ADJ]]
+
+[[NAME]] ∈ [[VERB]]
+
+[[NOUN]] ⊆ [[NOUN]]
+
+[[NOUN]] ⊆ [[ADJ]]
+
+[[NOUN]] ⊆ [[VERB]]
+]
+
+In each case, the full meaning depends on the sets/elements as well as the structure.
+
+---
+
+# Compositional semantics: truth values
+
+As we've seen, **declarative sentences** state some **proposition**, which can be encoded in set theory.
+
+But just because you state a proposition, that doesn't mean it's true – you can make a false claim!
+
+- **You can lie**, you can be wrong, or you can say things without knowing if they're true.
+
+--
+
+So when we think of what a sentence means, we need to separate these two concepts:
+
+--
+
+- **What is its proposition?** (and how do we encode that proposition in set theory?)
+
+- **Is the proposition true or false?** (that is, what is its truth value?)
+
+Defining sentences in set theory and determining whether they're true are two separate processes:
+
+.pull-left[
+- *Snoopy is a cat.*
+
+- *Cats bark.*
+
+- *Cats are mammals.*
+]
+
+.pull-center[
+
+[[Snoopy]] ∈ [[cat]] ...FALSE!
+
+[[cat]] ⊆ [[bark]] ...FALSE!
+
+[[cat]] ⊆ [[mammal]] ...TRUE!
+
+]
 
 
+---
+
+class: center, middle
+
+# Set operations
+
+---
+
+# Compositional semantics: NPs
+
+Suppose I wanted to use an NP like *yellow birds.*
+
+- Maybe: *What kind of birds do you like? Yellow birds!*
+
+Notice that by using this NP, I'm not making a claim – I didn't say *birds are yellow* – I'm just trying to refer to all elements that are simultaneously in both [[bird]] and [[yellow]].
+
+To define this in set theory, we need **set operations.**
+
+&lt;img src="./images/yellow-birds.png" width="70%" height="70%" /&gt;
+
+---
+
+# Set operations
+
+**Set operations** are ways of taking existing sets and creating a new set out of them.
+
+- This is analogous to how addition and subtraction take two numbers and make a third number.
+
+There are four set operations: **union, intersection, difference, complement**
+
+&lt;img src="./images/green.png" width="70%" height="70%" /&gt;
+
+---
+
+# Set operations
+
+Let's imagine a universe, *U*. In that universe there are five elements divided into two sets:
+
+- Let A = { x ∈ U | x is an animal } = { rabbit, chicken, frog }
+
+- Let B = { x ∈ U | x is green } = { tree, frog, pepper } 
+
+  - (Notice that *frog* is in both *A* and *B*.)
+
+&lt;img src="./images/green.png" width="70%" height="70%" /&gt;
+
+---
+
+# Set operations: Union
+
+**Union** of *A* and *B* produces a new set, which contains all elements that belong to *A* &lt;u&gt;**or**&lt;/u&gt; *B* (or both).
+
+- *A* ∪ *B* = { rabbit, chicken, frog, tree, pepper }
+
+- Tip: the symbol for union
+(∪) looks like the letter U
 
 
+&lt;img src="./images/green-union.png" width="70%" height="70%" /&gt;
+
+---
+
+# Set operations: Intersection
+
+Intersection of A and B produces a new set that contains all elements that belong to both A and B.
+
+- A ∩ B = { frog }
+
+Intersection is the part that overlaps between two sets in a Venn diagram.
+
+&lt;img src="./images/green-intersection.png" width="70%" height="70%" /&gt;
 
 
+---
+
+# Set operations: Difference
+
+Difference of A and B produces a new set, which contains all elements that belong to A but not B
+
+- A – B = { rabbit, chicken }
+
+&lt;img src="./images/green-difference.png" width="70%" height="70%" /&gt;
+
+---
+
+# Set operations: Complement
+
+Complement of A produces a new set, which contains all elements in the specified universe (U) that
+are not in A
+
+- A′ = { tree, pepper }
+
+&lt;img src="./images/green-complement.png" width="70%" height="70%" /&gt;
 
 
+---
+
+# Set operations: summary
+
+&lt;img src="./images/operations-summary.png" width="100%" height="100%" /&gt;
+
+---
+
+class: center, middle
+
+# Practice
+
+---
+
+# Practice
+
+**Calculate the following:**
+
+.pull-left[
+1. A ∪ B
+
+2. A – B
+
+3. B ∩ C
+
+4. B ∩ D
+
+5. C′
+
+6. (A ∩ B)′
+
+]
+
+.pull-right[
+
+A = {apple, pear, plum}
+
+B = {orange, pear}
+
+C = {plum, apricot, orange, nectarine}
+
+D = {nectarine, apple}
+
+&lt;u&gt;Universe of *fruit*&lt;/u&gt;: apple, pear, plum, orange, apricot, nectarine
+]
+
+---
+
+class: center, middle
+
+# Back to **language**!!
+
+--
+
+## Set operations in natural language
+
+---
+
+# Set operations in natural language
+
+Let's return to our NP *yellow birds*:
+
+- [[yellow birds]] refers to all elements that are in both [[yellow]] and [[bird]]
+
+- That is, we're talking about elements that are simultaneously in two sets: [[yellow]] and [[bird]]
+
+What **set operation** do we use to specify elements that are simultaneously in two sets?
+
+- **Intersection (∩)**: A ∩ B = all elements that are in both A and B at the same time
+
+- [[yellow]] ∩ [[bird]] = all elements that are in both [[yellow]] and [[bird]] = [[yellow bird]]
+
+Generally speaking, any NP of type **ADJ NOUN** can be specified in set theory via intersection:
+
+- **[[ADJ]] ∩ [[NOUN]]**
+
+---
+
+# Set operations in natural language
+
+Notice that we can then insert this NP [[yellow]] ∩ [[bird]] into structures we've already seen
+
+--
+
+| Sentence | Set notation | Template
+|:----------|:--------|:--------|
+| *Tweety is a bird.* | [[Tweety]] ∈ [[bird]] | NAME is NOUN |
+| &lt;div style="padding-right: 30px;"&gt;*Tweety is a yellow bird*&lt;/div&gt; | &lt;div style="padding-right: 30px;"&gt;[[Tweety]] ∈ [[yellow]] ∩ [[bird]]&lt;/div&gt;  | NAME is ADJ NOUN |
+| *Birds are pretty* | [[bird]] ⊆ [[pretty]] | NOUNs are ADJs |
+| *Yellow birds are pretty.* | [[yellow]] ∩ [[bird]] ⊆ [[pretty]] | ADJ NOUNs are ADJs |
+
+--
+
+Note that set operators (∪, ∩, −, ′) take precedence over set relation symbols (∈, ⊆, =) –
+compare this to arithmetic operators (+, –, ×, ÷) and (in)equality symbols (=, &lt;, &gt;) in algebra.
+
+--
+
+Again, this demonstrates the **Principle of Semantic Compositionality** – as we build ever more
+complicated sentences, we need to think about the relationship between the different sets and how our sentence structure affects that relationship.
+
+---
+
+class: center, middle
+
+# Quantifiers
+
+---
+
+# Set theory in semantics so far
+
+We can define words by **reference** – the set of things they refer to.
+
+We can use **set theory** to precisely define the reference of a natural language expression:
+
+- Sets are collections of elements
+
+- **Set relations:** equality/identity, subset, proper subset
+
+  - Useful for describing the relationship between synonyms or hypo/hypernyms and for
+specifying claims that are made in declarative sentences like *NOUN is ADJ.*
+
+- **Set operations:** union, intersection, difference, complement
+
+  - Useful for describing the reference of NPs like *ADJ NOUN.*
+
+Now we're going to turn to **cardinality** and see how we can use it to define quantifiers.
+
+---
+
+# Semantics of Determiners
+
+We previously defined **determiners** as a part of speech that consists of the following subcategories:
+
+- articles – *the, a*
+
+- demonstratives – *this, that, these, those*
+
+- quantifiers – *every, some, many, most, no*
+
+- possessive pronouns – *my, your, her, his, their, our*
+
+- some question words – *which, what*
+
+--
+
+Determiners serve to specify *which member* of a set we're referring to in the world:
+
+- *my dog* – a member of [[dog]] that belongs to me
+
+- *this dog* – a member of [[dog]] that is near me
+
+- *every dog* – the entire set of [[dog]]
+
+- *the dog* – a member of [[dog]] that is relevant to our current conversation
+
+- *a dog* – an unspecified member of [[dog]]
+
+---
+
+# Semantics of quantifiers
+
+**Quantifiers** (including **numerals**) are a specific type of determiner that describes **how many members** of a set we're talking about.
+
+How many members of the set [[cat]] are we talking about when we say the following?
+
+.pull-left[
+- *every cat*
+
+- *some cats*
+
+- *three cats*
+
+- *many cats*
+
+- *most cats*
+
+- *no cats* ☹
+]
+
+--
+
+.pull-right[
+all members
+
+more than zero members
+
+exactly three members
+
+some large number of members
+
+more than half of members
+
+zero members
+
+]
+
+---
+
+# Semantics of Quantifiers
+
+We saw that declarative sentences like NOUNs are NOUNs, NOUNs are ADJ, or NOUN VERBs
+make some claim about the relationship between sets:
+
+- Cats are animals.
+
+.pull-left[
+- &lt;u&gt;Claim&lt;/u&gt;: [[cat]] ⊆ [[animal]] 
+
+]
+
+.pull-right[
+the set of cats is a subset of the set of animals
+]
+
+--
+
+Sentences with quantifiers like **QUANT NOUN VERBs** also make some claim about the relationship between sets – but now it involves some quantity.
+
+- If I say *Four cats are meowing*, how many elements are in both [[cat]] and [[meow]]?
+
+--
+
+- Four!
+
+--
+
+- &lt;U&gt;Claim&lt;/U&gt;: | [[cat]] ∩ [[meow]] | = 4
+
+  - the cardinality of the intersection of [[cat]] and [[meow]] is four
+
+  - In other words, there are exactly four elements that are both in [[cats]] and [[meow]]
 
 
+---
+
+# Semantics of quantifiers
 
 
+Other declarative sentences with quantifiers will make similar claims:
+
+&lt;img src="./images/quant-summary.png" width="100%" height="100%" /&gt;
 
 
+---
 
+class: center, middle
 
+# Summary 
 
+---
 
+# Summary 
+
+Uses of set theory in semantics
+
+We can define words by **reference** – the set of things they refer to – which means that set theory can be a useful way to precisely define the semantic meaning of an expression:
+
+- Sets are collections of elements
+
+- **Set relations:** equality/identity, subset, proper subset
+
+  - Useful for describing the relationship between synonyms or hypo/hypernyms and for specifying claims that are made in declarative sentences like *NOUN is ADJ.*
+
+- **Set operations:** union, intersection, difference, complement
+
+  - Useful for describing the reference of NPs like *ADJ NOUN.*
+
+- **Cardinality:** useful for describing expressions with quantifiers
+
+---
+
+# Limitations of set theory
+
+So set theory is a useful way to be precise about the semantic meaning of language.
+
+But it's not perfect: there are a few things that can't be described in set theory
+
+An example is **non-intersective adjectives**:
+
+- An adjective like *yellow* in *yellow bird* is called **intersective** because [[yellow bird]] can be described as the **intersection** between [[yellow]] and [[bird]].
+
+- What about *biggest tree* or *matching shirts*? Can we describe these through intersection?
+
+--
+
+- No, because we need more information – for example to know which tree is *biggest*, we need to know the size of all other trees we need to compare them.
+
+--
+
+So set theory is useful, but it can't describe all aspects of semantics.
+
+---
+
+# Summary
+
+Semantics is the study of meaning – specifically **literal meaning** – in language
+
+We've focused on a type of semantics that defines meaning in terms of **reference** rather than **sense**
+
+- We've used **set theory** to define, compare, and manipulate the reference of linguistic units
+
+--
+
+We've focused on two levels of semantic meaning:
+
+- **Lexical semantics** – the meaning of words: reference, synonyms, hyper/hyponyms
+
+- **Compositional semantics** – the meaning of sentences = words + structures
+
+.pull-left[
+
+  NOUN is NOUN 
+
+  ADJ NOUN
+
+  QUANT NOUN 
+]
+
+.pull-right[
+[[NOUN]] ⊆ [[NOUN]]
+
+[[ADJ]] ∩ [[NOUN]]
+
+| [[NOUN]] | = [[QUANT]]
+]
+
+--
+
+If you're interested in learning more, consider taking a semantics class!
 
 
 
@@ -539,7 +1218,7 @@ We can do the same with set theory:
 
 # Coming up!
 
-
+???fill-in
 
 
 
