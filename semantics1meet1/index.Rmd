@@ -849,7 +849,9 @@ class: center, middle
 
 ---
 
-# Coming Up! **More Semantics!**
+.pull-left[
+
+# Coming Up!
 
 ### Readings
 
@@ -863,8 +865,18 @@ class: center, middle
 
 - my office hour is in person and on Zoom, Mondays 2-3pm!
 
-  - in-person in Room 3 in the Linguistics Department basement
+  - Room 3 of the Ling Department basement
 
-  - the Zoom link is on Canvas
+]
 
+.pull-right[
 
+### Mid-course survey!
+
+- the link is [here!](https://go.blueja.io/R64LoqvnBEyCnbkBWhC9oA)
+
+```{r, out.height="80%", out.width="80%", echo=FALSE}
+knitr::include_graphics("./images/midcourse-qr-code.png")
+```
+
+]
