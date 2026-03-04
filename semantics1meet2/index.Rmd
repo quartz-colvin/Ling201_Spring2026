@@ -102,15 +102,21 @@ class: middle, center
 - <u>Complementary pairs:</u> items that can't be in both categories 
 
   - *alive* vs. *dead*
-  
+
+--
+
 - <u>Gradable pairs:</u> opposite ends of a scale 
 
   - *young* vs. *old*
-  
+
+--
+
 - <u>Reverses:</u> opposite directions 
 
   - *up* vs. *down*
-  
+
+--
+
 - <u>Converses:</u> same action, different perspective 
 
   - *buy* vs. *sell*
@@ -179,20 +185,25 @@ class: middle, center
 
 For each pair of sentences, does the first sentence **(a)** entail the second sentence **(b)**? 
 
+1-
+
 **a.** Charles III is the King of the United Kingdom.
 
 **b.** Queen Elizabeth II was Charles's mother.
 
+2-
 
 **a.** I am very very very very very tired.
 
 **b.** I am tired.
 
+3-
 
 **a.** Chicken Little believes the sky is falling.
 
 **b.** The sky is falling.
 
+4-
 
 **a.** Gible is a silly tabby cat.
 
@@ -212,20 +223,25 @@ knitr::include_graphics("./images/gible.jpg")
 
 **[Q.]** For each pair of sentences, does the first sentence **(a)** entail the second sentence **(b)**?
 
+1-
+
 **a.** Bob and Linda live above a restaurant on Ocean Avenue.
 
 **b.** Bob lives above a restaurant on Ocean Avenue.
 
+2-
 
 **a.** The kids trick-or-treated on Halloween.
 
 **b.** The kids trick-or-treated in scary costumes on Halloween.
 
+3-
 
 **a.** Jake stopped smoking.
 
 **b.** Jake used to smoke.
 
+4-
 
 **a.** Keng's car still has Wisconsin license plates on it.
 
@@ -241,11 +257,9 @@ knitr::include_graphics("./images/gible.jpg")
 
 1. The spotted lanternfly is an insect that has spread invasively to New Jersey and can cause damage to forests and fruit crops.
 
-
 2. The starship Enterprise explored strange new worlds, sought out new life and new civilizations, and boldly went where no one had gone before.
 
 3. Controversially, DeLa chose to eliminate herself from the competition after winning the lip-sync battle, which allowed Trixie, Kennedy, and Shangela to all stay in the competition.
-
   
 4. Mario defeated Bowser, but then all he found in the dungeon was Toad, who told him that the princess was in another castle.
 
@@ -254,27 +268,53 @@ knitr::include_graphics("./images/gible.jpg")
 
 class: middle, center
 
-# Mutual entailment 
+# <span style="color:blue">Mutual entailment</span>
 
-### **p** entails **q** <u>AND</u> **q** entails **p**.
-
----
-
-# Mutual entailment 
-
-## Examples
-
-**p:** Merlin is immortal.
-
-**q:** Merlin is incapable of dying.
+## ***p*** entails ***q*** <u>AND</u> ***q*** entails ***p***.
 
 --
 
-**p:** He is a bachelor.
+### **p:** Merlin is immortal.
 
-**q:** He is an unmarried man.
+### **q:** Merlin is incapable of dying.
 
+--
 
+### **p:** He is a bachelor.
+
+### **q:** He is an unmarried man.
+
+---
+
+class: center, middle
+
+# <span style="color:green">Let's go over the midterm</span>
+
+## *(<u>Reminder</u>: the final will not cover the material before the midterm)*
+
+---
+
+# Summary
+
+<span style="color:blue"><u>Semantics</u></span>: literal meaning
+
+- <span style="color:green"><u>Lexical semantics</u></span>: conventional and arbitrary
+
+- <span style="color:green"><u>Compositional semantics</u></span>: Meaning of words + Meaning of structure = Meaning of a sentence
+
+--
+
+<span style="color:blue"><u>Pragmatics</u></span>: implied meaning
+
+--
+
+<span style="color:blue"><u>Semantic relations</u></span>: synonym, antonym, hypernym (SUPERSET of...), hyponym (subset of...)
+
+--
+
+<span style="color:blue"><u>Entailment</u></span>: sentence p entails q iff q is true whenever p is true
+
+- <span style="color:green"><u>Example</u></span>: *p*: <u>Quartz is a linguistics student</u> **entails** *q* <u>Quartz is a student</u>
 
 ---
 
@@ -287,7 +327,7 @@ class: middle, center
 
 ### Homework
 
-- I will post **HW4** by March 8, and it will be due <u>March 15</u>... or would y'all rather it be due <u>March 22</u> (first day vs. last day of Spring Break)
+- I will post **HW4** by March 8, and it will be due <u>March 15</u>
 
 ### Reminders
 

@@ -87,7 +87,7 @@ This is an R Markdown document serving as the directory for links to the slides 
 
 #### **Week 07**: Semantics I (March 3, 6)
 - **Tuesday:** [slides](https://quartz-colvin.github.io/Ling201_Spring2026/semantics1meet1) <br>
-- **Friday:** [slides] <br>
+- **Friday:** [slides](https://quartz-colvin.github.io/Ling201_Spring2026/semantics1meet2) <br>
 <br>
 
 
