@@ -126,12 +126,267 @@ class: middle, center
   
 - **null set/empty set:** a set with cardinality = 0 
 
-  - {} = Ø "empty set"
+  - {  } = Ø "empty set"
   
 
 ### Other notational things
 
 - when talking about the  *meaning* of a word, and not its structure, use [[double brackets]]
+
+---
+
+class: center, middle
+
+# Back to **language**!!
+
+--
+
+## Set operations in natural language
+
+---
+
+# Set operations in natural language
+
+Let's return to our NP *yellow birds*
+
+--
+
+- [[yellow birds]] refers to all elements that are in both [[yellow]] and [[bird]]
+
+- That is, we're talking about elements that are simultaneously in two sets: [[yellow]] and [[bird]]
+
+What **set operation** do we use to specify elements that are simultaneously in two sets?
+
+--
+
+- **Intersection (∩)**: A ∩ B = all elements that are in both A and B at the same time
+
+--
+
+- [[yellow]] ∩ [[bird]] = all elements that are in both [[yellow]] and [[bird]] = [[yellow bird]]
+
+--
+
+Generally speaking, any NP of type **ADJ NOUN** can be specified in set theory via intersection:
+
+- **[[ADJ]] ∩ [[NOUN]]**
+
+---
+
+# Set operations in natural language
+
+Notice that we can then insert this NP [[yellow]] ∩ [[bird]] into structures we've already seen
+
+--
+
+| Sentence | Set notation | Template
+|:----------|:--------|:--------|
+| *Tweety is a bird.* | [[Tweety]] ∈ [[bird]] | NAME is NOUN |
+| <div style="padding-right: 30px;">*Tweety is a yellow bird*</div> | <div style="padding-right: 30px;">[[Tweety]] ∈ [[yellow]] ∩ [[bird]]</div>  | NAME is ADJ NOUN |
+| *Birds are pretty* | [[bird]] ⊆ [[pretty]] | NOUNs are ADJs |
+| *Yellow birds are pretty.* | [[yellow]] ∩ [[bird]] ⊆ [[pretty]] | ADJ NOUNs are ADJs |
+
+--
+
+Note that **set operators (∪, ∩, −, ′) take precedence** over set relation symbols (∈, ⊆, =) - compare this to arithmetic operators (+, –, ×, ÷) and (in)equality symbols (=, <, >) in algebra.
+
+--
+
+Again, this demonstrates the **Principle of Semantic Compositionality** – as we build ever more complicated sentences, we need to think about the relationship between the different sets and how our sentence structure affects that relationship.
+
+---
+
+class: center, middle
+
+# Quantifiers
+
+---
+
+# Set theory in semantics so far
+
+We can define words by **reference** – the set of things they refer to.
+
+We can use **set theory** to precisely define the reference of a natural language expression
+
+--
+
+- Sets are collections of elements
+
+--
+
+- **Set relations:** equality/identity, subset, proper subset
+
+  - Useful for describing the relationship between synonyms or hypo/hypernyms and for specifying claims that are made in declarative sentences like *NOUN is ADJ.*
+
+--
+
+- **Set operations:** union, intersection, difference, complement
+
+  - Useful for describing the reference of NPs like *ADJ NOUN.*
+
+--
+
+Now we're going to turn to **cardinality** and see how we can use it to define quantifiers.
+
+---
+
+# Semantics of Determiners
+
+We previously defined **determiners** as a part of speech that consists of the following subcategories:
+
+--
+
+- articles – *the, a*
+
+- demonstratives – *this, that, these, those*
+
+- quantifiers – *every, some, many, most, no*
+
+- possessive pronouns – *my, your, her, his, their, our*
+
+- some question words – *which, what*
+
+--
+
+Determiners serve to specify *which member* of a set we're referring to in the world
+
+--
+
+- *my dog* – a member of [[dog]] that belongs to me
+
+- *this dog* – a member of [[dog]] that is near me
+
+- *every dog* – the entire set of [[dog]]
+
+- *the dog* – a member of [[dog]] that is relevant to our current conversation
+
+- *a dog* – an unspecified member of [[dog]]
+
+---
+
+# Semantics of quantifiers
+
+**Quantifiers** (including **numerals**) are a specific type of determiner that describes **how many members** of a set we're talking about.
+
+How many members of the set [[cat]] are we talking about when we say the following?
+
+.pull-left[
+- *every cat*
+
+- *some cats*
+
+- *three cats*
+
+- *many cats*
+
+- *most cats*
+
+- *no cats* ☹
+]
+
+--
+
+.pull-right[
+all members
+
+more than zero members
+
+exactly three members
+
+some large number of members
+
+more than half of members
+
+zero members
+
+]
+
+---
+
+# Semantics of Quantifiers
+
+We saw that declarative sentences like NOUNs are NOUNs, NOUNs are ADJ, or NOUN VERBs make some claim about the relationship between sets:
+
+--
+
+- *Cats are animals.*
+
+.pull-left[
+- <u>Claim</u>: [[cat]] ⊆ [[animal]] 
+
+]
+
+.pull-right[
+the set of cats is a subset of the set of animals
+]
+
+--
+
+Sentences with quantifiers like **QUANT NOUN VERBs** also make some claim about the relationship between sets – but now it involves some quantity.
+
+- If I say *Four cats are meowing*, how many elements are in both [[cat]] and [[meow]]?
+
+--
+
+- <span style="color:green">Four!</span>
+
+--
+
+- <U>Claim</U>: | [[cat]] ∩ [[meow]] | = 4
+
+--
+
+  - the cardinality of the intersection of [[cat]] and [[meow]] is four
+
+  - In other words, there are exactly four elements that are both in [[cats]] and [[meow]]
+
+
+---
+
+# Semantics of quantifiers
+
+
+Other declarative sentences with quantifiers will make similar claims:
+
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/quant-summary.png")
+```
+
+
+---
+
+class: center, middle
+
+# Summary so far
+
+---
+
+# Summary so far
+
+We can define words by **reference** – the set of things they refer to – which means that set theory can be a useful way to precisely define the semantic meaning of an expression
+
+--
+
+- Sets are collections of elements
+
+- **Set relations:** equality/identity, subset, proper subset
+
+--
+
+  - Useful for describing the relationship between synonyms or hypo/hypernyms and for specifying claims that are made in declarative sentences like *NOUN is ADJ.*
+
+--
+
+- **Set operations:** union, intersection, difference, complement
+
+  - Useful for describing the reference of NPs like *ADJ NOUN.*
+  
+  - note that set operations result in a *new set*
+
+--
+
+- **Cardinality:** useful for describing expressions with quantifiers
+
 
 
 
@@ -186,48 +441,23 @@ class: middle, center
 
 **Define the reference of nouns, adjectives, and verbs in terms of sets**
 
-*Answers are in* ***red***.
-
 
 1. fast 
 
-  - **[[fast]] = {x | x is fast}**
-
 2. scream
-
-  - **[[scream]] = {x | x screams}**
 
 3. baby 
 
-  - **[[baby]] = {x | x is a baby}**
-
 4. write 
-
-  - **[[write]] = {x | x writes}**
-  
----
-
-# Set theory: back to language !
-
-**Define the reference of nouns, adjectives, and verbs in terms of sets**
-
-*Answers are in* ***red***.
 
 5. fluffy 
 
-  - **[[fluffy]] = {x | x is fluffy}**
-
 6. play 
-
-  - **[[play]] = {x | x plays}**
 
 7. loud
 
-  - **[[loud]] = {x | x is loud}**
-
 8. random
 
-  - **[[random]] = {x | x is random}**
 
 ---
 
@@ -331,24 +561,24 @@ class: middle, center
 
 # Set theory: back to language !
 
-**Translate sentences into set theory expressions.** (answers are in **red**)
+**Translate sentences into set theory expressions.** 
 
 
-1. Butter is a fast rat. **[[Butter]] ∈ [[fast]] ∩ [[rat]]**
+1. Butter is a fast rat. 
 
-2. Fable and Gible are young cats. **[[F&B]] ∈ [[young]] ∩ [[cat]]**
+2. Fable and Gible are young cats.
 
-3. Beef and Butter are curly-haired rats. **[[B&B]] ∈ [[curly]] ∩ [[rat]]**
+3. Beef and Butter are curly-haired rats. 
 
-4. Rats are ticklish. **[[rats]] ⊆ [[ticklish]]**
+4. Rats are ticklish. 
 
-5. Linguistics is fun. **[[linguistics]] ∈ [[fun]]**
+5. Linguistics is fun.
 
-6. Keng is not Chinese. **[[Keng]] ∉ [[chinese]]**
+6. Keng is not Chinese. 
 
-7. Fish swim. **[[fish]] ⊆ [[swim]]**
+7. Fish swim. 
 
-8. Big dogs are friendly. **[[dog]] ∩ [[big]] ⊆ [[friendly]]**
+8. Big dogs are friendly.
 
 
 
@@ -402,48 +632,13 @@ knitr::include_graphics("./images/mario_characters.png")
 ```
 ]
 
----
-
-# Practice with sets 
-
-List and predicate notation (answers in **red**)
-
-a. *M*, the set of characters with mustaches
-
-  - List: ***M*** **= {Mario, Luigi, Wario, Waluigi}**
-  
-  - Predicate: ***M*** **= {x | x has a mustache}**
-
-b. *P*, the set of characters who are/wear pink
-
-  - List: ***P*** **= {Peach, Birdo, Toadette}**
-  
-  - Predicate: ***P*** **= {x | x wears/is pink}**
-
----
-
-# Practice with sets 
-
-List and predicate notation (answers in **red**)
-
-c. *C*, the set of characters with crowns
-
-  - List: ***C*** **= {Peach, Daisy, Boo, Piranha}**
-  
-  - Predicate: ***C*** **= {x | x wears a crown}**
-
-d. G, the set of characters who are ghosts
-
-  - List: ***G*** **= {Boo}**
-
-  - Predicate: ***G*** **= {x | x is a ghost}**
 
 
 ---
 
 # Practice with sets 
 
-**True or False? Why?** (answers in **red**)
+**True or False? Why?**
 
 .pull-left[
 a. Mario ∈ *M* 
@@ -463,40 +658,100 @@ knitr::include_graphics("./images/mario_characters.png")
 ```
 ]
 
----
-# Practice with sets 
-
-**True or False?** (answers in **red**)
-
-a. Mario ∈ *M* **True**
-
-b. Peach ∉ *C* **False**
-
-c. | *C* | = 3 
-
-  - **False, since the cardinality of the set we defined is 4**
-
-d. {Daisy, Birdo, Luigi} = {Luigi, Daisy, Birdo} **True**
-
-e. | { x | x has a name that starts with 'W' } | = {Wario, Waluigi}
-] 
-
-  - **False, because this says cardinality of a set is equal to a set of Wario and Waluigi. Cardinality should equal a number.**
-
-
-
 
 ---
 
 # Practice with sets 
 
-Are any of the sets defined in question 1 singletons? Which one(s)? (answer in **red**)
-
-**Yes!** ***G*** **is a singleton set.**
+Are any of the sets defined in question 1 singletons? Which one(s)? 
 
 ```{r, out.height="60%", out.width="60%", echo=FALSE}
 knitr::include_graphics("./images/mario_characters.png")
 ```
+
+---
+
+class: center, middle
+
+# Limitations of set theory
+
+## ... it isn't perfect
+
+
+---
+
+
+# Limitations of set theory
+
+So set theory is a useful way to be precise about the semantic meaning of language.
+
+--
+
+But it's not perfect: there are a few things that can't be described in set theory
+
+An example is **non-intersective adjectives**:
+
+--
+
+- An adjective like *yellow* in *yellow bird* is called **intersective** because [[yellow bird]] can be described as the **intersection** between [[yellow]] and [[bird]].
+
+--
+
+- What about *biggest tree* or *matching shirts*? Can we describe these through intersection?
+
+--
+
+- **No,** because we need more information – for example to know which tree is *biggest*, we need to know the size of all other trees we need to compare them.
+
+--
+
+So set theory is useful, but it can't describe all aspects of semantics.
+
+---
+
+# Summary
+
+Semantics is the study of meaning – specifically **literal meaning** – in language
+
+--
+
+We've focused on a type of semantics that defines meaning in terms of **reference** rather than **sense**
+
+- We've used **set theory** to define, compare, and manipulate the reference of linguistic units
+
+--
+
+We've focused on two levels of semantic meaning:
+
+- **Lexical semantics** – the meaning of words: reference, synonyms, hyper/hyponyms
+
+--
+
+- **Compositional semantics** – the meaning of sentences = words + structures
+
+.pull-left[
+
+  NOUN is NOUN 
+
+  ADJ NOUN
+
+  QUANT NOUN 
+]
+
+.pull-right[
+[[NOUN]] ⊆ [[NOUN]]
+
+[[ADJ]] ∩ [[NOUN]]
+
+| [[NOUN]] | = [[QUANT]]
+]
+
+--
+
+If you're interested in learning more, consider taking a semantics class!
+
+
+*(Or ask me about stuff for fun!)*
 
 
 
@@ -513,14 +768,26 @@ class: middle, center
 knitr::include_graphics("./images/you_lived.jpg")
 ```
 
-## (this is as far as we got in class)
 
 
 ---
 
-# Coming up!
+# Coming Up! **Pragmatics**
 
-???
+### Readings
+
+- Read *Griffin & Cummins, Ch. 8*
+
+### Homework
+
+- **HW4** is due <u>March 15</u>
+
+- HW5 will be posted by March 22 (and will be due March 29)
+
+### Reminders
+
+- I will be available for questions over email during the break
+
 
 
 
