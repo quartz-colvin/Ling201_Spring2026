@@ -1,0 +1,462 @@
+---
+title: "**Pragmatics**"
+subtitle: "**Tuesday**"
+author: "Quartz Colvin (they/them)"
+institute: "Rutgers University"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+
+# Mysterious note...
+
+- Imagine you're walking down the street and you find this note.
+
+- What information does this note provide?
+
+- What information is missing that you would need to know to fully understand the note?
+
+
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/note.png")
+```
+
+---
+
+# Mysterious note
+
+Missing information:
+
+- **Who is "me"?** Who is writing?
+
+- **Who is the implied "you"?** Who are they writing to?
+
+- **Where is "here"?** Where are they when they're writing?
+
+- **When is "tomorrow"?**
+
+  - That is, when are they writing and when's the day after that?
+
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/note.png")
+```
+
+---
+
+# Pragmatics
+
+When we speak, we don't do so in a vacuum.
+
+--
+
+We speak in a particular context:
+
+- In a particular time
+
+
+- In a particular place
+
+- In a particular situation
+
+- With particular people that we have a particular relationship with (or don't)
+
+- Within an ongoing conversation (discourse)
+
+--
+
+**Pragmatics** is the study of **language in context**.
+
+- It studies how context affects the meaning and usage of language.
+
+--
+
+In Pragmatics, we typically talk about **utterances** rather than sentences:
+
+--
+
+- A **sentence** is language used in a vacuum without reference to context – the examples of language we've been studying so far this semester
+
+--
+
+- An **utterance** is language spoken in a particular context, which informs its meaning – which will be important to keep in mind as we study Pragmatics
+
+---
+
+# Pragmatics vs. Semantics
+
+Because context affects meaning, Pragmatics – like Semantics – studies meaning.
+
+But Pragmatics and Semantics study different aspects of meaning.
+
+Recall our example conversation from the other week:
+
+- <u>Person A</u>: Do you want to go out tonight?
+
+- <u>Person B</u>: I have an exam in the morning.
+
+What is person B literally saying?
+
+What is person B implying that they haven't literally said?
+
+
+---
+
+# Pragmatics vs. Semantics
+
+Semantics and Pragmatics both study meaning, but:
+
+- Semantics studies literal meaning in language
+
+  - Meanings that can be defined with truth values
+
+  - Meanings that can be calculated with set theory expressions
+
+  - Literal meaning: *Person B has an exam*
+
+- **Pragmatics** studies **implied meaning** in language:
+
+  - Meanings that rely on **context** for interpretation
+
+  - Implied meaning: *Person B can't or doesn't want to go out*
+
+
+---
+
+# Pragmatics: Speech Acts
+
+Pragmatics studies many aspects of language in context
+
+For example, **speech acts**:
+
+- Most language communicates an idea, asks a question, gives a command...
+
+- A speech act is language that **does something** – where you take an action simply by saying something
+
+<u>Examples</u>:
+
+- Umpire: *Yer out!*
+
+- Officiant: *I now pronounce you married.*
+
+- Game show host: *You are the weakest link!*
+
+
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/bankruptcy.png")
+```
+
+---
+
+# Pragmatics: Politeness
+
+Another aspect of language in context that Pragmatics studies is **politeness strategies.**
+
+Different languages have different politeness strategies:
+
+- Spanish has two words for 'you': familiar *tú* and polite *usted*
+
+--
+
+  - Part of knowing Spanish is knowing when to use which pronoun
+
+  - But this also varies by country: *tú* is more common in Spain, *usted* in Costa Rica
+
+--
+
+- East Asian languages often change which **honorifics**, *lexical items*, and even *verb morphology* is used depending on the social relationship between speaker and listener
+
+  - A Japanese person named *Kentaro Tanaka* might be called *Ken-chan, Tanaka-san, Tanaka-sama, Tanaka-sensei,* etc. depending on his relationship to the speaker
+
+--
+
+- South Asian languages may use a suffix honorific
+
+  - in Telugu, for example, there's a traditional honorific suffix -*garu* that comes after a person's name
+
+--
+
+- African languages may use a separate honorific word to refer to respected people
+
+  - in Swahili, for example, younger speakers may refer to an elder as *mzee*, employers and other authority figures as *mukubwa*
+
+--
+
+- Also, Polynesian languages may use a separate word to refer to respected people in the community
+
+  - in Cook Islands Māori, * mama* is used for both "grandmother" and other respected older women in the culture
+
+--
+
+- Politeness in English is not as obvious, but you still don't say *'Sup!* to your professors!
+
+--
+
+  - in Arkansas they still enforce calling teachers *sir* and *ma'am*
+
+
+---
+
+# Pragmatics: Implied meaning
+
+So Pragmatics studies **language in context**, and there are many aspects of this study:
+
+- Implied meaning, speech acts, politeness strategies...
+
+--
+
+In this class, we're going to focus on **implied meaning** in Pragmatics
+
+--
+
+We'll discuss two different types of implied meaning:
+
+- Today: **Presuppositions**
+
+  - Background information that is taken for granted when saying an utterance
+
+- Friday: **Conversational implicatures**
+
+  - Implied meaning that arises when speakers follow (or ignore) the common rules of conversation
+
+---
+
+class: center, middle
+
+# Presuppositions
+
+---
+
+# The King of England
+
+Let’s talk about presuppositions.
+
+When we say a declarative sentence, we're typically stating some proposition (making some **claim**):
+
+- *The King of England had lunch.*
+
+--
+
+This sentence:
+
+- Mentions a person (the topic): *the King of England*
+
+- Mentions an action (the comment): *had lunch*
+
+- States a proposition involving the person and the action: [[King of England]] ∈ [[had lunch]]
+
+---
+
+# The King of New Jersey
+
+How about this sentence? What claim is it asserting?
+
+- *The King of New Jersey had lunch.*
+
+--
+
+This sentence:
+
+- Still mentions a person: *King of New Jersey*
+
+- Still mentions an action: *had lunch*
+
+- Still states a proposition involving the person and the action: [[King of NJ]] ∈ [[had lunch]]
+
+--
+
+- But the sentence isn't quite right:
+
+  - There is no person known as *King of New Jersey*
+
+  - How can you make sense of the proposition if it involves someone who doesn't exist?
+
+---
+
+# Presuppositions
+
+These sentences introduce a concept called a presupposition.
+
+a. *The King of England had lunch.* 
+
+b. *The King of New Jersey had lunch.*
+
+In order to make sense of them, we have to **assume** the person they refer to **exists**:
+
+That is:
+
+- *The King of England had lunch* **presupposes** that someone exists called *King of England* – not a problem since we know that to be true
+
+- *The King of NJ had lunch* **presupposes** that someone exists called *King of NJ* – this a problem since we know that to be false, and it's what makes this sentence odd
+
+---
+
+# Presuppositions 
+
+A **presupposition** is information that must be **assumed** in order to make sense of an **utterance**.
+
+- To understand the utterance *Clefable is a cat*, we have to assume that someone/something named *Clefable* exists.
+
+- That is, *Clefable is a cat* presupposes the existence of *Clefable*
+
+- And we can't make sense of that utterance without making that assumption
+
+
+???clefable image
+
+---
+
+# Presuppositions (not the same as entailment)
+
+Presuppositions are similar to **entailments**:
+
+- Entailments are propositions that must be true in order for some other proposition to be true
+
+But they're not the same, because entailments rely on **truth values**, and presuppositions are about making sense of an utterance.
+
+- (a) *Apollo is a husky* entails (b) *Apollo is a dog*.
+
+  - (b) must be true in order for (a) to be true.
+
+--
+
+Notice that if I **negate** that sentence: 
+
+- *Apollo is not a husky*
+
+--
+
+  - It no longer entails *Apollo is a dog* – truth values have changed.
+
+  - But, it still presupposes *Apollo exists* – presuppositions don't rely on truth values.
+
+
+???apollo image
+
+---
+
+# Presuppositions
+
+What if I said *Apollo is a husky* and you said *That's wrong!*
+
+What are you denying?
+
+- That Apollo is a husky?
+
+- That Apollo exists?
+
+--
+
+When you refute a utterance, you're challenging its explicit **truth values**.
+
+--
+
+But presuppositions are part of an utterance's implied meaning, so you can't refute them by simply contradicting the utterance.
+
+--
+
+To refute the presupposition, you'd have to directly challenge it:
+
+- *Actually, there is no one named Apollo.*
+
+
+???thats where you're wrong image
+
+---
+
+class: center, middle
+
+# Family of sentences
+
+## Presupposition tests
+
+
+---
+
+# Family of sentences
+
+Because **presuppositions hold under negation and questioning**, this gives us a way to test whether a given idea is a presupposition or part of a sentence's truth value.
+
+--
+
+If we take a declarative sentence and **negate** or **question** it (the *family of sentences*):
+
+--
+
+- Any presuppositions will hold up – we still have to assume them to make sense
+
+- Any propositions (ideas that are part of the sentence's truth value) will not
+
+???table on slide 17
+
+---
+
+class: center, middle
+
+# Common ground
+
+---
+
+# Common ground
+
+Presuppositions interact with a pragmatic concept known as the **common ground**.
+
+--
+
+**Common ground**: information shared by all participants in a conversation. 
+
+<u>Includes</u>:
+
+- Basic info about the current situation – who is talking, where are we, when is it, what's around us, what's happening around us?
+
+- Information being discussed in the conversation.
+
+- Previous experience shared by participants. *Speaker B: Last night was fun!*
+
+- General information about the world. *England has a king.*
+
+- Essentially, all the information *I know and you know and I know that you know* as participants in a conversation.
+
+
+---
+
+# Common ground
+
+We are constantly updating the common ground with new information as we talk. Imagine someone tells
+you a story – as they tell the story, each thing they tell you is added to the common ground.
+
+???slide 19
+
+
+
+
+
+
+
+
+---
+
+# Coming Up! **Pragmatics**
+
+### Readings
+
+- Read *Griffin & Cummins, Ch. 8*
+
+### Homework
+
+- HW5 is due March 29
+
+### Reminders
+
+- I will be available for questions over email during the break
+
+
