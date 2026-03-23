@@ -102,9 +102,9 @@ This is an R Markdown document serving as the directory for links to the slides 
 <br>
 
 #### **Week 09**: Pragmatics (March 24, 27)
-- **Tuesday:** [slides] <br>
+- **Tuesday:** [slides](https://quartz-colvin.github.io/Ling201_Spring2026/pragmatics1meet1) <br>
 - **Friday:** [slides] <br>
-  - <u> **Due Sunday (March 29):**</u> [HW5] <br>
+  - <u> **Due Sunday (March 29):**</u> [HW5](Ling 201 - HW5 - Spring 2026.docx) <br>
 <br>
 
 

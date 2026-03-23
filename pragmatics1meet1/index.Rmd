@@ -104,7 +104,7 @@ In Pragmatics, we typically talk about **utterances** rather than sentences:
 
 Because context affects meaning, Pragmatics – like Semantics – studies meaning.
 
-But Pragmatics and Semantics study different aspects of meaning.
+- But Pragmatics and Semantics study different aspects of meaning.
 
 --
 
@@ -133,11 +133,11 @@ Semantics and Pragmatics both study meaning, but:
 
 --
 
-  - Meanings that can be defined with truth values
+  - Meanings that can be defined with **truth values**
 
-  - Meanings that can be calculated with set theory expressions
+  - Meanings that can be calculated with **set theory expressions**
 
-  - Literal meaning: *Person B has an exam*
+  - Literal meaning (of the example): *Person B has an exam*
 
 --
 
@@ -147,7 +147,7 @@ Semantics and Pragmatics both study meaning, but:
 
   - Meanings that rely on **context** for interpretation
 
-  - Implied meaning: *Person B can't or doesn't want to go out*
+  - Implied meaning (of the example): *Person B can't or doesn't want to go out*
 
 
 ---
@@ -242,7 +242,7 @@ Different languages have different politeness strategies
 
 --
 
-  - But, in Arkansas (and probably other southern rural areas) they still enforce children calling their teachers and other adults *sir* and *ma'am* because its more respectful
+  - But, in Arkansas (and probably other southern rural areas) they still enforce children calling their teachers and other adults *sir* and *ma'am* because it's more respectful
 
 
 ---
@@ -386,7 +386,7 @@ knitr::include_graphics("./images/fable.jpg")
 
 ---
 
-# Presuppositions (do not = entailment)
+# Presuppositions (≠ entailment)
 
 Presuppositions are *similar* to **entailments**
 
@@ -408,9 +408,9 @@ Notice that if I **negate** that sentence:
 
 - *Apollo is not a husky*
 
-  - It no longer entails *Apollo is a dog* – truth values have changed.
+  - It no longer entails *Apollo is a dog* – <span style="color:green">truth values have changed</span>
 
-  - But, it still presupposes *Apollo exists* – presuppositions don't rely on truth values.
+  - But, it still presupposes *Apollo exists* – <span style="color:green">presuppositions don't rely on truth values</span>
 ]
 
 .pull-right[
@@ -722,7 +722,7 @@ We have seen that presuppositions **assume that something is in the common groun
 
 - *The King of England took a nap.*
 
-- Presupposes *England has a King*, it's in our common ground, makes sense ✓
+- Presupposes *England has a King*, it's in our common ground, makes sense <span style="color:green">✓</span>
 
 --
 
@@ -744,11 +744,23 @@ We have two options:
 
 # Presupposition accommodation
 
+.pull-left[
 **Accommodating a presupposition**: assuming that a presupposition is true (or at least pretending it's true) in order to make sense out of the utterance.
 
 - *My sister is going to international school.*
 
 - This presupposes: *I have a sister.*
+]
+
+--
+
+.pull-right[
+
+```{r, out.height="40%", out.width="40%", echo=FALSE}
+knitr::include_graphics("./images/AG.jpeg")
+```
+
+]
 
 --
 
@@ -881,9 +893,5 @@ Sentences vs. **Utterances**
 ### Homework
 
 - HW5 is due March 29
-
-### Reminders
-
-- I will be available for questions over email during the break
 
 
