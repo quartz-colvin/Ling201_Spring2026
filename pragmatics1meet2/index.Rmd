@@ -34,7 +34,7 @@ output:
 
 Today we're adding **Conversational implicatures**!
 
-- These are a type of implied meaning that arises from our understanding of how people behave in conversation
+- These are a type of <span style="color:green">implied meaning that arises from our understanding of how people behave in conversation</span>
 
 ---
 
@@ -42,13 +42,18 @@ class: middle, center
 
 # Grice: "How do conversations work?"
 
+```{r, out.height="60%", out.width="60%", echo=FALSE}
+knitr::include_graphics("./images/grice.jpg")
+```
+
 ---
 
 # Grice: "How do conversations work?"
 
 - Philosopher Paul Grice (1913-1988) studied how people behave when they're having a conversation.
 
-- He noticed that participants in a conversation tend to collaborate and follow certain rules.
+- He noticed that participants in a conversation **tend to collaborate and follow certain rules**
+
 
 --
 
@@ -78,9 +83,7 @@ We tend to behave in similar ways whenever we're collaborating on a common task 
 
 In the same way, when we have a conversation, we tend not to say irrelevant things or give more or less information than is required
 
----
-
-# Cooperative Principle
+--
 
 Grice named this general tendency to cooperate the **Cooperative Principle**
 
@@ -164,15 +167,7 @@ For example:
 
 - **Speaker B:** I have an exam in the morning.
 
----
-
-# Maxims of conversation
-
-For example:
-
-- **Speaker A:** Do you want to go out tonight?
-
-- **Speaker B:** I have an exam in the morning.
+--
 
 Taken *literally,* B appears to be saying something unrelated to the topic A brings up
 
@@ -194,6 +189,8 @@ By not answering A's question, B also appears to provide less information than A
 
 What if we assume B **is** still being cooperative and following Grice's maxims?
 
+--
+
 For this to make sense we have to infer that B intends some additional meaning beyond what has literally been said – something that is both relevant and informative
 
 --
@@ -210,11 +207,14 @@ With this implied meaning, B satisfies the two maxims that seem to have been vio
 
 ---
 
-# Conversational Implicatures
+class: middle, center
 
-This type of implied meaning is called a **Conversational Implicature**!
+# This type of implied meaning is called a **Conversational Implicature**
 
-- ...implied meaning that can be inferred from assuming speakers are following the Cooperative Principle and the maxims of conversation.
+
+--
+
+### **implied meaning that can be inferred from assuming speakers are following the Cooperative Principle and the maxims of conversation**
 
 ---
 
@@ -278,17 +278,15 @@ We just saw that people don't always follow conversational maxims
 
 - when people lie or make claims without having evidence for it, they are **violating** the maxim of quality
 
-People can also **flout** a maxim
+People can also **flout** a maxim: violate in a way that you *expect listeners to notice* 
 
-- **flout a maxim:** violate in a way that you *expect listeners to notice* 
+--
 
   - this is usually done to add sarcastic or comedic effect with what you're saying 
 
 --
 
-For example:
-
-Imagine someone flouted the Maxim of Quality by saying the following when there's a hurricane raging outside:
+For example,Imagine someone flouted the Maxim of Quality by saying the following when there's a hurricane raging outside:
 
 - "Lovely weather we're having!"
 
@@ -494,6 +492,19 @@ class: middle, center
 
 # Practice
 
+
+---
+
+# Practice
+
+
+???model the exercise
+
+
+
+
+
+
 ---
 
 # Practice (identify implicatures)
@@ -524,7 +535,7 @@ Identify the conversational implicatures in the following dialogues. (In other w
 
 class: middle, center
 
-# Is it an implicature?
+# Is it an implicature? Or something else?
 
 ---
 
@@ -549,6 +560,9 @@ What do the following utterances implicate:
 ---
 
 # Cancelling implicatures 
+
+
+***???make clearer*** 
 
 These utterances raise the following implicatures. Can you think of a statement that you could add each of the utterances that would **contradict** the implicature? For example:
 
@@ -631,6 +645,9 @@ knitr::include_graphics("./images/pragmatics.jpeg")
 
 # Cancelling and reinforcing literal meaning
 
+***keep making clearer???***
+
+
 **cancelling** and **reinforcing** are important tests for literal **vs.** implied meaning
 
 
@@ -665,6 +682,9 @@ For each sentence, two additional statements are given – one is part of the se
 --
 
 .pull-left[
+
+
+***model???***
 
 1. I drove home at noon.
   
@@ -727,7 +747,8 @@ following the cooperative principle.
 
 - read the **phonetics chapter** on Canvas 
 
-### Homework 
+### Homework
 
-***???fill in info***
+- HW5 is due March 29
+
 
