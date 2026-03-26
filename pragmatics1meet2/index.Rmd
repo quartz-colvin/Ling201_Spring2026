@@ -42,7 +42,7 @@ class: middle, center
 
 # Grice: "How do conversations work?"
 
-```{r, out.height="60%", out.width="60%", echo=FALSE}
+```{r, out.height="40%", out.width="40%", echo=FALSE}
 knitr::include_graphics("./images/grice.jpg")
 ```
 
@@ -75,9 +75,9 @@ We tend to behave in similar ways whenever we're collaborating on a common task 
 
 - Imagine Keng is baking a cake with his mom:
 
-  - When she tells him the next step is to stir the batter, he's probably not going to start doing jumping jacks instead. 
+  - When she tells him *"the next step is to stir the batter"*, he's probably not going to start doing jumping jacks instead. 
 
-  - When she asks him to hand her two eggs, he's probably not going to hand her twenty, or just one.
+  - When she asks him to *"hand her two eggs"*, he's probably not going to hand her twenty, or just one.
 
 --
 
@@ -89,7 +89,9 @@ Grice named this general tendency to cooperate the **Cooperative Principle**
 
 - *"Make your contribution such as is required, at the stage at which it occurs, by the accepted purpose or direction of the talk exchange in which you are engaged."*
 
-  - ...participants in a conversation tend to say what's appropriate for the situation and goals of the conversation
+--
+
+  - participants in a conversation tend to say what's appropriate for the common situation and goals of the conversation
 
 ---
 
@@ -113,7 +115,7 @@ The Cooperative Principle was then broken up into four Maxims of Conversation
 
 
 
-...even though they sound like commands, they're supposed to *describe* how people *typically* behave in conversation
+...even though they sound like commands, they're supposed to <span style="color:green">*describe*</span> how people *typically* behave in conversation
 
 ---
 
@@ -155,13 +157,13 @@ class: middle, center
 
 # Maxims of conversation
 
-In conversation, we generally assume participants are following the Cooperative Principle with these four conversational maxims.
-
-This helps us make sense of people's utterances, especially when their literal words appear to be breaking the maxims.
+In conversation, <span style="color:green">we generally assume participants are following the Cooperative Principle</span> with these four conversational maxims.
 
 --
 
-For example:
+This helps us make sense of people's utterances, especially when their literal words <span style="color:green">*appear*</span> to be breaking the maxims.
+
+--
 
 - **Speaker A:** Do you want to go out tonight?
 
@@ -173,15 +175,19 @@ Taken *literally,* B appears to be saying something unrelated to the topic A bri
 
 --
 
-- B violated the **Maxim of Relevance**?
+- Did B violate the **Maxim of Relevance**?
 
 --
 
-By not answering A's question, B also appears to provide less information than A has asked
+By not answering A's question, B also appears to provide *less information* than A has asked
 
 --
 
-- B violated the **Maxim of Quantity**?
+- Did B violate the **Maxim of Quantity**?
+
+
+
+
 
 ---
 
@@ -191,13 +197,15 @@ What if we assume B **is** still being cooperative and following Grice's maxims?
 
 --
 
-For this to make sense we have to infer that B intends some additional meaning beyond what has literally been said – something that is both relevant and informative
+For this to make sense <span style="color:green">we have to infer that B intends some additional meaning beyond what has literally been said</span> – something that is both relevant and informative 
+
+- **this unsaid information is a conversational implicature!**
 
 --
 
 - *"I can't go out,* ***because I have an exam*** *" :(*
 
-With this implied meaning, B satisfies the two maxims that seem to have been violated:
+With this <span style="color:green">implied meaning</span> (the <span style="color:green">conversational implicature</span>), B satisfies the two maxims that *seem* to have been violated by the literal utterance:
 
 --
 
@@ -216,6 +224,8 @@ class: middle, center
 
 ### **implied meaning that can be inferred from assuming speakers are following the Cooperative Principle and the maxims of conversation**
 
+
+
 ---
 
 class: middle, center 
@@ -232,35 +242,40 @@ class: middle, center
 
 --
 
-- Generally, when people talk, they don't lie to each other the whole time... because conversation would never work if they did!
+  - **Note:** "adequate evidence" depends on the situation. 
+  
+  - *A doctor would be held to a higher standard of evidence than a random person when discussing disease outcomes*
+
 
 --
 
-  - **Note:** "adequate evidence" depends on the situation. 
+- Generally, when people talk, they don't lie to each other the whole time... because conversation would never work if they did!
 
-- *A doctor would be held to a higher standard of evidence than a random person when discussing disease outcomes*
 
----
 
-# Maxim of Quality
+--
 
-So when someone tells us something, we generally infer that the information is true and reliable.
+So when someone tells us something, we generally <span style="color:green">infer that the information is true and reliable</span>.
+
+--
 
 - **Sandy:** We need someone to make some sort of cake for the picnic
 
 - **Tom:** I can make my family's favorite chocolate cake
 
-Because we assume Tom is following the Maxim of Quality, it causes the following implicatures:
+--
+
+Because we <span style="color:green">assume</span> Tom is following the Maxim of Quality, <span style="color:green">it causes the following implicatures</span>:
 
 --
 
-- Tom is being truthful: he actually knows how to make the cake.
+- <u>Tom is being truthful</u>: he actually knows how to make the cake.
 
-- Tom has evidence: he has succeeded in making the cake in the past.
+- <u>Tom has evidence</u>: he has succeeded in making the cake in the past.
+
+--
 
 Were any of these things literally said? 
-
---
 
 - **No!** They're just implicatures!
 
@@ -276,21 +291,23 @@ class: middle, center
 
 We just saw that people don't always follow conversational maxims
 
-- when people lie or make claims without having evidence for it, they are **violating** the maxim of quality
+--
 
-People can also **flout** a maxim: violate in a way that you *expect listeners to notice* 
+- when people <span style="color:green">lie or make claims without having evidence</span> for it, they are **violating** the maxim of quality
 
 --
+
+People can also **flout** a maxim: <span style="color:green">violate on purpose in a way that you *expect listeners to notice*</span>
 
   - this is usually done to add sarcastic or comedic effect with what you're saying 
 
 --
 
-For example,Imagine someone flouted the Maxim of Quality by saying the following when there's a hurricane raging outside:
+For example, imagine someone flouted the Maxim of Quality by saying the following when there's a hurricane raging outside:
 
-- "Lovely weather we're having!"
+- *"Lovely weather we're having!"*
 
-What are they implicating?
+  - **[Q.]** What are they implicating?
 
 ---
 
@@ -306,20 +323,18 @@ class: middle, center
 
 - **Do not make your contribution more informative than is required**
 
-- We tend to assume people have given us the appropriate amount of information 
+  - We tend to assume people have given us the appropriate amount of information 
 
 --
 
-
+.pull-left[
 **Enrico:** What languages do you speak?
 
 **Maria:** I speak English, Spanish, and Mandarin.
 
-
-.pull-left[
 This utterance would still be literally true if Maria could also speak Arabic, but it'd sound weird 
 
-- Why is that?
+- **[Q.]** Why is that?
 
 ]
 
@@ -340,9 +355,7 @@ Some examples...
 
 - **Son:** I've finished my history homework.
 
---
-
-What is the son implicating?
+**[Q.]** What is the son implicating?
 
 --
 
@@ -353,9 +366,9 @@ What is the son implicating?
 - **Ed:** I work.
 
 
-Why is Ed's response awkward? 
+**[Q.]** Why is Ed's response awkward? 
 
-What might Ed be implicating by flouting the Maxim of Quantity?
+**[Q.]** What might Ed be implicating by flouting the Maxim of Quantity?
 ]
 
 .pull-right[
@@ -379,7 +392,7 @@ class: middle, center
 
 We generally assume that people will say things relevant to the current topic of conversation.
 
-Note that we can change the topic without violating this maxim, as long as we signal that to our listeners:
+Note that we *can* change the topic without violating this maxim, as long as we *signal that to our listeners:*
 
 - **A:** How was the movie? 
 
@@ -387,12 +400,9 @@ Note that we can change the topic without violating this maxim, as long as we si
 
 --
 
-B is not being relevant, but they've signaled their desire to change the topic with "actually"
+B is not being relevant, but they've signaled their desire to change the topic with *"actually"*
 
-
----
-
-# Maxim of Relevance 
+--
 
 As we saw earlier, assuming that people are being relevant helps us make sense of people's utterances.
 
@@ -400,32 +410,26 @@ As we saw earlier, assuming that people are being relevant helps us make sense o
 
 - **Sam:** She goes to Philadelphia every weekend.
 
---
-
-Assuming Sam is being relevant, what are they implicating?
+  - **[Q.]** Assuming Sam is being relevant, what are they implicating?
 
 ---
 
 # Maxim of Relevance
 
-Another example...
-
---
-
 Suppose Mike asks a professor for a letter of recommendation to grad school in Biochemistry.
 
-In academics, there's an expectation that letters of recommendation will be long and detailed, with many examples of why the person is a good candidate and a lot of direct praise.
+In academics, there's an expectation that letters of recommendation will be *long and detailed*, with many examples of *why the person is a good candidate* and a lot of direct praise.
 
 - Mike's professor writes **"Mike has good handwriting and dresses neatly."**
 
 --
 
-Is this relevant to a grad school application? What is the professor implicating?
+**[Q.]** Is this relevant to a grad school application? What is the professor implicating?
 
 --
 
 
-- This shows that we often rely on implied meanings like implicatures because it would be rude or inappropriate to say everything literally
+- This shows that we often rely on implied meanings like implicatures because <span style="color:green">it would be rude or inappropriate to say everything literally</span>
 
 ---
 
@@ -466,25 +470,21 @@ knitr::include_graphics("./images/nothing.jpg")
 
 # Maxim of Manner
 
-**Compare...**
+**[Q.]** These two sentences say *literally* the same thing. But assuming the speaker is being orderly, what does each sentence implicate about the relationship between the medication and the allergies?
 
-- Rebecca took the medication and had an allergic reaction.
+- *"Rebecca took the medication and had an allergic reaction."*
 
-- Rebecca had an allergic reaction and took the medication.
-
---
-
-These two sentences say *literally* the same thing. But assuming the speaker is being orderly, what does each sentence implicate about the relationship between the medication and the allergies?
+- *"Rebecca had an allergic reaction and took the medication."*
 
 --
 
-**"Be brief"** assumes that speakers won't be too wordy. Consider the following:
+**"Be brief"** assumes that speakers won't be too wordy.
 
-- Miss Singer produced a series of sounds corresponding closely to the score of an aria from Rigoletto.
+- *"Miss Singer produced a series of sounds corresponding closely to the score of an aria from Rigoletto."*
 
 --
 
-Why is the critic being so wordy? Why didn't they simply say Miss Singer sang beautifully? What are they implicating?
+**[Q.]** Why is the critic being so wordy? Why didn't they simply say *"Miss Singer sang beautifully"*? What are they implicating?
 
 ---
 
@@ -495,15 +495,31 @@ class: middle, center
 
 ---
 
-# Practice
+# Practice: an example first!
+
+Identify the conversational implicatures in the following dialogues. (In other words, what is Keng really saying, or why is he saying it the way he does?) Identify the maxims that lead to each implicature.
+
+.pull-left[
+1. **Quartz:** Did you clean the kitchen?
+
+  **Keng:** I made Gible a hat!
+
+<u>Implicatures</u>: 
+  
+  - ...*instead of cleaning the kitchen* 
+  
+    - Because we assume Keng is following the <span style="color:green">Maxim of Relevance</span>
 
 
-???model the exercise
+]
 
+.pull-right[
 
+```{r, out.height="60%", out.width="60%", echo=FALSE}
+knitr::include_graphics("./images/hardly-working.jpg")
+```
 
-
-
+]
 
 ---
 
@@ -537,17 +553,21 @@ class: middle, center
 
 # Is it an implicature? Or something else?
 
+--
+
+## We can test this!
+
 ---
 
 # Cancelling and reinforcing implicatures 
 
-One test for implicatures is that they can be cancelled and reinforced, but literal meaning cannot.
+**Implicatures can be cancelled** and **reinforced**, but literal meaning cannot.
 
 --
 
-What do the following utterances implicate:
+What do the following utterances implicate? (What is unsaid?):
 
-1. **A:** What languages does Anna
+1. **A:** What languages does Anna speak?
   
   **B:** Anna speaks English, Korean, and Farsi.
 
@@ -561,22 +581,21 @@ What do the following utterances implicate:
 
 # Cancelling implicatures 
 
-
-***???make clearer*** 
-
-These utterances raise the following implicatures. Can you think of a statement that you could add each of the utterances that would **contradict** the implicature? For example:
+Can you think of a statement **that you could add** to each of the utterances that would **contradict** the unsaid implicatures?
 
 --
 
-*Anna speaks English, Korean, and Farsi.* ***In fact, she also speaks Greek.***
+For example: *"Anna speaks English, Korean, and Farsi."* 
+
+- <u>Implicature</u>: <span style="color:green">*and she doesn't speak any other languages.*</span>
+
+- <u>Cancellation</u>: <span style="color:red">*In fact, she also speaks Greek.*</span>
 
 --
 
-1. **A:** What languages does Anna speak?
-  
-  **B:** Anna speaks English, Korean, and Farsi.
+For these, state the implicature and then state the cancellation statement that contradicts the implicature.
 
-2. Ian ate a cake and was happy.
+1. Ian ate a cake and was happy.
 
 1. **A:** Does Sue have any siblings? 
 
@@ -584,13 +603,11 @@ These utterances raise the following implicatures. Can you think of a statement 
 
 ---
 
-# Cancelling implicatures 
+# Cancelling implicatures (walk-through)
 
-Implicatures can be cancelled or defeated: you can add extra information to the statement that contradicts the implicature and makes it go away.
+Since implicatures can be cancelled, you can add extra information to the statement that contradicts the implicature and makes it go away.
 
 --
-
-For example... 
 
 - Anna speaks English, Korean and Farsi. **In fact, she also speaks Greek.**
 
@@ -611,15 +628,11 @@ For example...
 
 # Reinforcing implicatures
 
-These utterances raise the following implicatures. Now can you think of a statement that you could add each of the utterances that would support the implicature? 
+Can you think of a statement that you could <span style="color:green">add to each of the utterances that would support the implicature</span>? 
 
-For example, *"Anna speaks English, Korean, and Farsi. And she doesn't speak any others."*
+For example, *"Anna speaks English, Korean, and Farsi."* <span style="color:green">And she doesn't speak any others."*</span>
 
-1. **A:** What languages does Anna speak? 
-
-  **B:** Anna speaks English, Korean and Farsi
-
-2. Ian ate a cake and was happy
+1. Ian ate a cake and was happy
 
 3. **A:** Does Sue have any siblings? 
 
@@ -630,7 +643,9 @@ For example, *"Anna speaks English, Korean, and Farsi. And she doesn't speak any
 # Canceling and reinforcing literal meaning 
 
 .pull-left[
-Canceling and reinforcing are important **tests** for literal **vs.** implied meaning, because you can generally cancel and reinforce implicatures, but **not** literal meaning.
+Canceling and reinforcing are important **tests** for literal **vs.** implied meaning
+
+- you can generally cancel and reinforce implicatures, but **not** literal meaning.
 
 If you try to cancel or reinforce **literal meaning**, you'll end up with a statement that's either **contradictory** or **repetitive**!
 ]
@@ -645,27 +660,28 @@ knitr::include_graphics("./images/pragmatics.jpeg")
 
 # Cancelling and reinforcing literal meaning
 
-***keep making clearer???***
+**cancelling** and **reinforcing** are important tests for literal vs. implied meaning, since literal meaning *cannot* be cancelled or reinforced. 
 
+--
 
-**cancelling** and **reinforcing** are important tests for literal **vs.** implied meaning
+- if cancellation causes a contradiction with the literal sentence, then it is not an implicature
 
+- if reinforcement causes redundancy when added to the literal sentence, then it is not an implicature
 
-- **literal meaning** *cannot* be cancelled or reinforced
+--
 
-- but **implicatures** can be
+Example:
 
-***"Merlin speaks English, Kazakh and Mandarin" ***
+<span style="color:green"><b>*"Merlin speaks English, Kazakh and Mandarin"*</b></span>
 
-- ...*"but he does not speak Kazakh"*
+- <u>Cancellation</u>:...*"but he does not speak Kazakh"*
 
-  **cancelling = contradiction**
+  **cancelling = contradiction**, therefore, it is *not* an implicature
   
-- ...*"and he speaks Kazakh"*
+- <u>Reinforcement</u>:...*"and he speaks Kazakh"*
 
-  **reinforcing = redundancy**
+  **reinforcing = redundancy**, therefore, it is *not* an implicature
   
-
 
 ---
 
@@ -675,16 +691,50 @@ class: middle, center
 
 ---
 
-# Practice
+# Practice: an example first!
 
-For each sentence, two additional statements are given – one is part of the sentence's literal meaning, one is an implicature. Try to reinforce/cancel each statement to test whether it is literal or an implicature.
+For each sentence, two additional statements are given (**A,B**) – one is part of the sentence's literal meaning, *one is an implicature.* Try to reinforce/cancel each statement to test whether it is literal or an implicature.
 
 --
 
 .pull-left[
 
+<b>*"Keng did the dishes and fed the cats.</b>*"
 
-***model???***
+- **A:** Keng fed the cats.
+  
+  - <u>Cancellation</u>: Keng didn't feed the cats. <span style="color:red">contradiction!</span>
+    
+  - <u>Reinforcement</u>: and he fed the cats. <span style="color:red">redundant!</span>
+  
+  - Therefore, it's **literal meaning!**
+  
+- **B:** Keng didn't do laundry.
+  
+  - <u>Cancellation</u>: but Keng didn't do laundry <span style="color:green">no contradiction!</span>
+    
+  - <u>Reinforcement</u>: but didn't do any other chores <span style="color:green">no redundancy!</span>
+  
+  - Therefore, it's <span style="color:green"><b>implied meaning!</b></span>
+]
+
+
+
+.pull-right[
+```{r, out.height="90%", out.width="90%", echo=FALSE}
+knitr::include_graphics("./images/milk.jpeg")
+```
+]
+
+
+
+---
+
+# Practice 
+
+For each sentence, two additional statements are given (**A,B**) – one is part of the sentence's literal meaning, *one is an implicature.*
+
+Try to reinforce/cancel each statement to test whether it is literal or an implicature.
 
 1. I drove home at noon.
   
@@ -697,14 +747,6 @@ For each sentence, two additional statements are given – one is part of the se
   - **A:** I called at least 5 times.
   
   - **B:** I was using a phone.
-]
-
-
-.pull-right[
-```{r, out.height="90%", out.width="90%", echo=FALSE}
-knitr::include_graphics("./images/milk.jpeg")
-```
-]
 
 ---
 
