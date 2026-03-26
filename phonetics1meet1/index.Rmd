@@ -23,6 +23,8 @@ output:
 We started the semester talking about words and their parts, and since then we've been moving to
 larger and larger elements of language:
 
+--
+
 - Morphology – study of the structure of words (words)
 
 - Syntax – study of the structure of sentences (sentences)
@@ -30,6 +32,8 @@ larger and larger elements of language:
 - Semantics – study of the literal meaning language (sentences + meaning)
 
 - Pragmatics – study of the implied/contextual meaning of language (discourse + meaning)
+
+--
 
 Now we're going to jump back and look at the smallest element of language: sounds
 
@@ -47,7 +51,9 @@ class: center, middle
 
 We traditionally divide the study of the sounds of language into two fields:
 
-- Phonetics – study of speech sounds as a physical phenomenon
+--
+
+- **Phonetics:** study of speech sounds as a physical phenomenon
 
   - How do we use our vocal tract to produce sound?
 
@@ -55,12 +61,13 @@ We traditionally divide the study of the sounds of language into two fields:
 
   - How do we use our auditory system to perceive sound?
 
-- Phonology – study of how languages organize speech sounds into a system
+--
+
+- **Phonology:** study of how languages organize speech sounds into a system
 
   - How do we organize sounds into words?
 
-  - What pairs of sounds contrast in language, such that replacing one with another will
-create a new word?
+  - What pairs of sounds contrast in language, such that replacing one with another will create a new word?
 
   - How do sounds change in certain contexts and over time?
 
@@ -71,7 +78,6 @@ create a new word?
 
 | Speaker (articulation) | Air (acoustics) | Listener (Perception) |
 |:--------|:--------|:--------|
-| art??? | art??? | ???art |
 | - has idea | -sound waves travel through air | - Uses auditory system to hear sounds: perception |
 | - encodes idea in sounds, words, sentence structure | - acoustics is the study of physical properties of sound waves | - decodes sounds into words, sentence structure |
 | - articulation: uses vocal tract to produce sounds | | - forms idea
@@ -96,13 +102,16 @@ Steps in articulation:
 ]
 
 .pull-right[
-???vocal-tract
+```{r, out.height="90%", out.width="90%", echo=FALSE}
+knitr::include_graphics("./images/vocal-tract.png")
+```
 ]
 
 ---
 
 # Acoustics: What is sound?
 
+.pull-left[
 **Sound** is essentially a **vibration** in the air – a disturbance of **air pressure** that we can detect with our ears.
 
 Air consists of molecules. As we speak:
@@ -114,14 +123,20 @@ Air consists of molecules. As we speak:
 - So we have waves of air pressure changes that spread outward from speaker at ~700 mph in all directions.
 
 - Note that it’s the **waves** that travel from speaker to listener. Individual air molecules vibrate in place, but do not travel.
+]
 
 
-???water-ripples
+.pull-right[
+```{r, out.height="80%", out.width="80%", echo=FALSE}
+knitr::include_graphics("./images/water.jpg")
+```
+]
 
 ---
 
 # Perception: How do we hear sounds?
 
+.pull-left[
 Sound waves are channeled by the outer ear through the ear canal to the **eardrum**, causing it to vibrate.
 
 These vibrations are transmitted by the ossicles and tympanic cavity to the **inner ear**.
@@ -133,8 +148,13 @@ In the inner ear, vibrations pass through the fluid into the spiral-shaped **coc
 The hairs connect to **nerves**, which send neural impulses to the **brain**, where sounds are decoded into language.
 
 **Perception** therefore involves **both ear and brain.**
+]
 
-???ear
+.pull-right[
+```{r, out.height="90%", out.width="90%", echo=FALSE}
+knitr::include_graphics("./images/ear.png")
+```
+]
 
 ---
 
@@ -142,12 +162,20 @@ The hairs connect to **nerves**, which send neural impulses to the **brain**, wh
 
 Because the transmission of speech sounds involves these three physical processes, we can split phonetics into three branches:
 
+--
+
 - **Articulatory phonetics:** study of how we move our vocal tract to produce speech sounds
+
+--
 
 - **Acoustic phonetics:** study of the physical properties of sound waves
 
+--
+
 - **Perceptual phonetics:** study of how we perceive speech sounds using our auditory system
 and brain
+
+--
 
 We can also talk about the **phonetics of signed languages** – they follow the same processes, but with articulation of visual gestures, optical transmission, and visual perception.
 
@@ -170,11 +198,19 @@ class: center, middle
 
 The sounds represented by IPA symbols called **segments** or **phones**
 
+--
+
 - **Segment:** discrete, individual unit of sound, for example a consonant, vowel, or glide
+
+--
 
 - We can divide the speech stream cleanly into segments: *cats* = [k], [æ], [t], [s]
 
+--
+
 But some sounds occur above the level of the segment, affecting multiple segments at once.
+
+--
 
 - We call these **prosodic** sounds or **suprasegmentals**
 
@@ -184,6 +220,8 @@ But some sounds occur above the level of the segment, affecting multiple segment
 
   - *fanTAStic* – stressed syllables tend to be louder, longer, more clearly enunciated, and pronounced with a change in pitch – which affects *all* of the sounds in the syllable
 
+--
+
   - Stress is a **prosodic** or **suprasegmental** phenomenon: it affects multiple segments
 
 ---
@@ -191,6 +229,8 @@ But some sounds occur above the level of the segment, affecting multiple segment
 # Segments
 
 We'll focus on sound **segments** in this class.
+
+--
 
 Say these words out loud and try breaking them down into segments. What segments do they have, and how many does each word have? What letters do they correspond to? Does one letter always correspond to one sound?
 
@@ -216,11 +256,15 @@ class: center, middle
 
 We can divide segments into the following major categories:
 
+--
+
 - **Vowels** like [a, e, i, o, u...]
 
 - **Consonants** like [p, t, k, b, d, g, m, n, f, s, v, z, r...]
 
 - **Glides** like the *y* in *yes* (phonetic symbol: [j]) and the [w] in *wait* form an intermediate category
+
+--
 
   - they resemble vowels in some ways and consonants in other ways
 
@@ -230,13 +274,19 @@ We can divide segments into the following major categories:
 
 The way we **articulate** vowels and consonants differs in two important ways.
 
+--
+
 - **Airflow:** when we speak, we exhale, forcing air to flow outward through our vocal tract
 
   - With consonants, we block this airflow completely or partially. With vowels, we don't
 
+--
+
 - **Voicing:** when we cause our vocal cords to vibrate during speech.
 
   - Vowels are usually voiced. Consonants may be voiced or voiceless.
+
+--
 
 | | Vowels | Consonants |
 |:--------|:--------|:--------|
@@ -253,6 +303,7 @@ class: center, middle
 
 # Voicing and the larynx
 
+.pull-left[
 **Larynx** is the **primary source** of speech sounds.
 
 It contains:
@@ -264,9 +315,14 @@ through which air passes
 
 - other structures of muscle, cartilage, and
 ligament that support and move the vocal folds
+]
 
+.pull-right[
+```{r, out.height="80%", out.width="80%", echo=FALSE}
+knitr::include_graphics("./images/voicing-larynx.png")
+```
+]
 
-???voicing-larynx
 
 ---
 
@@ -275,19 +331,24 @@ ligament that support and move the vocal folds
 By moving the vocal folds in different ways, we
 can produce different speech sounds.
 
+--
+
 If we bring them close together and breathe out,
 they’ll start **vibrating** due to Bernoulli’s effect (anyone play a reed instrument??)
+
+--
 
 - This vibration is called **voicing** and is used
 in vowels [a, e, i, o, u] and certain
 consonants like [z, v, b, d, g, m, n, l, r]
+
+--
 
 If we move them apart, they’ll stop vibrating:
 
 - This is called **voicelessness**; voiceless
 consonants include [s, f, p, t, k, h]
 
-???compare vocal folds closed and a reed instrument 
 
 ---
 
@@ -303,7 +364,11 @@ We've seen that vowels are articulated with:
 
 - **Constant airflow** (no obstruction)
 
+--
+
 - **Voicing** (vibration of vocal folds)
+
+--
 
 Let’s explore **vowels** a bit more and see how they’re **articulated** – how the vocal tract moves to produce them.
 
@@ -313,7 +378,7 @@ We’ll come back to consonants next week!
 
 # Cardinal vowels 
 
-
+.pull-left[
 When discussing vowels, it’s useful to establish a few simple vowels – cardinal vowels – and build up from there.
 
 We’ll start with the 5 cardinal vowels on the chart:
@@ -325,14 +390,19 @@ We’ll start with the 5 cardinal vowels on the chart:
 Note that the International Phonetic Alphabet’s
 symbols for vowels don’t always match our English
 names for them.
+]
 
-
-???cardinal-vowels
+.pull-right[
+```{r, out.height="90%", out.width="90%", echo=FALSE}
+knitr::include_graphics("./images/cardinal-vowels.png")
+```
+]
 
 ---
 
 # Vowel Features
 
+.pull-left[
 Different vowel qualities can be primarily be distinguished based on three features:
 
 - **Tongue height:**
@@ -343,28 +413,40 @@ Is tongue further forward or back in mouth?
 
 - **Lip roundedness:**
 Are the lips rounded or unrounded?
+]
 
-???vowel-features
+.pull-right[
+```{r, out.height="90%", out.width="90%", echo=FALSE}
+knitr::include_graphics("./images/vowel-features.png")
+```
+]
 
 ---
 
 # Vowels in real-time imaging 
 
+.pull-left[
 This [video](http://www.youtube.com/watch?v=jaIquq_4560) is produced by an MRI (magnetic resonance imaging) scanner, a machine used to see inside the body.
 
 Watch how the tongue and lips move as these
 people sing [a, e, i, o, u].
 
-???mri-vowels
-
---
-
 Also, [this video](https://www.youtube.com/watch?v=wj7iM0BCWMQ) is awesome.
+
+]
+
+.pull-right[
+```{r, out.height="90%", out.width="90%", echo=FALSE}
+knitr::include_graphics("./images/mri-vowels.png")
+```
+
+]
 
 ---
 
 # Vowel features
 
+.pull-left[
 In different vowel qualities, we can distinguish various levels of **tongue height:**
 
 - **High, mid, low**
@@ -374,13 +456,19 @@ And we can distinguish various levels of **tongue backness:**
 - **Front, central, back**
 
 Arranging them by tongue position, they form a triangle, so you often see vowels arranged in a **vowel triangle/trapezoid**
+]
 
-???vowel-features
+.pull-right[
+```{r, out.height="90%", out.width="90%", echo=FALSE}
+knitr::include_graphics("./images/vowel-features.png")
+```
+]
 
 ---
 
 # Lip rounding
 
+.pull-left[
 The third vowel feature is **lip rounding:**
 
 - **rounded** vs. **unrounded** (spread)
@@ -394,13 +482,19 @@ vowel? Which ones are rounded/unrounded?
 Note that he's exaggerating a bit for the
 purposes of demonstration since in the video
 he’s trying to teach Italian pronunciation.
+]
 
-???italian-vowels
+.pull-right[
+```{r, out.height="90%", out.width="90%", echo=FALSE}
+knitr::include_graphics("./images/italian-vowels.png")
+```
+]
 
 ---
 
 # Lip rounding 
 
+.pull-left[
 [o, u] are **rounded**; [i, e, a] are **unrounded**
 
 This follows a crosslinguistic tendency:
@@ -418,13 +512,19 @@ Front rounded vowels exist but are less common:
 As are back unrounded vowels:
 
 - Japanese *kuzu* [kɯzɯ] 'kudzu vine'
+]
 
-???italian-vowels
+.pull-right[
+```{r, out.height="90%", out.width="90%", echo=FALSE}
+knitr::include_graphics("./images/italian-vowels.png")
+```
+]
 
 ---
 
 # Vowel features
 
+.pull-left[
 So these are the three articulatory features we use to distinguish different vowel qualities:
 
 - **Tongue height:**
@@ -435,13 +535,19 @@ Is tongue further forward or back in mouth?
 
 - **Lip roundedness:**
 Are the lips rounded or unrounded?
+]
 
-???triangle
+.pull-right[
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/triangle.png")
+```
+]
 
 ---
 
 # Vowel features
 
+.pull-left[
 When we describe vowels, we typically do so in
 terms of *height - backness - roundedness:*
 
@@ -454,8 +560,15 @@ terms of *height - backness - roundedness:*
 - [o] = mid back rounded vowel
 
 - [u] = high back rounded vowel
+]
 
-???triangle
+
+.pull-right[
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/triangle.png")
+```
+]
+
 
 ---
 
@@ -469,8 +582,13 @@ class: center, middle
 
 Of course, there are more than five vowels.
 
+--
+
 IPA chart uses 28 cardinal vowels to try to represent all of the world's languages – though no language uses them all.
 
+--
+
+.pull-left[
 Note that:
 
 - IPA chart uses terms close/open instead of high/low, but most phoneticians use terms high/low
@@ -480,13 +598,20 @@ Note that:
 - IPA chart includes some vowels between these levels. We can use terms like near high, near front, etc.
 
 - [ə] *schwa* is in the center of the chart and is the mid central vowel 
+]
 
-???ipa-vowels
+.pull-right[
+
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/ipa-vowels.png")
+```
+]
 
 ---
 
 # Beyond the cardinal vowels
 
+.pull-left[
 How do we figure out what sound these symbols represent?
 
 We use our five cardinal vowels as a starting point:
@@ -502,13 +627,20 @@ We use our five cardinal vowels as a starting point:
 - How do we pronounce [ɨ]?
 
   - Tongue about halfway between [i] and [u]
+]
 
-???ipa-vowels
+
+.pull-right[
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/ipa-vowels.png")
+```
+]
 
 ---
 
 # American English vowels
 
+.pull-left[
 American English has around 12-14 vowels.
 
 Exact number and pronunciation varies by region – English accents tend to differ in terms of vowels.
@@ -522,13 +654,19 @@ A few notes about American English vowels:
 - Some American English speakers don't
 differentiate [ə] and [ʌ], and some don’t
 differentiate [ɑ] and [ɔ].
+]
 
-???red-vowels
+.pull-right[
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/red-vowels.png")
+```
+]
 
 ---
 
 # Tense and lax vowels
 
+.pull-left[
 5 height differences is a bit unwieldy.
 
 A common solution is to divide the vowels into:
@@ -541,12 +679,19 @@ tend to be diphthongized in American Eng.
 tongue a bit more relaxed,
 cannot end a word in American Eng.
 
-???tense-lax
+]
+
+.pull-right[
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/tense-lax.png")
+```
+]
 
 ---
 
 # Diphthongs and glides
 
+.pull-left[
 A **diphthong** is two vowel sounds that are combined into a single sound.
 
 A diphthong consists of:
@@ -561,8 +706,14 @@ By combining a glide with a vowel, we get a **diphthong**.
 There also exist **triphthongs:** glide + vowel + glide
 
 - For example, *yay, wow, way*
+]
 
-???eng-diphthongs
+
+.pull-right[
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/eng-diphthongs.png")
+```
+]
 
 ---
 
@@ -574,6 +725,7 @@ class: center, middle
 
 # Vowel features beyond English
 
+.pull-left[
 Across languages, vowels always differ by height, backness, and rounding – but they can also differ by other features
 
 Some languages feature **nasal vowels** in addition to the **oral vowels** we've been talking about so far:
@@ -585,14 +737,20 @@ Some languages feature **nasal vowels** in addition to the **oral vowels** we've
 Some languages contrast **long** and **short vowels**:
 
 - Japanese [obasan] 'aunt' vs. [obaːsan] 'grandmother'
+]
 
-???nasal
+.pull-right[
+
+```{r, out.height="80%", out.width="80%", echo=FALSE}
+knitr::include_graphics("./images/nasal.png")
+```
+]
 
 ---
 
 # Vowel features beyond English
 
-In **tone languages** like Mandarin, Cantonese, Vietnamese, Thai, Igbo, Yoruba, and Punjabi, vowels are distinguished by differences in pitch:
+In **tone languages** like Mandarin, Cantonese, Vietnamese, Hmong, Thai, Igbo, Yoruba, and Punjabi, vowels are distinguished by differences in pitch:
 
 - Mandarin distinguishes four tones + neutral. All of these are considered to be different words:
 
@@ -612,13 +770,21 @@ In **tone languages** like Mandarin, Cantonese, Vietnamese, Thai, Igbo, Yoruba, 
 
 In these slides, we learned about the **larynx** and **vowels**
 
+--
+
 The **larynx** is an organ in the throat:
+
+--
 
 - It contains the **vocal folds** and the **glottis** (opening between the vocal folds)
 
 - When the vocal folds *vibrate*, it is called **voicing**
 
+--
+
 Vowels are a type of sound segment characterized by **unobstructed airflow** and **voicing**.
+
+--
 
 Different vowel qualities can be described using the following three **features:**
 
@@ -640,4 +806,6 @@ Different vowel qualities can be described using the following three **features:
 
 ### Homework
 
-???add
+- HW6 will be posted by April 5
+
+

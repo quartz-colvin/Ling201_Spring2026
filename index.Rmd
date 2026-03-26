@@ -109,8 +109,10 @@ This is an R Markdown document serving as the directory for links to the slides 
 
 
 #### **Week 10**: Phonetics I (March 31, April 3)
-- **Tuesday:** [slides] <br>
+- **Tuesday:** [slides](https://quartz-colvin.github.io/Ling201_Spring2026/phonetics1meet1) <br>
 - **Friday:** [slides] <br>
+  - <u>**IPA Chart:**</u> [PDF](IPA.pdf) <br>
+  - <u>**Interactive IPA Chart:**</u> [link](https://www.ipachart.com/) <br>
 <br>
 
 
