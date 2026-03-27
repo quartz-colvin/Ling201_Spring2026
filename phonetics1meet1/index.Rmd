@@ -18,6 +18,72 @@ output:
 
 ---
 
+class: center, middle
+
+# Concluding pragmatics
+
+---
+
+# Practice 
+
+For each sentence, two additional statements are given (**A,B**) – one is part of the sentence's literal meaning, *one is an implicature.*
+
+Try to reinforce/cancel each statement to test whether it is literal or an implicature.
+
+1. I drove home at noon.
+  
+  - **A:** I drove a car.
+  
+  - **B:** I drove home during the day.
+
+2. I called 10 times and nobody picked up.
+  
+  - **A:** I called at least 5 times.
+  
+  - **B:** I was using a phone.
+
+---
+
+class: middle, center
+
+# Summary 
+
+---
+
+# Summary 
+
+**Cooperative Principle:** People in a conversation tend to cooperate by following certain rules.
+
+--
+
+**Conversational Maxims:** Quality, Quantity, Relevance, Manner
+
+--
+
+**Conversational Implicatures:** Implied meanings that arise from the assumption that speakers are
+following the cooperative principle.
+
+--
+
+- This is sometimes because people's words implicate things beyond what they literally say.
+
+--
+
+- It's sometimes because people deliberately flout the maxims for ironic or comedic effect.
+
+--
+
+- People use implied meaning as a way to avoid saying uncomfortable things, or just to avoid the effort of saying things literally.
+
+---
+
+class: center, middle
+
+# Okay, now we're done with Pragmatics.
+
+
+---
+
 # What we've learned so far
 
 We started the semester talking about words and their parts, and since then we've been moving to
