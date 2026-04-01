@@ -20,6 +20,7 @@ output:
 
 # Last week
 
+.pull-left[
 We focused on **vowels** 
 
 Vowels can be described in terms of three main features
@@ -29,12 +30,15 @@ Vowels can be described in terms of three main features
 - tongue backness
 
 - lip roundedness
+]
 
-???vowel-features.png
+.pull-right[
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/vowel-features.png")
+```
+]
 
----
-
-# Vowels and consonants
+--
 
 We also learned about how vowels and consonants differ in articulation:
 
@@ -83,7 +87,9 @@ And we use these features to describe consonants:
 
 Once you understand this terminology, you can use it to understand how to pronounce any consonant on this chart!
 
-???ipa-consonants.png
+```{r, out.height="60%", out.width="60%", echo=FALSE}
+knitr::include_graphics("./images/ipa-consonants.png")
+```
 
 ---
 
@@ -100,7 +106,9 @@ Cells that are empty but not gray are possible but unattested:
 - If we did, we would add a new symbol to the chart.
 
 
-???ipa-consonants.png
+```{r, out.height="60%", out.width="60%", echo=FALSE}
+knitr::include_graphics("./images/ipa-consonants.png")
+```
 
 ---
 
@@ -112,6 +120,7 @@ class: center, middle
 
 # Voicing
 
+.pull-left[
 Difference between [s] and [z] is voicing:
 
 - [s] is voiceless
@@ -127,8 +136,13 @@ On the consonant chart, this is indicated by the alignment of the symbol in the 
 - left = voiceless
 
 - right = voiced
+]
 
-???ipa-consonants.png
+.pull-right[
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/ipa-consonants.png")
+```
+]
 
 ---
 
@@ -152,7 +166,9 @@ airflow?
 
 - Is the airflow blocked in one part of the vocal tract but allowed to flow through a different part?
 
-???ipa-consonants.png
+```{r, out.height="60%", out.width="60%", echo=FALSE}
+knitr::include_graphics("./images/ipa-consonants.png")
+```
 
 ---
 
@@ -169,7 +185,9 @@ After you make the closure, you continue exhaling, so air pressure builds up beh
 Then you release the closure, causing a small burst or
 explosion of pressurized air – hence "plosive"
 
-???ipa-plosives.png
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/ipa-plosives.png")
+```
 
 ---
 
@@ -187,7 +205,9 @@ English stops include:
 pronounced with a short [h] sound after the release:
 *tip* [tʰɪp], *pen* [pʰɛn], *cat* [kʰæt]
 
-???ipa-plosives.png
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/ipa-plosives.png")
+```
 
 ---
 
@@ -201,7 +221,9 @@ Say the words *see* and *tea*. Your tongue will move to a similar but not identi
 
 - Forcing air through a narrow opening produces a turbulent airstream that makes a hissing sound, like air escaping a tire.
 
-???ipa-fric.png
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/ipa-fric.png")
+```
 
 ---
 
@@ -221,7 +243,9 @@ English fricatives include (which of these are voiced/voiceless?):
 
 [s, z, ʃ, ʒ] are a special class of fricatives known as **sibilants** because they produce a louder, more strident sound than the other fricatives
 
-???ipa-fric.png
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/ipa-fric.png")
+```
 
 ---
 
@@ -272,12 +296,15 @@ allowing air to pass through the velar port into the **nasal cavity**.
 English nasals: [m, n, ŋ]:
 *mat* [mæt], *nine* [najn], *sing* [sɪŋ]
 
-???ipa-nasal.png
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/ipa-nasal.png")
+```
 
 ---
 
 # Manner of articulation: Approximants
 
+.pull-left[
 **Approximants** – like fricatives – feature a partial closure.
 
 But the articulators are held slightly further apart so the
@@ -290,10 +317,18 @@ As is American English r [ɹ], which can be pronounced as:
 - “bunched r”: tongue back is arched in back of mouth
 
 - “retroflex r”: tongue tip is curled backward
+]
 
-???ipa-approx
+.pull-right[
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/bunched-r.png")
+```
+]
 
-???bunched-r
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/ipa-approx.png")
+```
+
 
 ---
 
@@ -301,15 +336,26 @@ As is American English r [ɹ], which can be pronounced as:
 
 Say the following word: ***light***. What is your mouth doing when you say the [l]? Is there a complete obstruction of airflow?
 
+--
+
+.pull-left[
 **Laterals** are produced with an obstruction in the center of the vocal tract, but air flows past the tongue on one or both sides.
 
 - **Lateral fricative:** the airstream is restricted enough to make a hissing sound: Welsh Llwyd [ɬʊɨd] 'Lloyd'
 
 - **Lateral approximant:** the airstream is not as restricted, no hissing sound: English *lose* [luz]
+]
 
-???ipa-lat
+.pull-right[
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/lateral.png")
+```
+]
 
-???lateral
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/ipa-lat.png")
+```
+
 
 ---
 
@@ -325,7 +371,9 @@ Flaps and the similar **taps** (Spanish *para* [pa.ɾa] 'for') block air complet
 **Trills** are like flaps and taps, but feature repeated closures: Spanish *rojo* [ro.xo] 'red'
 
 
-???ipa-trills
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/ipa-trills.png")
+```
 
 ---
 
@@ -377,6 +425,7 @@ class: center, middle
 
 # Place of articulation
 
+.pull-left[
 We’ve seen manner of articulation:
 
 - Type of obstruction
@@ -389,8 +438,13 @@ Let’s move on to place of articulation:
 in vocal tract
 
 - Columns on the consonant chart
+]
 
-ipa-consonants???
+.pull-right[
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/ipa-consonants.png")
+```
+]
 
 ---
 
@@ -402,6 +456,7 @@ class: center, middle
 
 # Anatomy of the vocal tract
 
+.pull-left[
 Before we talk about place of articulation, we have to
 discuss a bit of anatomy.
 
@@ -417,13 +472,19 @@ As we exhale:
 - Through the oral cavity (mouth) and/or nasal cavity (nasal sinuses).
 
 - And out of the body.
+]
 
-???anatomy
+.pull-right[
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/anatomy.png")
+```
+]
 
 ---
 
 # Anatomy of the vocal tract
 
+.pull-left[
 To make a consonant, we obstruct the airflow.
 
 We do this by moving an active articulator toward a
@@ -434,13 +495,19 @@ Active articulators are:
 - Lips
 
 - Tongue: tongue tip, blade, back, root
+]
 
-???tongue-anatomy
+.pull-right[
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/tongue-anatomy.png")
+```
+]
 
 ---
 
 # Anatomy of the vocal tract
 
+.pull-left[
 Passive articulators are:
 
 - teeth
@@ -454,8 +521,13 @@ Passive articulators are:
 - uvula
 
 - pharyngeal wall
+]
 
-???passive
+.pull-right[
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/passive.png")
+```
+]
 
 ---
 
@@ -469,9 +541,13 @@ Say the following words: **pa, fee**. What two articulators touch when you prono
 
 - **Labiodentals** – lower lip and upper teeth: *fin [fɪn], vote [vowt]
 
-???labials
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/labials.png")
+```
 
-???bilabials
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/bilabials.png")
+```
 
 ---
 
@@ -480,9 +556,14 @@ Say the following words: **pa, fee**. What two articulators touch when you prono
 Say the following words: **too, now**. Where does your tongue tip
 touch when you say the first consonant?
 
-???coronals
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/coronals.png")
+```
 
-???alveolars
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/alveolars.png")
+```
+
 
 ---
 
@@ -497,9 +578,13 @@ touch when you say the first consonant?
 
 - **Postalveolars** – tongue blade and area behind alveolar ridge [ʃ] *shake*, [ʒ] *vision*, [t͡ ʃ]* check*, [d͡ ʒ] *jay*
 
-???alveolars
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/alveolars.png")
+```
 
-???coronals
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/coronals.png")
+```
 
 ---
 
@@ -521,7 +606,10 @@ Other languages with retroflexes:
 
 - [ɻ] – Portuguese (São Paulo state) *carta* [ˈkaɻtɐ] 'letter
 
-???retroflexes
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/retroflexes.png")
+```
+
 
 ---
 
@@ -538,7 +626,9 @@ Palatals in other languages:
 
 - Portuguese *velho* [vɛʎu] 'old'
 
-???palatals
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/palatals.png")
+```
 
 ---
 
@@ -559,7 +649,10 @@ Other velars:
 
 - [ɣ] Spanish *hago* [aɣo] 'I do'
 
-???velars
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/velars.png")
+```
+
 
 ---
 
@@ -576,10 +669,15 @@ Arabic [ħar] 'heat', [ʕajn] 'eye'
 - **Glottals**: vocal folds obstructing the glottis:
 [h] *hold* [howld], [ʔ] *uh-oh* [ʌʔow], Caribbean Spanish *jefe* [hefe]
 
-???uvulars
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/uvulars.png")
+```
 
 
-???gutterals
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/gutterals.png")
+```
+
 
 ---
 
@@ -633,7 +731,10 @@ where is the obstruction?
 - manner of articulation
 what kind of obstruction is it?
 
-???ipa-consonants
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/ipa-consonants.png")
+```
+
 
 ---
 
@@ -658,7 +759,9 @@ We can now fully describe consonants:
 - [h] voiceless glottal fricative
 
 
-???ipa-consonants
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/ipa-consonants.png")
+```
 
 ---
 
