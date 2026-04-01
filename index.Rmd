@@ -119,7 +119,7 @@ This is an R Markdown document serving as the directory for links to the slides 
 #### **Week 11**: Phonetics II (April 7, 10)
 - **Tuesday:** [slides] <br>
 - **Friday:** [slides] <br>
-  - <u> **Due Sunday (April 12):**</u> [HW6] <br>
+  - <u> **Due Sunday (April 12):**</u> [HW6](Ling 201 - HW6 - Spring 2026.docx) <br>
 <br>
 
 
