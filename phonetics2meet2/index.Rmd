@@ -420,13 +420,15 @@ knitr::include_graphics("./images/i_survived.jpg")
 
 - HW6 is due April 12 (Sunday!)
 
-- HW7 will be posted **by** April 12
+- HW7 is already posted! It's due next Sunday.
 
 ### Reminders
 
 - My office hour is Mondays 2-3pm in the Linguistics Department basement
 
 - Or on Zoom at the same time!
+
+- I'm also available by appointment!
 
 
 

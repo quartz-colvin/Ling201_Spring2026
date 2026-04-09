@@ -126,7 +126,7 @@ This is an R Markdown document serving as the directory for links to the slides 
 #### **Week 12**: Phonology I (April 14, 17)
 - **Tuesday:** [slides] <br>
 - **Friday:** [slides] <br>
-  - <u> **Due Sunday (April 19):**</u> [HW7] <br>
+  - <u> **Due Sunday (April 19):**</u> [HW7](LING 201 - Spring 2026 - HW7.docx) <br>
 <br>
 
 
