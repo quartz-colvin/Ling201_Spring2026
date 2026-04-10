@@ -295,6 +295,14 @@ knitr::include_graphics("./images/ipa_please.jpg")
 
 ---
 
+# English-specific! 
+
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/eng.png")
+```
+
+---
+
 # Identifying consonants
 
 **(1) Identify which consonants are in the following words, (2) give the IPA symbol for them, and (3) define them using the three features.**
