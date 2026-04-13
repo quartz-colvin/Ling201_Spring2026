@@ -18,6 +18,106 @@ output:
 
 ---
 
+class: center, middle
+
+# First, let's finish the phonetics practice!
+
+
+
+---
+
+# Practice (full words!)
+
+**Transcribe the English words into IPA.**
+
+1.	water
+
+2.	orange
+
+3.	extremely
+
+4.	portrays
+
+5.	successful
+
+6.	noises
+
+7.	poor
+
+8.	technology
+
+9.	philosopher
+
+10.	handkerchiefs 
+
+---
+
+# Practice 
+
+**What English words do these IPA transcriptions correspond to?**
+
+.pull-left[
+1.	[ˈelbəw]
+
+2.	[vajəˈlɪn]
+
+3.	[ˈajlənd]
+
+4.	[ˈpiːpl]
+
+5.	[ˈdʒʌmpəɹ]
+
+6.	[ˈdendʒəɹəs]
+
+7.	[ˈiːzi]
+
+8.	[jʌŋ]
+
+9.	[ɡɹeps]
+
+10.	[ɹajs]
+
+11.	[ˈbɑːθɹuːm]
+
+12.	[ˈʌŋkl]
+
+13.	[ˈɹʌbər]
+]
+
+.pull-right[
+14.	[ɹajt]
+
+15.	[ˈejɹpɔɹt]
+
+26.	[ɔːˈɡʌst]
+
+27.	[jɪɹ]
+
+28.	[ɡəˈɹɪlə]
+
+29.	[ˈbʌtəɹflaj]
+
+30.	[məˈskiːtəw]
+]
+
+
+---
+
+# For real this time!
+
+
+```{r, out.height="75%", out.width="75%", echo=FALSE}
+knitr::include_graphics("./images/i_survived.jpg")
+```
+
+
+
+
+
+
+
+---
+
 # Phonetics vs. Phonology
 
 So far we've focused on sounds as a **physical phenomenon** – **phonetics**
@@ -28,11 +128,19 @@ So far we've focused on sounds as a **physical phenomenon** – **phonetics**
 
 Now we're going to shift to **phonology** – the study of speech sounds as a mental and linguistic system. Phonology studies, among other things:
 
+--
+
 - How we organize sounds in our mental grammar (phonemes and allophones)
+
+--
 
 - Rules for how sounds change in particular contexts
 
+--
+
 - Rules for how sounds change over time and in borrowings from other languages
+
+--
 
 - Rules for how we to combine sounds to form words (phonotactics)
 
@@ -100,6 +208,8 @@ Beyond having different sounds, different languages have different **rules for p
 
 As a simple example, English allows words to start with *t-, tr-,* or *st-,* but not all languages do.
 
+--
+
 - Note what Spanish and Japanese do to adapt such structures in borrowed words
 
 | <div style="padding-right:20px;">Language</div> | *t-* | *tr-* | *st-* |
@@ -131,13 +241,6 @@ Say the words below out loud. In each
 word, what sound does the /t/ represent,
 if any?
 
-Is it the same sound in each word? Is it
-different, and if so, how?
-
-When you speak, do you notice these
-differences or do you just think of all of
-these sounds as a /t/?
-
 - *time*
 
 - *stay*
@@ -150,6 +253,16 @@ these sounds as a /t/?
 
 - *center*
 
+--
+
+Is it the same sound in each word? Is it
+different, and if so, how?
+
+When you speak, do you notice these
+differences or do you just think of all of
+these sounds as a /t/?
+
+
 
 ---
 
@@ -159,7 +272,11 @@ Speakers of American English tend to pronounce the /t/ differently in each of th
 
 We can describe these differences in phonetic terms.
 
+--
+
 But when we speak, we don't tend to notice these differences, and we just think of all of these sounds as a /t/.
+
+--
 
 How can this be? How can two sounds be
 different but also somehow the same?
@@ -199,15 +316,26 @@ different but also somehow the same?
 
 To explain this, we need to introduce the concept of **phonemes** and **allophones**:
 
+--
+
 - A **phoneme** is a set of sounds that speakers of a language treat as being the same.
 
 - **Allophones** are each individual sound that’s part of a phoneme.
 
+--
+
 Applying this to our previous example:
 
-- [tʰ], [t], [t̚ ], [ɾ], [ʔ], [Ø] are all sounds that English speakers treat as a **/t/** – technically different sounds, but we treat them as if they’re all the same:
+- [tʰ], [t], [t̚ ], [ɾ], [ʔ], [Ø] are all sounds that English speakers treat as a **/t/** 
+--
+
+– technically different sounds, but we treat them as if they’re all the same:
+
+--
 
   - This group of sounds taken together is the **phoneme /t/** (we write phonemes in / /)
+
+--
 
 - Each of those individual sounds is an **allophone** of the phoneme /t/:
 
@@ -252,6 +380,8 @@ One way to differentiate phonemes and allophones is **phonemic contrast**.
 
 Speakers consider different phonemes to be different sounds, so we can differentiate linguistic expressions simply by switching one phoneme for another – that is, **phonemes contrast**.
 
+--
+
 - *time – dime, tie – die, too – do* are all different words that rely on the /t/-/d/ contrast
 
 --
@@ -285,6 +415,8 @@ A **minimal pair** is a pair of words that differs by only one sound:
 --
 
 If you **can** find a minimal pair, that suggests **the two sounds are separate phonemes**, since speakers are relying on the contrast between them to differentiate words.
+
+--
 
 If you **cannot**, they might be **allophones** – but it might also be a quirk of the vocabulary: English /h/ and /ŋ/ are different phonemes, but they have no minimal pairs.
 
@@ -368,7 +500,11 @@ Phonemes and allophones also differ by their **distribution** – where they occ
 
 - **Phonemes** are in **contrastive distribution**
 
+--
+
 - **Allophones** of the same phoneme are in **complementary distribution**
+
+--
 
 - **Variants** are in **variation**
 
@@ -435,7 +571,7 @@ This is why we find phonemes in minimal pairs: *so* /sow/ vs. *foe* /fow/
 
 --
 
-- As we’ve seen, two allphones of English /t/ are [tʰ] and [ɾ]
+- As we’ve seen, two allophones of English /t/ are [tʰ] and [ɾ]
 
   - [tʰ] occurs at the beginning of words: *time, top, tip, tango*
 
@@ -467,10 +603,12 @@ If we find they’re in **contrastive** distribution (**same** phonetic environm
 
 If we find they’re in **complementary** distribution (each has own phonetic environment), they’re likely **allophones** of the same phoneme.
 
+**We will do practice with this next class!**
 
 ---
 
 # Phonemic analysis
+
 
 .pull-left[
 Consider Spanish [d] and [ð] here. Do they occur in the same or different phonetic environments?
@@ -560,9 +698,24 @@ A key concept in phonology is **phonemes** verses **allophones**:
 
 ---
 
-# Coming up!
+# Coming up! Phonology
 
-***???***
+
+### Reading 
+
+- read **O’Grady et al., Ch. 3** for phonology, if you haven't yet!
+
+### Homework 
+
+- HW7 is due next Sunday.
+
+### Reminders
+
+- My office hour is Mondays 2-3pm in the Linguistics Department basement
+
+- Or on Zoom at the same time!
+
+- I'm also available by appointment!
 
 
 
