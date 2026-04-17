@@ -132,7 +132,7 @@ This is an R Markdown document serving as the directory for links to the slides 
 
 
 #### **Week 13**: Phonology II (April 21, 24)
-- **Tuesday:** [slides] <br>
+- **Tuesday:** [slides](https://quartz-colvin.github.io/Ling201_Spring2026/phonology2meet1) <br>
 - **Friday:** [slides] <br>
 <br>
 
