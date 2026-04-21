@@ -506,7 +506,7 @@ The opposite of assimilation is **dissimilation**: when a sound changes to becom
 
 --
 
-- Old Italian *co<span style="color:green">l</span>one<span style="color:red">ll</span>o* > Middle French *co<span style="color:green">r</span>onne<span style="color:red">l</span* > Modern English *co<span style="color:green">l</span>one<span style="color:red">l</span>* [kɜ<span style="color:green">r</span>nə<span style="color:red">l</span>]
+- Old Italian *co<span style="color:green">l</span>one<span style="color:red">ll</span>o* > Middle French *co<span style="color:green">r</span>onne<span style="color:red">l</span>* > Modern English *co<span style="color:green">l</span>one<span style="color:red">l</span>* [kɜ<span style="color:green">r</span>nə<span style="color:red">l</span>]
 
   - In Modern English, we pronounce it *with* dissimilation and spell it *without* dissimilation.
 
@@ -932,6 +932,7 @@ They also explain many sound changes that have taken place over the history of l
 
 # Coming up: More phonology !
 
+.pull-left[
 ### Reading 
 
 - read **O’Grady et al., Ch. 3** for phonology, if you haven't yet!
@@ -942,11 +943,19 @@ They also explain many sound changes that have taken place over the history of l
 
 ### Reminders
 
+- ***Do the survey!!! → ***
+
 - My office hour is Mondays 2-3pm in the Linguistics Department basement
 
 - Or on Zoom at the same time!
 
 - I'm also available by appointment!
+]
 
+.pull-right[
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/qr-code.png")
+```
+]
 
 
