@@ -943,7 +943,7 @@ They also explain many sound changes that have taken place over the history of l
 
 ### Reminders
 
-- ***Do the survey!!! → ***
+- ***Do the [survey](https://sirs.rutgers.edu/blue)!!! →***
 
 - My office hour is Mondays 2-3pm in the Linguistics Department basement
 
@@ -953,9 +953,12 @@ They also explain many sound changes that have taken place over the history of l
 ]
 
 .pull-right[
-```{r, out.height="100%", out.width="100%", echo=FALSE}
+```{r, out.height="60%", out.width="60%", echo=FALSE}
 knitr::include_graphics("./images/qr-code.png")
 ```
+
+- If 50% of y'all respond, I'll add 1 point extra credit to everyone's final.
+
+- If EVERYONE responds, I'll add 2 points extra credit.
+
 ]
-
-
