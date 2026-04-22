@@ -329,17 +329,34 @@ For the pair of sounds [i]-[ɛ] and [n]-[ŋ]:
 
 ---
 
-# Coming up: ???
+# Coming up: **REVIEW**
 
-***???***
+.pull-left[
+### Reminders
 
+- HW8 is due **May 3**
+
+- ***Do the [survey](https://sirs.rutgers.edu/blue)!!!***
+
+  - If everyone responds, I'll add 2 points extra credit to *everyone's* final.
+
+
+```{r, out.height="50%", out.width="50%", echo=FALSE}
+knitr::include_graphics("./images/qr-code.png")
+```
+
+- My office hour is still Mondays 2-3pm in the Linguistics Department basement
+
+]
 
 .pull-right[
+
 ```{r, out.height="100%", out.width="100%", echo=FALSE}
 knitr::include_graphics("./images/free.jpg")
 ```
 
 The final exam is on **May 8** at **8-11am** in the classroom *(Scott Hall, Room 116)*
 
+***What should we review next week?***
 ]
 
