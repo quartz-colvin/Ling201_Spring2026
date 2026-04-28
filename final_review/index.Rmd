@@ -237,6 +237,10 @@ class: center, middle
 
 # Phonetics practice
 
+```{r, out.height="80%", out.width="80%", echo=FALSE}
+knitr::include_graphics("./images/american_eng_ipa.png")
+```
+
 ---
 
 # Minimal pairs 
