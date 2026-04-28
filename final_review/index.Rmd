@@ -263,6 +263,28 @@ knitr::include_graphics("./images/american_eng_ipa.png")
 
 8. dent ~ sent
 
+---
+
+# Minimal pairs 
+
+**Are these minimal pairs? If so, what are the two phonemes that are contrasted?**
+
+1. trap ~ map **no**
+
+2. rough ~ tough **yes [t] ~ [r]**
+
+3. prey ~ ray **no**
+
+4. stint ~ lint **no**
+
+5. plum ~ bum **no**
+
+6. spot ~ slot **yes [p] ~ [l]**
+
+7. teeth ~ teethe **yes [θ] ~ ð]**
+
+8. dent ~ sent **yes [d] ~ [s]**
+
 
 ---
 
@@ -305,6 +327,51 @@ knitr::include_graphics("./images/american_eng_ipa.png")
 <li> deal</li><br>
 
 <li> vet</li><br>
+</ol>
+
+]
+
+---
+
+# Describing phones
+
+**List the IPA symbol for the <u>first consonant</u> of each word, and describe it with its three features: voicing, place, manner.**
+
+.pull-left[
+<ol start="1">
+
+<li> that <b><span style="color:deeppink">[ð] voiced dental fricative</span></b>  </li><br> 
+
+<li> pat <b><span style="color:deeppink">[p] voiceless bilabial plosive</span></b>  </li><br>
+
+<li> stamp <b><span style="color:deeppink">[s] voiceless alveolar fricative</span></b>  </li><br>
+
+<li> ship <b><span style="color:deeppink">[ʃ] voiceless postalveolar fricative</span></b>  </li><br>
+
+<li> judge <b><span style="color:deeppink">[dʒ] voiced postalveolar affricate</span></b>  </li><br>
+
+<li> nap <b><span style="color:deeppink">[n] voiced alveolar nasal</span></b>  </li><br> 
+
+<li> mint <b><span style="color:deeppink">[m] voiced bilabial nasal</span></b>  </li><br>
+</ol>
+]
+
+.pull-right[
+<ol start="8">
+
+<li> helmet <b><span style="color:deeppink">[h] voiceless glottal fricative </span></b>  </li><br>
+
+<li> grab  <b><span style="color:deeppink">[g] voiced velar plosive/stop</span></b>  </li><br>
+
+<li> crab <b><span style="color:deeppink">[k] voiceless velar plosive/stop</span></b>  </li><br>
+
+<li> rat <b><span style="color:deeppink">[ɹ] voiced alveolar approximant</span></b>  </li><br>
+
+<li> fat <b><span style="color:deeppink">[f] voiceless labiodental fricative</span></b>  </li><br>
+
+<li> deal <b><span style="color:deeppink">[d] voiced alveolar plosive/stop</span></b>  </li><br>
+
+<li> vet <b><span style="color:deeppink">[v] voiced labiodental fricative</span></b>  </li><br>
 </ol>
 
 ]
