@@ -136,9 +136,9 @@ This is an R Markdown document serving as the directory for links to the slides 
 - **Friday:** [slides](https://quartz-colvin.github.io/Ling201_Spring2026/phonology2meet2) <br>
 <br>
 
-#### **Week 14**: Phonology III \& Review (April 28, May 1)
+#### **Week 14**: Review (April 28, May 1)
 - **Tuesday:** [slides](https://quartz-colvin.github.io/Ling201_Spring2026/final_review) <br>
-- **Friday:** [slides] <br>
+- **Friday:** [slides](https://quartz-colvin.github.io/Ling201_Spring2026/final_review) <br>
   - <u> **Due Sunday (May 3):**</u> [HW8](Ling 201 - HW8 - Spring 2026.docx) <br>
 <br>
 
