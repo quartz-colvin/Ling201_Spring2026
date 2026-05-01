@@ -1,6 +1,6 @@
 ---
 title: "**Final Review**"
-subtitle: "**Tuesday**"
+subtitle: "**Tuesday+Friday**"
 author: "Quartz Colvin (they/them)"
 institute: "Rutgers University"
 date: "`r Sys.Date()`"
@@ -416,6 +416,45 @@ knitr::include_graphics("./images/american_eng_ipa.png")
 </ol>
 ]
 
+---
+
+# Describing phones
+
+**List the IPA symbol for the <u>first vowel</u> of each word, and describe it with its three features: rounding, height, and backness.**
+
+.pull-left[
+<ol start="1">
+
+<li> mat <b><span style="color:deeppink">[æ] low front unrounded</span></b> </li><br> 
+
+<li> bought <b><span style="color:deeppink">[ɔ] mid back rounded</span></b> </li><br> 
+
+<li> guts <b><span style="color:deeppink">[ʌ] mid back unrounded</span></b> </li><br> 
+
+<li> bets <b><span style="color:deeppink">[ɛ] mid front unrounded</span></b> </li><br> 
+
+<li> till <b><span style="color:deeppink">[ɪ] high front unrounded</span></b> </li><br> 
+
+<li> teal <b><span style="color:deeppink">[i] high front unrounded</span></b> </li><br> 
+</ol>
+]
+
+.pull-right[
+<ol start="7">
+
+<li> book <b><span style="color:deeppink">[ʊ] high back rounded</span></b> </li><br>  
+
+<li> lute <b><span style="color:deeppink">[u] high back rounded</span></b> </li><br> 
+
+<li> about <b><span style="color:deeppink">[ə] mid central unrounded</span></b> </li><br>  
+
+<li> pay <b><span style="color:deeppink">[ej] mid front unrounded diphthong</span></b> </li><br> 
+
+<li> caught <b><span style="color:deeppink">[ɑ] mid back unrounded</span></b> </li><br>  
+
+<li> watch <b><span style="color:deeppink">[a] low front unrounded</span></b> </li><br> 
+</ol>
+]
 
 
 ---
@@ -461,6 +500,55 @@ knitr::include_graphics("./images/american_eng_ipa.png")
 <li> boxes</li><br>
 
 <li> shoulder</li><br>
+</ol>
+]
+
+
+
+---
+
+# Transcription: English to IPA
+
+**Transcribe the following English words into IPA.** 
+
+.pull-left[
+<ol start="1">
+
+<li> helmet <b><span style="color:deeppink">[hɛlmɪt]</span></b> </li><br> 
+
+<li> jam <b><span style="color:deeppink">[dʒam]</span></b> </li><br> 
+
+<li> shellfish <b><span style="color:deeppink">[ʃɛlfɪʃ]</span></b> </li><br> 
+
+<li> pepperjack <b><span style="color:deeppink">[pɛpɹ̩dʒæk]</span></b> </li><br> 
+
+<li> fishing <b><span style="color:deeppink">[fɪʃɪŋ]</span></b> </li><br> 
+
+<li> trustworthy <b><span style="color:deeppink">[tʃɹʌstwɹ̩ði] or [tɹʌstwɹ̩ði]</span></b> </li><br> 
+
+<li> anchor <b><span style="color:deeppink">[eŋkɹ̩]</span></b> </li><br> 
+</ol>
+]
+
+.pull-right[
+<ol start="8">
+
+<li> brisket <b><span style="color:deeppink">[bɹɪskɪt]</span></b> </li><br> 
+
+<li> pilgrim <b><span style="color:deeppink">[pɪlgɹm̩]</span></b> </li><br> 
+
+<li> fever <b><span style="color:deeppink">[fivɹ̩]</span></b> </li><br> 
+
+<li> buckle <b><span style="color:deeppink">[bʌkl̩]</span></b> </li><br> 
+
+<li> daffodils <b><span style="color:deeppink">[dæfədɪlz]</span></b> </li><br> 
+
+<li> carrots <b><span style="color:deeppink">[keɹəts]</span></b> </li><br> 
+
+<li> boxes <b><span style="color:deeppink">[bɔksɪz]</span></b> </li><br> 
+
+<li> shoulder <b><span style="color:deeppink">[ʃoldɹ̩]</span></b> </li><br> 
+
 </ol>
 ]
 
@@ -523,7 +611,60 @@ knitr::include_graphics("./images/american_eng_ipa.png")
 
 ]
 
+---
 
+# Transcription: IPA to English
+
+**What English words do these IPA transcriptions correspond to?**
+
+.pull-left[
+<ol start="1">
+
+<li>	[ˈelbəw] <b><span style="color:deeppink">elbow</span></b> </li><br>
+
+<li>	[vajəˈlɪn] <b><span style="color:deeppink">violin</span></b> </li><br>
+
+<li>	[ˈajlənd] <b><span style="color:deeppink">island</span></b> </li><br>
+
+<li>	[ˈpiːpl] <b><span style="color:deeppink">people</span></b> </li><br>
+
+<li>	[ˈdʒʌmpəɹ] <b><span style="color:deeppink">jumper</span></b> </li><br>
+
+<li>	[ˈdendʒəɹəs] <b><span style="color:deeppink">dangerous</span></b> </li><br>
+
+<li>	[ˈiːzi] <b><span style="color:deeppink">easy</span></b> </li><br>
+
+<li>	[jʌŋ] <b><span style="color:deeppink">young</span></b> </li><br>
+
+<li>	[ɹajs] <b><span style="color:deeppink">rice</span></b> </li><br>
+
+</ol>
+
+]
+
+.pull-right[
+<ol start="10">
+
+<li>	[ˈbɑːθɹuːm] <b><span style="color:deeppink">bathroom</span></b> </li><br>
+
+<li>	[ˈʌŋkl] <b><span style="color:deeppink">uncle</span></b> </li><br>
+
+<li>	[ɹajt] <b><span style="color:deeppink">right/write</span></b> </li><br>
+
+<li>	[ˈejɹpɔɹt] <b><span style="color:deeppink"> airport</span></b> </li><br>
+
+<li>	[ɔːˈɡʌst] <b><span style="color:deeppink">august]</span></b> </li><br>
+
+<li>	[jɪɹ] <b><span style="color:deeppink">year</span></b> </li><br>
+
+<li>	[ɡəˈɹɪlə] <b><span style="color:deeppink">gorilla</span></b> </li><br>
+
+<li>	[ˈbʌtəɹflaj] <b><span style="color:deeppink">butterfly</span></b> </li><br>
+
+<li>	[məˈskiːtəw] <b><span style="color:deeppink">mosquito</span></b> </li><br>
+</ol>
+
+]
 
 
 
@@ -702,6 +843,140 @@ knitr::include_graphics("./images/icelandic.png")
 
 ---
 
+# Phonological analysis: **Icelandic**
+
+<span style="color:deeppink"><b>These four types of stops are all contrastive!</b></span>
+
+
+<b><u>Minimal pairs</b></u>
+
+- [<span style="color:green">pʰ</span>ar] ~ [<span style="color:red">p</span>ar] ... <span style="color:green"><b>post-aspirated</b></span> contrasts with <span style="color:red"><b>plain</b></span>
+
+
+- [kʰa<span style="color:red">t</span>a] ~ [kʰa<span style="color:blue">ʰt</span>a] ... <span style="color:red"><b>plain</b></span> contrasts with <span style="color:blue"><b>pre-aspirated</b></span>
+
+
+- [ka<span style="color:deeppink">t:</span>a] ~ [ka<span style="color:red">t</span>a] ... <span style="color:deeppink"><b>lengthened</b></span> contrasts with <span style="color:red"><b>plain</b></span>
+
+- [la<span style="color:blue">ʰp</span>a] ~ [la<span style="color:deeppink">p:</span>a] ... <span style="color:blue"><b>pre-aspirated</b></span> contrasts with <span style="color:deeppink"><b>lengthened</span>
+
+- there are more minimal pairs, but I am not listing all of them, just one for each contrast 
+
+
+
+---
+
+# Phonological analysis: **Kazakh**
+
+- consider data from Kazakh and do phonemic analyses on: <span style="color:orange"><b>[k]</b></span>, <span style="color:purple"><b>[g]</b></span>, <span style="color:#cc0033"><b>[q]</b></span>, <span style="color:blue"><b>[ʁ]</b></span>, <span style="color:deeppink"><b>[ŋ]</b></span>, and <span style="color:green"><b>[ɴ]</b></span> in <span style="color:blue"><b>[ɑ]</b></span>-<span style="color:blue"><b>[æ]</b></span> environments<br>
+- <span style="color:#cc0033"><b>notes</b></span>: there is no <span style="color:green"><b>[χ]</b></span> (uvular voiceless fricative) or <span style="color:green"><b>[ɢ]</b></span> (uvular voiced stop) in Kazakh consonant inventory<br>
+- <span style="color:#cc0033"><b>hint</b></span>: at this point, the hardest step will be <span style="color:blue"><b>pairing sounds</b></span><br><br>
+
+
+<table style="width:100%; text-align:center; border-right:solid 1px black; border-left:solid 1px black">
+  <tr style="border-bottom:solid 1px black; border-top:solid 1px black">
+    <td style="padding:5px"></td>
+    <td><b>word</b></td>
+    <td style="border-right:solid 1px black"><b>meaning</b></td>
+    <td style="padding:5px"></td>
+    <td><b>word</b></td>
+    <td style="border-right:solid 1px black"><b>meaning</b></td>
+    <td style="padding:5px"></td>
+    <td><b>word</b></td>
+    <td><b>meaning</b></td>
+  </tr>
+  <tr>
+    <td><span style="color:white">-</span></td>
+    <td></td>
+    <td style="border-right:solid 1px black"></td>
+    <td></td>
+    <td></td>
+    <td style="border-right:solid 1px black"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td style="text-align:right; padding:5px">(01)</td>
+    <td>[qɑr]</td>
+    <td style="border-right:solid 1px black">'snow'</td>
+    <td style="padding:5px">(07)</td>
+    <td>[kærɨ]</td>
+    <td style="border-right:solid 1px black">'old'</td>
+    <td style="padding:5px">(13)</td>
+    <td>[ɑq]</td>
+    <td>'snow'</td>
+  </tr>
+  <tr>
+    <td style="text-align:right; padding:5px">(02)</td>
+    <td>[zɑɴʁɑr]</td>
+    <td style="border-right:solid 1px black">'towering'</td>
+    <td style="padding:5px">(08)</td>
+    <td>[ækelu]</td>
+    <td style="border-right:solid 1px black">'to bring'</td>
+    <td style="padding:5px">(14)</td>
+    <td>[gæzet]</td>
+    <td>'newspaper'</td>
+  </tr>
+  <tr>
+    <td style="text-align:right; padding:5px">(03)</td>
+    <td>[ɨŋkær]</td>
+    <td style="border-right:solid 1px black">'anticipation'</td>
+    <td style="padding:5px">(09)</td>
+    <td>[ɑʁɑ]</td>
+    <td style="border-right:solid 1px black">'elder brother'</td>
+    <td style="padding:5px">(15)</td>
+    <td>[mæŋgɨ]</td>
+    <td>'forever'</td>
+  </tr>
+  <tr>
+    <td style="text-align:right; padding:5px">(04)</td>
+    <td>[ʁɑlɯm]</td>
+    <td style="border-right:solid 1px black">'scholar'</td>
+    <td style="padding:5px">(10)</td>
+    <td>[gælon]</td>
+    <td style="border-right:solid 1px black">'gallon'</td>
+    <td style="padding:5px">(16)</td>
+    <td>[qɑzɯ]</td>
+    <td>'horse intestines'</td>
+  </tr>
+  <tr>
+    <td style="text-align:right; padding:5px">(05)</td>
+    <td>[æŋgɨme]</td>
+    <td style="border-right:solid 1px black">'story'</td>
+    <td style="padding:5px">(11)</td>
+    <td>[ɑɴsɑu]</td>
+    <td style="border-right:solid 1px black">'to aspire'</td>
+    <td style="padding:5px">(17)</td>
+    <td>[torʁɑj]</td>
+    <td>'sparrow'</td>
+  </tr>
+  <tr>
+    <td style="text-align:right; padding:5px">(06)</td>
+    <td>[gæz]</td>
+    <td style="border-right:solid 1px black">'gas'</td>
+    <td style="padding:5px">(12)</td>
+    <td>[tæŋerteŋ]</td>
+    <td style="border-right:solid 1px black">'morning'</td>
+    <td style="padding:5px">(18)</td>
+    <td>[tɑɴ]</td>
+    <td>'dusk'</td>
+  </tr>
+  <tr style="border-bottom:solid 1px black">
+    <td><span style="color:white">-</span></td>
+    <td></td>
+    <td style="border-right:solid 1px black"></td>
+    <td></td>
+    <td></td>
+    <td style="border-right:solid 1px black"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+---
+
 # Phonological analysis: **Kazakh**
 
 - consider data from Kazakh and do phonemic analyses on: <span style="color:orange"><b>[k]</b></span>, <span style="color:purple"><b>[g]</b></span>, <span style="color:#cc0033"><b>[q]</b></span>, <span style="color:blue"><b>[ʁ]</b></span>, <span style="color:deeppink"><b>[ŋ]</b></span>, and <span style="color:green"><b>[ɴ]</b></span> in <span style="color:blue"><b>[ɑ]</b></span>-<span style="color:blue"><b>[æ]</b></span> environments<br>
@@ -817,9 +1092,8 @@ knitr::include_graphics("./images/icelandic.png")
 
 
 
-
-
-
+<b><span style="color:deeppink">/k, g, ŋ/ (velars) become [q, ʁ, ɴ] (uvulars)
+before or after the (back) vowel [ɑ] (or the opposite)</span></b>
 
 
 ---
@@ -892,6 +1166,82 @@ knitr::include_graphics("./images/icelandic.png")
   </tr>
 								
 </table>
+
+---
+
+# Phonological analysis: **Hindi [b] and [bʱ]**
+
+list the **contexts** for <b><span style="color:deeppink">[b]</span></b> and <b><span style="color:blue">[bʱ]</span></b> in the following format:<br>
+<div style="text-align:center">
+<b>[one preceding segment] __ [one following segment]</b>
+</div><br>
+<ul>
+<li>decide if they are in <b><span style="color:#cc0033">contrastive</span></b> or <b><span style="color:green">complementary</span></b> distribution</li>
+</ul><br>
+  
+<table style="width:100%; text-align:center; background:#efefef">
+  <tr style="background:#fdee55">
+    <td style="padding:10px"><b>word</b></td>
+    <td><b>meaning</b></td>
+    <td style="background:#fdee55"><b><span style="color:deeppink">[b]</span></b></td>
+    <td><b>word</b></td>
+    <td><b>meaning</b></td>
+    <td style="background:#fdee55"><b><span style="color:blue">[bʱ]</span></b></td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px">[<b><span style="color:deeppink">b</span></b>ara]</td>
+    <td>large</td>
+    <td style="background:pink">#_a</td>
+    <td>[<b><span style="color:blue">bʱ</span></b>ir]</td>
+    <td>crowd</td>
+    <td style="background:#c2dbc1">#_i</td>
+  </tr>
+  
+  <tr>
+    <td style="padding:10px">[<b><span style="color:deeppink">b</span></b>ori]</td>
+    <td>sackcloth</td>
+    <td style="background:#f5f3d5">#_o</td>
+    <td>[<b><span style="color:blue">bʱ</span></b>ari]</td>
+    <td>heavy</td>
+    <td style="background:pink">#_a</td>
+  </tr>
+  
+  <tr>
+    <td style="padding:10px">[<b><span style="color:deeppink">b</span></b>ina]</td>
+    <td>without</td>
+    <td style="background:#c2dbc1">#_i</td>
+    <td>[<b><span style="color:blue">bʱ</span></b>ɛd]</td>
+    <td>disagreement</td>
+    <td style="background:#f5f3d5">#_ɛ</td>
+  </tr>
+
+  <tr>
+    <td style="padding:10px">[leɪ<b><span style="color:deeppink">b</span></b>ais]</td>
+    <td>22</td>
+    <td style="background:pink">#_a</td>
+    <td>[<b><span style="color:blue">bʱ</span></b>əs]</td>
+    <td>buffalo</td>
+    <td style="background:#f5f3d5">#_ə</td>
+  </tr>
+  
+  <tr>
+    <td style="padding:10px">[leɪ<b><span style="color:deeppink">b</span></b>ap]</td>
+    <td>father</td>
+    <td style="background:pink">#_a</td>
+    <td>[<b><span style="color:blue">bʱ</span></b>ag]</td>
+    <td>part</td>
+    <td style="background:pink">#_a</td>
+  </tr>
+								
+</table>
+
+<div style="text-align:center">
+<h3><b><span style="color:#cc0033">contrastive</span><b></h3>
+<b><span style="color:deeppink">[b]</span></b> and <b><span style="color:blue">[bʱ]</span></b> are two separate <b><span style="color:#cc0033">phonemes</span><b>
+</div>
+
+
 
 ---
 
@@ -1013,10 +1363,6 @@ class: center, middle
   
   - [bõz aˈmiɡus] "good friends"<br><br>
   
-<li> <span style="color:red"><b>Tashlhiyt</b></span> "consider a liar" (reciprocal)</li>
-
-  - /m-kaddab/ → [n-kaddab]<br><br>
-  
 <li> <span style="color:red"><b>Arabic</b></span> (sun and moon letters)</li>
 
   - /al-ʃams/ → [aʃʃams] "the sun"<br>
@@ -1034,17 +1380,72 @@ class: center, middle
 
 ---
 
+# Identifying phonological processes
+<br>
 
-class: center, middle
+.pull-left[
 
-# Anything to add to Friday for more practice?
+<span style="color:red"><b>English</b></span>
+
+<ol start="1">
+
+<li> [khæts] vs [dɔgz] <span style="color:deeppink"><b>voicing assimilation</b></span><br></li>
+  
+  [bɔks] vs [bɔksɪz] <span style="color:deeppink"><b>epenthesis/insertion</b></span><br></li><br>
+
+<li>  /si ɪt/ → [sij ɪt] "see it" <span style="color:deeppink"><b>epenthesis/insertion</b></span><br></li><br>
+
+<li> /aˈbaʊt/ → [əˈbaʊt] "about" <span style="color:deeppink"><b>weakening</b></span><br></li><br>
+
+<li>  "suppose" →  "'spose" <span style="color:deeppink"><b>deletion</b></span><br></li><br>
+
+<li>  /tɹu/ → [tʃɹu] "true" <span style="color:deeppink"><b>weakening</b></span><br></li><br>
+
+<li>   /kʌpbɔrd/ → [ˈkʌbərd] "cupboard"<span style="color:deeppink"><b>deletion</b></span><br></li><br>
+
+</ol>
+]
+
+.pull-right[
+<ol start="7">
+
+<li> <span style="color:red"><b>Portuguese</b></span> "good"</li>
+
+  - [bõs ˈtẽpus] "good times"<br>
+  
+  - [bõz ˈdʒiɐ] "good days"<br>
+  
+  - [bõz aˈmiɡus] "good friends" <br>
+  
+  <span style="color:deeppink"><b>voicing assimilation</b></span><br></li><br>
+  
+<li> <span style="color:red"><b>Arabic</b></span> (sun and moon letters)</li>
+
+  - /al-ʃams/ → [aʃʃams] "the sun"<br>
+  
+  - /al-qamar/ → [alqamar] "the moon"
+  
+  <span style="color:deeppink"><b>assimilation (total assimilation)</b></span><br></li><br>
+
+<li> <span style="color:red"><b>Kazakh</b></span> (vowel hiatus)</li>
+
+  - [sa.r<span style="color:blue">ɯ ɑ</span>r.ba] → [sa.r<span style="color:blue">ɑ</span>r.ba] <br>
+  
+  "yellow trolley" <br>
+  
+  <span style="color:deeppink"><b>deletion</b></span><br></li>
+  
+</ol>
+]
+
+
 
 
 
 ---
 
 
-# Coming up: **MORE REVIEW**
+# Coming up: **FREEDOM**
 
 .pull-left[
 ### Reminders
